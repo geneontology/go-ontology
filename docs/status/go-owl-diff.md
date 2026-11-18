@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-17/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-18/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-17" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-18" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -4948,6 +4948,18 @@
 - [Glc3Man9GlcNAc2 oligosaccharide glucosidase activity](http://purl.obolibrary.org/obo/GO_0004573) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-532678" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Trimming of the first glucose by by mannosyl-oligosaccharide glucosidase" 
 
+
+
+### Golgi to vacuole transport `http://purl.obolibrary.org/obo/GO_0006896`
+
+#### Added
+- [Golgi to vacuole transport](http://purl.obolibrary.org/obo/GO_0006896) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31983"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Golgi to vacuole transport](http://purl.obolibrary.org/obo/GO_0006896) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ALP pathway" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9335339" 
+
+- [Golgi to vacuole transport](http://purl.obolibrary.org/obo/GO_0006896) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "alkaline phosphatase pathway" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9335339" 
 
 
 ### HNK-1 sulfotransferase activity `http://purl.obolibrary.org/obo/GO_0016232`
@@ -10992,6 +11004,18 @@
 - [arylformamidase activity](http://purl.obolibrary.org/obo/GO_0004061) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-71189" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "AFMID hydrolyses NFK to L-KYN" 
 
+
+
+### ascospore-type prospore-specific spindle pole body remodeling `http://purl.obolibrary.org/obo/GO_0031322`
+#### Removed
+- [ascospore-type prospore-specific spindle pole body remodeling](http://purl.obolibrary.org/obo/GO_0031322) SubClassOf [meiotic cell cycle process](http://purl.obolibrary.org/obo/GO_1903046) 
+
+- [ascospore-type prospore-specific spindle pole body remodeling](http://purl.obolibrary.org/obo/GO_0031322) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [microtubule cytoskeleton organization](http://purl.obolibrary.org/obo/GO_0000226) 
+
+#### Added
+- [ascospore-type prospore-specific spindle pole body remodeling](http://purl.obolibrary.org/obo/GO_0031322) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31685"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ascospore-type prospore-specific spindle pole body remodeling](http://purl.obolibrary.org/obo/GO_0031322) SubClassOf [meiotic spindle pole body organization](http://purl.obolibrary.org/obo/GO_1990395) 
 
 
 ### asparaginase activity `http://purl.obolibrary.org/obo/GO_0004067`
@@ -23599,6 +23623,8 @@
 
 - [negative regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905013) SubClassOf [negative regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045763) 
 
+- [negative regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905013) SubClassOf [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) 
+
 - [negative regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905013) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete 'de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) 
 
 #### Added
@@ -23651,6 +23677,18 @@
 - [negative regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905013) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some ['de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0034628)) 
 
 - [negative regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905013) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some ['de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0034628) 
+
+
+### negative regulation of ATP metabolic process `http://purl.obolibrary.org/obo/GO_1903579`
+#### Removed
+- [negative regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903579) SubClassOf [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) 
+
+#### Added
+- [negative regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903579) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
+
+- [negative regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903579) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [negative regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903579) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
 
 
 ### negative regulation of ERAD pathway `http://purl.obolibrary.org/obo/GO_1904293`
@@ -23900,6 +23938,54 @@
 
 #### Added
 - [negative regulation of nuclear-transcribed mRNA catabolic process, no-go decay](http://purl.obolibrary.org/obo/GO_0170075) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of nuclear-transcribed mRNA catabolic process, no-go decay" 
+
+
+### negative regulation of nucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_0030809`
+#### Removed
+- [negative regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030809) SubClassOf [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) 
+
+#### Added
+- [negative regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030809) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
+
+- [negative regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030809) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [negative regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030809) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+
+### negative regulation of nucleotide catabolic process `http://purl.obolibrary.org/obo/GO_0030812`
+#### Removed
+- [negative regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030812) SubClassOf [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) 
+
+#### Added
+- [negative regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030812) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
+
+- [negative regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030812) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [negative regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030812) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+
+### negative regulation of pentose-phosphate shunt `http://purl.obolibrary.org/obo/GO_1905856`
+#### Removed
+- [negative regulation of pentose-phosphate shunt](http://purl.obolibrary.org/obo/GO_1905856) SubClassOf [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) 
+
+#### Added
+- [negative regulation of pentose-phosphate shunt](http://purl.obolibrary.org/obo/GO_1905856) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
+
+- [negative regulation of pentose-phosphate shunt](http://purl.obolibrary.org/obo/GO_1905856) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [negative regulation of pentose-phosphate shunt](http://purl.obolibrary.org/obo/GO_1905856) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+
+### negative regulation of purine nucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_1900372`
+#### Removed
+- [negative regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900372) SubClassOf [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) 
+
+
+
+### negative regulation of purine nucleotide catabolic process `http://purl.obolibrary.org/obo/GO_0033122`
+#### Removed
+- [negative regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033122) SubClassOf [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) 
+
 
 
 ### negative regulation of pyruvate fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001155`
@@ -29540,6 +29626,48 @@
 - [obsolete multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete multivesicular body sorting pathway" 
 
 
+### obsolete negative regulation of NAD metabolic process `http://purl.obolibrary.org/obo/GO_1902689`
+#### Removed
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of NAD metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19846558" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:di" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of NAD metabolic process" 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [NAD+ metabolic process](http://purl.obolibrary.org/obo/GO_0019674)) 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) SubClassOf [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) SubClassOf [regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902688) 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [NAD+ metabolic process](http://purl.obolibrary.org/obo/GO_0019674) 
+
+#### Added
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905013) 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of NAD metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19846558" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:di" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of NAD metabolic process" 
+
+
 ### obsolete negative regulation of cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033629`
 #### Removed
 - [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate, or extent of cell adhesion mediated by integrin." 
@@ -29860,6 +29988,72 @@
 - [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### obsolete negative regulation of nucleoside metabolic process `http://purl.obolibrary.org/obo/GO_0045978`
+#### Removed
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of nucleoside metabolic process" 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009116)) 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) SubClassOf [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009116) 
+
+#### Added
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete negative regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045978) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of nucleoside metabolic process" 
+
+
+### obsolete negative regulation of nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_0045980`
+#### Removed
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of nucleotide metabolic process" 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0009117)) 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) SubClassOf [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0009117) 
+
+#### Added
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030809) 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030812) 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of nucleotide metabolic process" 
+
+
 ### obsolete negative regulation of protein localization to mitochondrion `http://purl.obolibrary.org/obo/GO_1903748`
 #### Removed
 - [obsolete negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30349"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -29908,6 +30102,100 @@
 #### Removed
 - [obsolete negative regulation of protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903215) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [obsolete negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) 
 
+
+
+### obsolete negative regulation of purine nucleobase metabolic process `http://purl.obolibrary.org/obo/GO_0045982`
+#### Removed
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving purine nucleobases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of purine nucleobase metabolic process" 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006144)) 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) SubClassOf [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006144) 
+
+#### Added
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900372) 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving purine nucleobases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete negative regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045982) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of purine nucleobase metabolic process" 
+
+
+### obsolete negative regulation of purine nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_1900543`
+#### Removed
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of purine nucleotide metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of purine nucleotide metabolic process" 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163)) 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) SubClassOf [obsolete negative regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045980) 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) SubClassOf [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163) 
+
+#### Added
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033122) 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900372) 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of purine nucleotide metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete negative regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900543) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of purine nucleotide metabolic process" 
+
+
+### obsolete negative regulation of pyrimidine nucleobase metabolic process `http://purl.obolibrary.org/obo/GO_0045984`
+#### Removed
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving pyrimidine nucleobases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of pyrimidine nucleobase metabolic process" 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006206)) 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006206) 
+
+#### Added
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of pyrimidine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900398) 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving pyrimidine nucleobases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete negative regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045984) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of pyrimidine nucleobase metabolic process" 
 
 
 ### obsolete negative regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904153`
@@ -30544,6 +30832,48 @@
 
 
 
+### obsolete positive regulation of NAD metabolic process `http://purl.obolibrary.org/obo/GO_1902690`
+#### Removed
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of NAD metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19846558" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:di" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of NAD metabolic process" 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [NAD+ metabolic process](http://purl.obolibrary.org/obo/GO_0019674)) 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) SubClassOf [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) SubClassOf [regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902688) 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [NAD+ metabolic process](http://purl.obolibrary.org/obo/GO_0019674) 
+
+#### Added
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905014) 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of NAD metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19846558" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:di" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of NAD metabolic process" 
+
+
 ### obsolete positive regulation of cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033630`
 #### Removed
 - [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate, or extent of cell adhesion mediated by integrin." 
@@ -30896,6 +31226,68 @@
 - [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### obsolete positive regulation of nucleoside metabolic process `http://purl.obolibrary.org/obo/GO_0045979`
+#### Removed
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of nucleoside metabolic process" 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009116)) 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) SubClassOf [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009116) 
+
+#### Added
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete positive regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0045979) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of nucleoside metabolic process" 
+
+
+### obsolete positive regulation of nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_0045981`
+#### Removed
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of nucleotide metabolic process" 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0009117)) 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) SubClassOf [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0009117) 
+
+#### Added
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030810) 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030813) 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of nucleotide metabolic process" 
+
+
 ### obsolete positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway `http://purl.obolibrary.org/obo/GO_1900740`
 #### Removed
 - [obsolete positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway](http://purl.obolibrary.org/obo/GO_1900740) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [obsolete positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) 
@@ -30944,6 +31336,98 @@
 #### Removed
 - [obsolete positive regulation of protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903955) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [obsolete positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) 
 
+
+
+### obsolete positive regulation of purine nucleobase metabolic process `http://purl.obolibrary.org/obo/GO_0045983`
+#### Removed
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving purine bases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of purine nucleobase metabolic process" 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006144)) 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) SubClassOf [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006144) 
+
+#### Added
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900373) 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving purine bases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete positive regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045983) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of purine nucleobase metabolic process" 
+
+
+### obsolete positive regulation of purine nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_1900544`
+#### Removed
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of purine nucleotide metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of purine nucleotide metabolic process" 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163)) 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) SubClassOf [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) SubClassOf [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163) 
+
+#### Added
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033123) 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900373) 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of purine nucleotide metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of purine nucleotide metabolic process" 
+
+
+### obsolete positive regulation of pyrimidine nucleobase metabolic process `http://purl.obolibrary.org/obo/GO_0045985`
+#### Removed
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving pyrimidine nucleobases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of pyrimidine nucleobase metabolic process" 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006206)) 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006206) 
+
+#### Added
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of pyrimidine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900399) 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving pyrimidine nucleobases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete positive regulation of pyrimidine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0045985) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of pyrimidine nucleobase metabolic process" 
 
 
 ### obsolete positive regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904154`
@@ -31959,6 +32443,68 @@
 - [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### obsolete regulation of nucleoside metabolic process `http://purl.obolibrary.org/obo/GO_0009118`
+#### Removed
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of nucleoside metabolic process" 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009116)) 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009116) 
+
+#### Added
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete regulation of nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0009118) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of nucleoside metabolic process" 
+
+
+### obsolete regulation of nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_0006140`
+#### Removed
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of nucleotide metabolic process" 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0009117)) 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0009117) 
+
+#### Added
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030808) 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030811) 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of nucleotide metabolic process" 
+
+
 ### obsolete regulation of ornithine metabolic process `http://purl.obolibrary.org/obo/GO_0090368`
 #### Removed
 - [obsolete regulation of ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0090368) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-350562" 
@@ -32018,6 +32564,66 @@
 #### Removed
 - [obsolete regulation of protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903214) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [obsolete regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) 
 
+
+
+### obsolete regulation of purine nucleobase metabolic process `http://purl.obolibrary.org/obo/GO_0006141`
+#### Removed
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving purines." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of purine nucleobase metabolic process" 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006144)) 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006144) 
+
+#### Added
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900371) 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving purines." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of purine nucleobase metabolic process" 
+
+
+### obsolete regulation of purine nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_1900542`
+#### Removed
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of purine nucleotide metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of purine nucleotide metabolic process" 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163)) 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) SubClassOf [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163) 
+
+#### Added
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32952"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033121) 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900371) 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of purine nucleotide metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process." 
+
+- [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of purine nucleotide metabolic process" 
 
 
 ### obsolete regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904152`
@@ -35362,6 +35968,39 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FXIIa activates plasma kallikrein-kinin system" 
 
 
+### plastid DNA recombination `http://purl.obolibrary.org/obo/GO_0170083`
+
+#### Added
+- Class: [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29917"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-09-01T18:25:59Z" 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "recombination of plastid DNA" 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170083" 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any DNA recombination that takes place in a plastid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32978278" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28495749" 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) [label](http://www.w3.org/2000/01/rdf-schema#label) "plastid DNA recombination" 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) EquivalentTo [DNA recombination](http://purl.obolibrary.org/obo/GO_0006310) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [plastid](http://purl.obolibrary.org/obo/GO_0009536)) 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) SubClassOf [DNA recombination](http://purl.obolibrary.org/obo/GO_0006310) 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) SubClassOf [plastid DNA metabolic process](http://purl.obolibrary.org/obo/GO_0033258) 
+
+- [plastid DNA recombination](http://purl.obolibrary.org/obo/GO_0170083) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [plastid](http://purl.obolibrary.org/obo/GO_0009536) 
+
+
 ### plastid transcription `http://purl.obolibrary.org/obo/GO_0042793`
 
 #### Added
@@ -35595,6 +36234,8 @@
 
 - [positive regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905014) SubClassOf [positive regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045764) 
 
+- [positive regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905014) SubClassOf [obsolete positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) 
+
 - [positive regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905014) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete 'de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) 
 
 #### Added
@@ -35640,6 +36281,16 @@
 - [positive regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905014) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some ['de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0034628)) 
 
 - [positive regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905014) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some ['de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0034628) 
+
+
+### positive regulation of ATP metabolic process `http://purl.obolibrary.org/obo/GO_1903580`
+#### Removed
+- [positive regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903580) SubClassOf [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) 
+
+#### Added
+- [positive regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903580) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
+
+- [positive regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903580) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
 
 
 ### positive regulation of ERAD pathway `http://purl.obolibrary.org/obo/GO_1904294`
@@ -35878,6 +36529,48 @@
 
 - [positive regulation of mitochondrial translation](http://purl.obolibrary.org/obo/GO_0070131) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "positive regulation of mitochondrial protein synthesis" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+
+### positive regulation of nucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_0030810`
+#### Removed
+- [positive regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030810) SubClassOf [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) 
+
+#### Added
+- [positive regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030810) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
+
+- [positive regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030810) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+
+### positive regulation of nucleotide catabolic process `http://purl.obolibrary.org/obo/GO_0030813`
+#### Removed
+- [positive regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030813) SubClassOf [obsolete positive regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0045981) 
+
+#### Added
+- [positive regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030813) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
+
+- [positive regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030813) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+
+### positive regulation of pentose-phosphate shunt `http://purl.obolibrary.org/obo/GO_1905857`
+#### Removed
+- [positive regulation of pentose-phosphate shunt](http://purl.obolibrary.org/obo/GO_1905857) SubClassOf [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) 
+
+#### Added
+- [positive regulation of pentose-phosphate shunt](http://purl.obolibrary.org/obo/GO_1905857) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
+
+- [positive regulation of pentose-phosphate shunt](http://purl.obolibrary.org/obo/GO_1905857) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+
+### positive regulation of purine nucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_1900373`
+#### Removed
+- [positive regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900373) SubClassOf [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) 
+
+
+
+### positive regulation of purine nucleotide catabolic process `http://purl.obolibrary.org/obo/GO_0033123`
+#### Removed
+- [positive regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033123) SubClassOf [obsolete positive regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900544) 
+
 
 
 ### positive regulation of pyruvate fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001172`
@@ -36737,6 +37430,10 @@
 
 ### protein lysine deacetylase activity `http://purl.obolibrary.org/obo/GO_0033558`
 #### Removed
+- [protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0033558) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21548" 
+
+- [protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0033558) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [21548](http://rdf.rhea-db.org/21548) 
+
 - [protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0033558) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8952069" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "HDAC4 deacetylates RUNX3" 
 
@@ -36755,6 +37452,8 @@
 - [protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0033558) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5693092" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown deacetylase deacetylates 7K-BACE1(46-501)" 
 
+#### Added
+- [protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0033558) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32838"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### protein methylation `http://purl.obolibrary.org/obo/GO_0006479`
@@ -41282,6 +41981,18 @@
 - [regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905012) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some ['de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0034628) 
 
 
+### regulation of ATP metabolic process `http://purl.obolibrary.org/obo/GO_1903578`
+#### Removed
+- [regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903578) SubClassOf [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) 
+
+#### Added
+- [regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903578) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903578) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903578) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+
 ### regulation of ERAD pathway `http://purl.obolibrary.org/obo/GO_1904292`
 #### Removed
 - [regulation of ERAD pathway](http://purl.obolibrary.org/obo/GO_1904292) SubClassOf [regulation of response to endoplasmic reticulum stress](http://purl.obolibrary.org/obo/GO_1905897) 
@@ -41318,6 +42029,30 @@
 - [regulation of L-rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of L-rhamnose catabolic process" 
 
 
+### regulation of NAD metabolic process `http://purl.obolibrary.org/obo/GO_1902688`
+#### Removed
+- [regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902688) SubClassOf [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) 
+
+#### Added
+- [regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902688) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902688) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902688) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+
+### regulation of NADP metabolic process `http://purl.obolibrary.org/obo/GO_1902031`
+#### Removed
+- [regulation of NADP metabolic process](http://purl.obolibrary.org/obo/GO_1902031) SubClassOf [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) 
+
+#### Added
+- [regulation of NADP metabolic process](http://purl.obolibrary.org/obo/GO_1902031) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [regulation of NADP metabolic process](http://purl.obolibrary.org/obo/GO_1902031) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [regulation of NADP metabolic process](http://purl.obolibrary.org/obo/GO_1902031) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+
 ### regulation of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process `http://purl.obolibrary.org/obo/GO_0062025`
 #### Removed
 - [regulation of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_0062025) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modualtes the rate, frequency or extent of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process, the chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of ubiquitin, with ubiquitin-protein ligation catalyzed by an SCF (Skp1/Cul1/F-box protein) complex, and mediated by the proteasome." 
@@ -41326,6 +42061,16 @@
 #### Added
 - [regulation of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_0062025) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency or extent of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process, the chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of ubiquitin, with ubiquitin-protein ligation catalyzed by an SCF (Skp1/Cul1/F-box protein) complex, and mediated by the proteasome." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28007894" 
+
+
+### regulation of adenine biosynthetic process `http://purl.obolibrary.org/obo/GO_0061934`
+#### Removed
+- [regulation of adenine biosynthetic process](http://purl.obolibrary.org/obo/GO_0061934) SubClassOf [obsolete regulation of purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006141) 
+
+#### Added
+- [regulation of adenine biosynthetic process](http://purl.obolibrary.org/obo/GO_0061934) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [regulation of adenine biosynthetic process](http://purl.obolibrary.org/obo/GO_0061934) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
 
 
 ### regulation of axon extension `http://purl.obolibrary.org/obo/GO_0030516`
@@ -41531,6 +42276,42 @@
 - [regulation of neurotransmitter receptor transport, endosome to postsynaptic membrane](http://purl.obolibrary.org/obo/GO_0099152) SubClassOf [regulation of protein localization to plasma membrane](http://purl.obolibrary.org/obo/GO_1903076) 
 
 - [regulation of neurotransmitter receptor transport, endosome to postsynaptic membrane](http://purl.obolibrary.org/obo/GO_0099152) SubClassOf [regulation of endosome to plasma membrane transport](http://purl.obolibrary.org/obo/GO_2001135) 
+
+
+### regulation of nucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_0030808`
+#### Removed
+- [regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030808) SubClassOf [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) 
+
+#### Added
+- [regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030808) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030808) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [regulation of nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0030808) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+
+### regulation of nucleotide catabolic process `http://purl.obolibrary.org/obo/GO_0030811`
+#### Removed
+- [regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030811) SubClassOf [obsolete regulation of nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006140) 
+
+#### Added
+- [regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030811) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030811) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [regulation of nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0030811) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+
+### regulation of purine nucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_1900371`
+#### Removed
+- [regulation of purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1900371) SubClassOf [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) 
+
+
+
+### regulation of purine nucleotide catabolic process `http://purl.obolibrary.org/obo/GO_0033121`
+#### Removed
+- [regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033121) SubClassOf [obsolete regulation of purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_1900542) 
+
 
 
 ### regulation of pyruvate fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001154`
@@ -44364,6 +45145,12 @@
 
 
 
+### substrate adhesion-dependent cell spreading `http://purl.obolibrary.org/obo/GO_0034446`
+
+#### Added
+- [substrate adhesion-dependent cell spreading](http://purl.obolibrary.org/obo/GO_0034446) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32781"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### subtelomeric heterochromatin formation `http://purl.obolibrary.org/obo/GO_0031509`
 #### Removed
 - [subtelomeric heterochromatin formation](http://purl.obolibrary.org/obo/GO_0031509) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [chromosome, telomeric region](http://purl.obolibrary.org/obo/GO_0000781) 
@@ -46298,9 +47085,103 @@
 
 ### tubulin deacetylase activity `http://purl.obolibrary.org/obo/GO_0042903`
 #### Removed
+- [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [3.5.1.-](http://purl.uniprot.org/enzyme/3.5.1.-) 
+
+- [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: N-acetyl(alpha-tubulin) + H2O = alpha-tubulin + acetate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12486003" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12024216" 
+
 - [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5618331" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "HDAC6 deacetylates microtubules" 
 
+- [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) SubClassOf [hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides](http://purl.obolibrary.org/obo/GO_0016811) 
+
+#### Added
+- [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32838"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removal of an acetyl group from a lysine residue in alpha-tubulin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12486003" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12620231" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12024216" 
+
+- [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Tubulin deacetylases belong to two unrelated enzyme families that use different mechanisms. Zn2+-dependent deacetylases of the classical histone deacetylase (HDAC) family, such as human HDAC6 (class IIb), hydrolyse the acetyl-lysine bond (see GO:0170088). Sirtuins (Sir2 family, class III HDACs), such as human SIRT2, transfer the acetyl group to NAD+, releasing nicotinamide and 2''-O-acetyl-ADP-ribose (see GO:0170089). Consider annotating to one of the mechanism-specific children." 
+
+
+### tubulin deacetylase activity, NAD-dependent `http://purl.obolibrary.org/obo/GO_0170089`
+
+#### Added
+- Class: [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32838"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-17T22:34:30Z" 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "tubulin deacetylase activity" 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NAD-dependent tubulin deacetylase activity" 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170089" 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [2.3.1.286](http://purl.uniprot.org/enzyme/2.3.1.286) 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: N(6)-acetyl-L-lysyl-[alpha-tubulin] + NAD+ + H2O = L-lysyl-[alpha-tubulin] + 2''-O-acetyl-ADP-D-ribose + nicotinamide. This reaction transfers an acetyl group from alpha-tubulin to NAD, producing nicotinamide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12620231" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17344398" 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This activity is carried out by sirtuins (Sir2 family, class III histone deacetylases), such as human SIRT2. Classical Zn2+-dependent HDACs such as HDAC6 deacetylate tubulin by hydrolysis; see GO:0170088." 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) [label](http://www.w3.org/2000/01/rdf-schema#label) "tubulin deacetylase activity, NAD-dependent" 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) SubClassOf [NAD-dependent protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0034979) 
+
+- [tubulin deacetylase activity, NAD-dependent](http://purl.obolibrary.org/obo/GO_0170089) SubClassOf [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) 
+
+
+### tubulin deacetylase activity, hydrolytic mechanism `http://purl.obolibrary.org/obo/GO_0170088`
+
+#### Added
+- Class: [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32838"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-17T22:34:30Z" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "tubulin deacetylase activity" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21548" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tubulin deacetylase activity, NAD-independent" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170088" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [21548](http://rdf.rhea-db.org/21548) 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: N(6)-acetyl-L-lysyl-[alpha-tubulin] + H2O = L-lysyl-[alpha-tubulin] + acetate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12486003" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21548" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12024216" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This activity is carried out by Zn2+-dependent deacetylases of the classical histone deacetylase (HDAC) family, such as human HDAC6 (class IIb). Sirtuins deacetylate tubulin by a different, NAD-dependent mechanism; see GO:0170089." 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) [label](http://www.w3.org/2000/01/rdf-schema#label) "tubulin deacetylase activity, hydrolytic mechanism" 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) SubClassOf [hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides](http://purl.obolibrary.org/obo/GO_0016811) 
+
+- [tubulin deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0170088) SubClassOf [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) 
 
 
 ### tubulin-glutamic acid ligase activity `http://purl.obolibrary.org/obo/GO_0070740`
