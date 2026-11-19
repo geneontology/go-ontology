@@ -279672,7 +279672,7 @@ id: GO:0045861
 name: negative regulation of proteolysis
 namespace: biological_process
 def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the hydrolysis of a peptide bond or bonds within a protein." [GOC:curators]
-subset: GO:0018882
+subset: gocheck_obsoletion_candidate
 synonym: "down regulation of proteolysis" EXACT []
 synonym: "down-regulation of proteolysis" EXACT []
 synonym: "downregulation of proteolysis" EXACT []
