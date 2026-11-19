@@ -59510,9 +59510,9 @@ synonym: "regulation of glycogen biosynthesis" EXACT []
 synonym: "regulation of glycogen formation" EXACT []
 synonym: "regulation of glycogen synthesis" EXACT []
 is_a: GO:0010962 ! regulation of glucan biosynthetic process
-is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0005978 ! glycogen biosynthetic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 
 [Term]
 id: GO:0005980
@@ -59541,9 +59541,9 @@ synonym: "regulation of glycogen catabolism" EXACT []
 synonym: "regulation of glycogen degradation" EXACT []
 synonym: "regulation of glycogenolysis" EXACT [GOC:sl]
 is_a: GO:0043470 ! regulation of carbohydrate catabolic process
-is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0005980 ! glycogen catabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 
 [Term]
 id: GO:0005982
@@ -193723,13 +193723,14 @@ intersection_of: regulates GO:0005976 ! polysaccharide metabolic process
 
 [Term]
 id: GO:0032882
-name: regulation of chitin metabolic process
+name: obsolete regulation of chitin metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin." [GOC:mah]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin." [GOC:mah]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "regulation of chitin metabolism" EXACT []
-is_a: GO:0032881 ! regulation of polysaccharide metabolic process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0006030 ! chitin metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
+is_obsolete: true
+consider: GO:0032883
 
 [Term]
 id: GO:0032883
@@ -209256,11 +209257,12 @@ id: GO:0034222
 name: obsolete regulation of cell wall chitin metabolic process
 namespace: biological_process
 def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin in a cell wall." [GOC:mah]
-comment: The reason for obsoletion is that this^Cerm is mixing biological process and cellular component.
+comment: The reason for obsoletion is that this term is mixing biological process and cellular component.
 synonym: "regulation of cell wall chitin metabolism" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27960" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 is_obsolete: true
-replaced_by: GO:0032882
+consider: GO:0032883
 
 [Term]
 id: GO:0034223
@@ -387614,14 +387616,15 @@ creation_date: 2009-08-20T02:23:19Z
 
 [Term]
 id: GO:0070873
-name: regulation of glycogen metabolic process
+name: obsolete regulation of glycogen metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving glycogen." [GOC:mah]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving glycogen." [GOC:mah]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "regulation of glycogen metabolism" EXACT [GOC:mah]
-is_a: GO:0032881 ! regulation of polysaccharide metabolic process
-is_a: GO:0043467 ! regulation of generation of precursor metabolites and energy
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0005977 ! glycogen metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
+is_obsolete: true
+consider: GO:0005979
+consider: GO:0005981
 created_by: mah
 creation_date: 2009-08-20T02:44:53Z
 
@@ -387633,9 +387636,9 @@ def: "Any process that stops, prevents, or reduces the frequency, rate or extent
 synonym: "negative regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010605 ! negative regulation of macromolecule metabolic process
 is_a: GO:0045912 ! negative regulation of carbohydrate metabolic process
-is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0005977 ! glycogen metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 created_by: mah
 creation_date: 2009-08-20T02:50:41Z
 
@@ -387647,9 +387650,9 @@ def: "Any process that activates or increases the frequency, rate or extent of t
 synonym: "positive regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010604 ! positive regulation of macromolecule metabolic process
 is_a: GO:0010907 ! positive regulation of glucose metabolic process
-is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0005977 ! glycogen metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 created_by: mah
 creation_date: 2009-08-20T02:53:55Z
 
@@ -523842,15 +523845,18 @@ creation_date: 2013-04-16T21:21:14Z
 
 [Term]
 id: GO:1902066
-name: regulation of cell wall pectin metabolic process
+name: obsolete regulation of cell wall pectin metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of cell wall pectin metabolic process." [GOC:TermGenie, PMID:23453954]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of cell wall pectin metabolic process." [GOC:TermGenie, PMID:23453954]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "regulation of cell wall pectin metabolism" EXACT [GOC:TermGenie]
 synonym: "regulation of cellulose and pectin-containing cell wall pectin metabolic process" EXACT [GOC:TermGenie]
 synonym: "regulation of pectin metabolism during cell wall biogenesis" EXACT [GOC:TermGenie]
 synonym: "regulation of plant-type cell wall pectin metabolic process" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0052546 ! cell wall pectin metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
+is_obsolete: true
+consider: GO:1900030
+consider: GO:2001003
 created_by: tb
 creation_date: 2013-04-17T20:05:56Z
 
@@ -616027,12 +616033,15 @@ creation_date: 2011-07-28T03:21:49Z
 
 [Term]
 id: GO:2000904
-name: regulation of starch metabolic process
+name: obsolete regulation of starch metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of starch metabolic process." [GOC:obol]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of starch metabolic process." [GOC:obol]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "regulation of starch metabolism" EXACT [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0005982 ! starch metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
+is_obsolete: true
+consider: GO:0010581
+consider: GO:2000881
 created_by: tb
 creation_date: 2011-07-28T11:33:13Z
 
