@@ -623184,6 +623184,7 @@ synonym: "regulation of G-CSF signaling pathway" EXACT []
 synonym: "regulation of granulocyte colony-stimulating factor signalling pathway" EXACT []
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0038158 ! granulocyte colony-stimulating factor signaling pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32992" xsd:anyURI
 created_by: lbreuza
 creation_date: 2026-11-19T14:50:56Z
 
@@ -623197,6 +623198,7 @@ synonym: "negative regulation of G-CSF signaling pathway" EXACT []
 synonym: "negative regulation of granulocyte colony-stimulating factor signalling pathway" EXACT []
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0038158 ! granulocyte colony-stimulating factor signaling pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32992" xsd:anyURI
 created_by: lbreuza
 creation_date: 2026-11-19T14:50:56Z
 
@@ -623210,6 +623212,7 @@ synonym: "positive regulation of G-CSF signaling pathway" EXACT []
 synonym: "positive regulation of granulocyte colony-stimulating factor signalling pathway" EXACT []
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0038158 ! granulocyte colony-stimulating factor signaling pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32992" xsd:anyURI
 created_by: lbreuza
 creation_date: 2026-11-19T14:50:56Z
 
