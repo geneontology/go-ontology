@@ -44632,8 +44632,8 @@ xref: EC:2.1.3.3 {source="skos:exactMatch"}
 xref: MetaCyc:ORNCARBAMTRANSFER-RXN
 xref: RHEA:19513 {source="skos:exactMatch"}
 is_a: GO:0016743 ! carboxyl- or carbamoyltransferase activity
-relationship: part_of GO:0006591 ! ornithine metabolic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
 
 [Term]
 id: GO:0004586
@@ -59510,9 +59510,9 @@ synonym: "regulation of glycogen biosynthesis" EXACT []
 synonym: "regulation of glycogen formation" EXACT []
 synonym: "regulation of glycogen synthesis" EXACT []
 is_a: GO:0010962 ! regulation of glucan biosynthetic process
-is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0005978 ! glycogen biosynthetic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 
 [Term]
 id: GO:0005980
@@ -59541,9 +59541,9 @@ synonym: "regulation of glycogen catabolism" EXACT []
 synonym: "regulation of glycogen degradation" EXACT []
 synonym: "regulation of glycogenolysis" EXACT [GOC:sl]
 is_a: GO:0043470 ! regulation of carbohydrate catabolic process
-is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0005980 ! glycogen catabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 
 [Term]
 id: GO:0005982
@@ -65421,12 +65421,15 @@ replaced_by: GO:0042853
 
 [Term]
 id: GO:0006525
-name: arginine metabolic process
+name: obsolete arginine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving arginine, 2-amino-5-(carbamimidamido)pentanoic acid." [GOC:curators]
+def: "OBSOLETE. The chemical reactions and pathways involving arginine, 2-amino-5-(carbamimidamido)pentanoic acid." [GOC:curators]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "arginine metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:32696 ! argininium(1+)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0006526
+consider: GO:0006527
 
 [Term]
 id: GO:0006526
@@ -65517,12 +65520,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0006531
-name: aspartate metabolic process
+name: obsolete aspartate metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving aspartate, the anion derived from aspartic acid, 2-aminobutanedioic acid." [GOC:curators, ISBN:0198506732]
+def: "OBSOLETE. The chemical reactions and pathways involving aspartate, the anion derived from aspartic acid, 2-aminobutanedioic acid." [GOC:curators, ISBN:0198506732]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "aspartate metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:35391 ! aspartate(1-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0006532
+consider: GO:0006533
 
 [Term]
 id: GO:0006532
@@ -65582,15 +65588,17 @@ replaced_by: GO:0019344
 
 [Term]
 id: GO:0006536
-name: glutamate metabolic process
+name: obsolete glutamate metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving glutamate, the anion of 2-aminopentanedioic acid." [GOC:curators]
+def: "OBSOLETE. The chemical reactions and pathways involving glutamate, the anion of 2-aminopentanedioic acid." [GOC:curators]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "glutamate metabolism" EXACT []
 synonym: "glutamic acid metabolic process" EXACT []
 synonym: "glutamic acid metabolism" EXACT []
-is_a: GO:0043648 ! dicarboxylic acid metabolic process
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:14321 ! glutamate(1-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0097054
+consider: GO:0006538
 
 [Term]
 id: GO:0006537
@@ -65714,12 +65722,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0006544
-name: glycine metabolic process
+name: obsolete glycine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving glycine, aminoethanoic acid." [GOC:curators]
+def: "OBSOLETE. The chemical reactions and pathways involving glycine, aminoethanoic acid." [GOC:curators]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "glycine metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:57305 ! glycine zwitterion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0006545
+consider: GO:0006546
 
 [Term]
 id: GO:0006545
@@ -65820,13 +65831,16 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0006551
-name: L-leucine metabolic process
+name: obsolete L-leucine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving L-leucine, 2-amino-4-methylpentanoic acid." [GOC:ai]
+def: "OBSOLETE. The chemical reactions and pathways involving L-leucine, 2-amino-4-methylpentanoic acid." [GOC:ai]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "L-leucine metabolism" EXACT []
 synonym: "leucine metabolic process" BROAD []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:57427 ! L-leucine zwitterion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0009098
+consider: GO:0006552
 
 [Term]
 id: GO:0006552
@@ -65878,15 +65892,19 @@ replaced_by: GO:0019477
 
 [Term]
 id: GO:0006555
-name: L-methionine metabolic process
+name: obsolete L-methionine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving L-methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins." [GOC:jl, ISBN:0198506732]
+def: "OBSOLETE. The chemical reactions and pathways involving L-methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins." [GOC:jl, ISBN:0198506732]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "methionine and threonine metabolic process" BROAD []
 synonym: "methionine and threonine metabolism" BROAD []
 synonym: "methionine metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:57844 ! L-methionine zwitterion
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31318" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0071265
+consider: GO:0009087
+consider: GO:0033353
 
 [Term]
 id: GO:0006556
@@ -65958,12 +65976,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0006560
-name: L-proline metabolic process
+name: obsolete L-proline metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving proline (pyrrolidine-2-carboxylic acid), a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." [GOC:jl, ISBN:0198506732]
+def: "OBSOLETE. The chemical reactions and pathways involving proline (pyrrolidine-2-carboxylic acid), a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." [GOC:jl, ISBN:0198506732]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "proline metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:60039 ! L-proline zwitterion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0055129
+consider: GO:0006562
 
 [Term]
 id: GO:0006561
@@ -65997,12 +66018,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0006563
-name: L-serine metabolic process
+name: obsolete L-serine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving L-serine, the L-enantiomer of serine, i.e. (2S)-2-amino-3-hydroxypropanoic acid." [GOC:ai, GOC:jsg]
+def: "OBSOLETE. The chemical reactions and pathways involving L-serine, the L-enantiomer of serine, i.e. (2S)-2-amino-3-hydroxypropanoic acid." [GOC:ai, GOC:jsg]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "L-serine metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:33384 ! L-serine zwitterion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0006564
+consider: GO:0006565
 
 [Term]
 id: GO:0006564
@@ -66378,12 +66402,15 @@ is_a: GO:0042403 ! thyroid hormone metabolic process
 
 [Term]
 id: GO:0006591
-name: ornithine metabolic process
+name: obsolete ornithine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving ornithine, an amino acid only rarely found in proteins, but which is important in living organisms as an intermediate in the reactions of the urea cycle and in arginine biosynthesis." [GOC:jl, ISBN:0192801023]
+def: "OBSOLETE. The chemical reactions and pathways involving ornithine, an amino acid only rarely found in proteins, but which is important in living organisms as an intermediate in the reactions of the urea cycle and in arginine biosynthesis." [GOC:jl, ISBN:0192801023]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "ornithine metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:46912 ! ornithinium(1+)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0006592
+consider: GO:0006593
 
 [Term]
 id: GO:0006592
@@ -143536,8 +143563,10 @@ namespace: biological_process
 def: "OBSOLETE. (Was not defined before being made obsolete)." [GOC:jl]
 comment: This term was made obsolete because its use of 'and' was causing violations to the true-path rule.
 synonym: "methionine and threonine metabolic process" EXACT []
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
 is_obsolete: true
-consider: GO:0006555
+consider: GO:0071265
+consider: GO:0009087
 consider: GO:0006566
 
 [Term]
@@ -152111,12 +152140,12 @@ xref: MetaCyc:AMMASSIM-PWY {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-3282 {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-6963 {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-6964 {source="skos:narrowMatch"}
-is_a: GO:0006536 ! glutamate metabolic process
 is_a: GO:0006541 ! L-glutamine metabolic process
 is_a: GO:0019740 ! nitrogen utilization
 is_a: GO:7770097 ! nutrient assimilation
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28527" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32376" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
 
 [Term]
 id: GO:0019677
@@ -193694,13 +193723,14 @@ intersection_of: regulates GO:0005976 ! polysaccharide metabolic process
 
 [Term]
 id: GO:0032882
-name: regulation of chitin metabolic process
+name: obsolete regulation of chitin metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin." [GOC:mah]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin." [GOC:mah]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "regulation of chitin metabolism" EXACT []
-is_a: GO:0032881 ! regulation of polysaccharide metabolic process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0006030 ! chitin metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
+is_obsolete: true
+consider: GO:0032883
 
 [Term]
 id: GO:0032883
@@ -209227,11 +209257,12 @@ id: GO:0034222
 name: obsolete regulation of cell wall chitin metabolic process
 namespace: biological_process
 def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin in a cell wall." [GOC:mah]
-comment: The reason for obsoletion is that this^Cerm is mixing biological process and cellular component.
+comment: The reason for obsoletion is that this term is mixing biological process and cellular component.
 synonym: "regulation of cell wall chitin metabolism" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27960" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 is_obsolete: true
-replaced_by: GO:0032882
+consider: GO:0032883
 
 [Term]
 id: GO:0034223
@@ -221965,12 +221996,14 @@ creation_date: 2010-04-29T09:26:47Z
 
 [Term]
 id: GO:0035498
-name: carnosine metabolic process
+name: obsolete carnosine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving the dipeptide beta-alanyl-L-histidine (carnosine)." [PMID:20097752]
+def: "OBSOLETE. The chemical reactions and pathways involving the dipeptide beta-alanyl-L-histidine (carnosine)." [PMID:20097752]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "carnosine metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:57485 ! carnosine zwitterion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0035499
 created_by: bf
 creation_date: 2010-04-29T01:19:52Z
 
@@ -327602,14 +327635,18 @@ is_obsolete: true
 
 [Term]
 id: GO:0050667
-name: homocysteine metabolic process
+name: obsolete homocysteine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving homocysteine, the amino acid alpha-amino-gamma-mercaptobutanoic acid. Homocysteine is an important intermediate in the metabolic reactions of its S-methyl derivative, methionine." [ISBN:0198506732]
+def: "OBSOLETE. The chemical reactions and pathways involving homocysteine, the amino acid alpha-amino-gamma-mercaptobutanoic acid. Homocysteine is an important intermediate in the metabolic reactions of its S-methyl derivative, methionine." [ISBN:0198506732]
+comment: The reason for obsoletion is that this term is an unnecessary grouping term.
 synonym: "Hcy metabolic process" EXACT []
 synonym: "Hcy metabolism" EXACT []
 synonym: "homocysteine metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:58065 ! homocysteine zwitterion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31172" xsd:anyURI
+is_obsolete: true
+consider: GO:0071269
+consider: GO:0043418
+consider: GO:0033353
 
 [Term]
 id: GO:0050668
@@ -387579,14 +387616,15 @@ creation_date: 2009-08-20T02:23:19Z
 
 [Term]
 id: GO:0070873
-name: regulation of glycogen metabolic process
+name: obsolete regulation of glycogen metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving glycogen." [GOC:mah]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving glycogen." [GOC:mah]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "regulation of glycogen metabolism" EXACT [GOC:mah]
-is_a: GO:0032881 ! regulation of polysaccharide metabolic process
-is_a: GO:0043467 ! regulation of generation of precursor metabolites and energy
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0005977 ! glycogen metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
+is_obsolete: true
+consider: GO:0005979
+consider: GO:0005981
 created_by: mah
 creation_date: 2009-08-20T02:44:53Z
 
@@ -387598,9 +387636,9 @@ def: "Any process that stops, prevents, or reduces the frequency, rate or extent
 synonym: "negative regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010605 ! negative regulation of macromolecule metabolic process
 is_a: GO:0045912 ! negative regulation of carbohydrate metabolic process
-is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0005977 ! glycogen metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 created_by: mah
 creation_date: 2009-08-20T02:50:41Z
 
@@ -387612,9 +387650,9 @@ def: "Any process that activates or increases the frequency, rate or extent of t
 synonym: "positive regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010604 ! positive regulation of macromolecule metabolic process
 is_a: GO:0010907 ! positive regulation of glucose metabolic process
-is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0005977 ! glycogen metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
 created_by: mah
 creation_date: 2009-08-20T02:53:55Z
 
@@ -523807,15 +523845,18 @@ creation_date: 2013-04-16T21:21:14Z
 
 [Term]
 id: GO:1902066
-name: regulation of cell wall pectin metabolic process
+name: obsolete regulation of cell wall pectin metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of cell wall pectin metabolic process." [GOC:TermGenie, PMID:23453954]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of cell wall pectin metabolic process." [GOC:TermGenie, PMID:23453954]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "regulation of cell wall pectin metabolism" EXACT [GOC:TermGenie]
 synonym: "regulation of cellulose and pectin-containing cell wall pectin metabolic process" EXACT [GOC:TermGenie]
 synonym: "regulation of pectin metabolism during cell wall biogenesis" EXACT [GOC:TermGenie]
 synonym: "regulation of plant-type cell wall pectin metabolic process" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0052546 ! cell wall pectin metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
+is_obsolete: true
+consider: GO:1900030
+consider: GO:2001003
 created_by: tb
 creation_date: 2013-04-17T20:05:56Z
 
@@ -615992,12 +616033,15 @@ creation_date: 2011-07-28T03:21:49Z
 
 [Term]
 id: GO:2000904
-name: regulation of starch metabolic process
+name: obsolete regulation of starch metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of starch metabolic process." [GOC:obol]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of starch metabolic process." [GOC:obol]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "regulation of starch metabolism" EXACT [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0005982 ! starch metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
+is_obsolete: true
+consider: GO:0010581
+consider: GO:2000881
 created_by: tb
 creation_date: 2011-07-28T11:33:13Z
 
