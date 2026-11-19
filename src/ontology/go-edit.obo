@@ -36725,7 +36725,7 @@ name: carnitine O-acetyltransferase activity
 namespace: molecular_function
 alt_id: GO:0004093
 alt_id: GO:0004094
-def: "Catalysis of the reaction: acetyl-CoA + carnitine = (R)-O-acetylcarnitine + CoA." [EC:2.3.1.7, RHEA:21136]
+def: "Catalysis of the reaction: acetyl-CoA + L-carnitine = O-acetyl-L-carnitine + CoA." [EC:2.3.1.7, RHEA:21136]
 synonym: "acetyl-CoA-carnitine O-acetyltransferase activity" RELATED [EC:2.3.1.7]
 synonym: "acetyl-CoA:carnitine O-acetyltransferase activity" RELATED [EC:2.3.1.7]
 synonym: "acetylcarnitine transferase activity" RELATED [EC:2.3.1.7]
@@ -36743,6 +36743,7 @@ xref: RHEA:21136 {source="skos:exactMatch"}
 is_a: GO:0016406 ! carnitine O-acyltransferase activity
 is_a: GO:0016413 ! O-acetyltransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32928" xsd:anyURI
 
 [Term]
 id: GO:0004095
@@ -302767,7 +302768,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0047619
 name: acylcarnitine hydrolase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: O-acylcarnitine + H2O = a fatty acid + L-carnitine." [EC:3.1.1.28, MetaCyc:ACYLCARNITINE-HYDROLASE-RXN]
+def: "Catalysis of the reaction: an O-acyl-L-carnitine + H2O = L-carnitine + a fatty acid + H+." [EC:3.1.1.28, MetaCyc:ACYLCARNITINE-HYDROLASE-RXN, RHEA:17101]
 synonym: "carnitine ester hydrolase activity" RELATED [EC:3.1.1.28]
 synonym: "HACH" RELATED [EC:3.1.1.28]
 synonym: "high activity acylcarnitine hydrolase activity" RELATED [EC:3.1.1.28]
@@ -302781,6 +302782,7 @@ xref: MetaCyc:ACYLCARNITINE-HYDROLASE-RXN
 xref: RHEA:17101 {source="skos:exactMatch"}
 is_a: GO:0052689 ! carboxylic ester hydrolase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32928" xsd:anyURI
 
 [Term]
 id: GO:0047620
