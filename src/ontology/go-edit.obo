@@ -65220,6 +65220,7 @@ name: proteolysis
 namespace: biological_process
 def: "The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds." [GOC:bf, GOC:mah]
 comment: This term was intentionally placed under 'protein metabolic process ; GO:0019538' rather than 'protein catabolic process ; GO:0030163' to cover all processes centered on breaking peptide bonds, including those involved in protein processing.
+subset: gocheck_obsoletion_candidate
 subset: goslim_chembl
 subset: goslim_metagenomics
 subset: goslim_pir
@@ -164555,6 +164556,7 @@ id: GO:0030162
 name: regulation of proteolysis
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of the hydrolysis of a peptide bond or bonds within a protein." [GOC:mah]
+subset: gocheck_obsoletion_candidate
 synonym: "regulation of peptidolysis" EXACT []
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0006508 ! proteolysis
@@ -201628,6 +201630,7 @@ id: GO:0033619
 name: membrane protein proteolysis
 namespace: biological_process
 def: "The proteolytic cleavage of a transmembrane protein leading to the release of its intracellular or ecto-domains." [GOC:pde]
+subset: gocheck_obsoletion_candidate
 is_a: GO:0006508 ! proteolysis
 
 [Term]
@@ -279669,6 +279672,7 @@ id: GO:0045861
 name: negative regulation of proteolysis
 namespace: biological_process
 def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the hydrolysis of a peptide bond or bonds within a protein." [GOC:curators]
+subset: gocheck_obsoletion_candidate
 synonym: "down regulation of proteolysis" EXACT []
 synonym: "down-regulation of proteolysis" EXACT []
 synonym: "downregulation of proteolysis" EXACT []
@@ -279683,6 +279687,7 @@ id: GO:0045862
 name: positive regulation of proteolysis
 namespace: biological_process
 def: "Any process that activates or increases the frequency, rate or extent of the hydrolysis of a peptide bond or bonds within a protein." [GOC:curators]
+subset: gocheck_obsoletion_candidate
 synonym: "activation of proteolysis" NARROW []
 synonym: "positive regulation of peptidolysis" EXACT []
 synonym: "stimulation of proteolysis" NARROW []
@@ -331491,6 +331496,7 @@ id: GO:0051043
 name: regulation of membrane protein ectodomain proteolysis
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of the proteolytic cleavage of transmembrane proteins and release of their ectodomain (extracellular domain)." [GOC:ai]
+subset: gocheck_obsoletion_candidate
 is_a: GO:0009894 ! regulation of catabolic process
 is_a: GO:0042176 ! regulation of protein catabolic process
 intersection_of: GO:0065007 ! biological regulation
@@ -331502,6 +331508,7 @@ id: GO:0051044
 name: positive regulation of membrane protein ectodomain proteolysis
 namespace: biological_process
 def: "Any process that activates or increases the frequency, rate or extent of membrane protein ectodomain peptidolysis." [GOC:ai]
+subset: gocheck_obsoletion_candidate
 synonym: "activation of membrane protein ectodomain proteolysis" NARROW []
 synonym: "stimulation of membrane protein ectodomain proteolysis" NARROW []
 synonym: "up regulation of membrane protein ectodomain proteolysis" EXACT []
@@ -331518,6 +331525,7 @@ id: GO:0051045
 name: negative regulation of membrane protein ectodomain proteolysis
 namespace: biological_process
 def: "Any process that stops, prevents, or reduces the frequency, rate or extent of membrane protein ectodomain proteolysis." [GOC:ai]
+subset: gocheck_obsoletion_candidate
 synonym: "down regulation of membrane protein ectodomain proteolysis" EXACT []
 synonym: "down-regulation of membrane protein ectodomain proteolysis" EXACT []
 synonym: "downregulation of membrane protein ectodomain proteolysis" EXACT []
@@ -522563,8 +522571,8 @@ synonym: "inhibition of indoleacetic acid anabolism" EXACT [GOC:TermGenie]
 synonym: "inhibition of indoleacetic acid biosynthetic process" NARROW [GOC:TermGenie]
 synonym: "inhibition of indoleacetic acid formation" EXACT [GOC:TermGenie]
 synonym: "inhibition of indoleacetic acid synthesis" EXACT [GOC:TermGenie]
-synonym: "negative regulation of IAA biosynthetic process" EXACT [GOC:TermGenie]
 synonym: "negative regulation of auxin biosynthetic process" BROAD []
+synonym: "negative regulation of IAA biosynthetic process" EXACT [GOC:TermGenie]
 synonym: "negative regulation of indoleacetic acid anabolism" EXACT [GOC:TermGenie]
 synonym: "negative regulation of indoleacetic acid formation" EXACT [GOC:TermGenie]
 synonym: "negative regulation of indoleacetic acid synthesis" EXACT [GOC:TermGenie]
