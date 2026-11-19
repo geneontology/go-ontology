@@ -623175,6 +623175,44 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-12T09:35:33Z
 
+[Term]
+id: GO:7770165
+name: regulation of granulocyte colony-stimulating factor signaling pathway
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of granulocyte colony-stimulating factor signaling pathway." [PMID:12133942]
+synonym: "regulation of G-CSF signaling pathway" EXACT []
+synonym: "regulation of granulocyte colony-stimulating factor signalling pathway" EXACT []
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: regulates GO:0038158 ! granulocyte colony-stimulating factor signaling pathway
+created_by: lbreuza
+creation_date: 2026-11-19T14:50:56Z
+
+[Term]
+id: GO:7770166
+name: negative regulation of granulocyte colony-stimulating factor signaling pathway
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of granulocyte colony-stimulating factor signaling pathway." [PMID:12133942]
+synonym: "inhibition of G-CSF signaling pathway" NARROW []
+synonym: "negative regulation of G-CSF signaling pathway" EXACT []
+synonym: "negative regulation of granulocyte colony-stimulating factor signalling pathway" EXACT []
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: negatively_regulates GO:0038158 ! granulocyte colony-stimulating factor signaling pathway
+created_by: lbreuza
+creation_date: 2026-11-19T14:50:56Z
+
+[Term]
+id: GO:7770167
+name: positive regulation of granulocyte colony-stimulating factor signaling pathway
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of granulocyte colony-stimulating factor signaling pathway." [PMID:12133942]
+synonym: "activation of G-CSF signaling pathway" NARROW []
+synonym: "positive regulation of G-CSF signaling pathway" EXACT []
+synonym: "positive regulation of granulocyte colony-stimulating factor signalling pathway" EXACT []
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: positively_regulates GO:0038158 ! granulocyte colony-stimulating factor signaling pathway
+created_by: lbreuza
+creation_date: 2026-11-19T14:50:56Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
