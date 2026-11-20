@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-19/extensions/go-plus.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-20/extensions/go-plus.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-19" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-20" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -31086,6 +31086,12 @@
 - [GABA modulator](http://purl.obolibrary.org/obo/CHEBI_50268) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### GABA shunt `http://purl.obolibrary.org/obo/GO_0006540`
+#### Removed
+- [GABA shunt](http://purl.obolibrary.org/obo/GO_0006540) SubClassOf [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) 
+
+
+
 ### GABA-gated chloride channel antagonist `http://purl.obolibrary.org/obo/CHEBI_38999`
 
 #### Added
@@ -33085,6 +33091,18 @@
 - [L-arginine](http://purl.obolibrary.org/obo/CHEBI_16467) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-arginine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006526`
+#### Removed
+- [L-arginine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006526) SubClassOf [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) 
+
+
+
+### L-arginine catabolic process `http://purl.obolibrary.org/obo/GO_0006527`
+#### Removed
+- [L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_0006527) SubClassOf [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) 
+
+
+
 ### L-arginine derivative `http://purl.obolibrary.org/obo/CHEBI_83965`
 
 #### Added
@@ -33162,6 +33180,18 @@
 #### Removed
 - [L-aspartate N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0017188) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8954468" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NAT8L transfers acetyl group from Ac-CoA to L-Asp, forming NAASP" 
+
+
+
+### L-aspartate biosynthetic process `http://purl.obolibrary.org/obo/GO_0006532`
+#### Removed
+- [L-aspartate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006532) SubClassOf [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) 
+
+
+
+### L-aspartate catabolic process `http://purl.obolibrary.org/obo/GO_0006533`
+#### Removed
+- [L-aspartate catabolic process](http://purl.obolibrary.org/obo/GO_0006533) SubClassOf [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) 
 
 
 
@@ -33637,6 +33667,18 @@
 
 
 
+### L-glutamate biosynthetic process `http://purl.obolibrary.org/obo/GO_0097054`
+#### Removed
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) SubClassOf [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) 
+
+
+
+### L-glutamate catabolic process `http://purl.obolibrary.org/obo/GO_0006538`
+#### Removed
+- [L-glutamate catabolic process](http://purl.obolibrary.org/obo/GO_0006538) SubClassOf [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) 
+
+
+
 ### L-glutamate dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0004353`
 #### Removed
 - [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70589" 
@@ -33860,6 +33902,8 @@
 
 
 ### L-homocysteine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071269`
+#### Removed
+- [L-homocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071269) SubClassOf [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) 
 
 #### Added
 - [L-homocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071269) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31702"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -33871,6 +33915,12 @@
 - [L-homocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071269) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-801](http://identifiers.org/metacyc.reaction/PWY-801) 
 
 - [L-homocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071269) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5344](http://identifiers.org/metacyc.reaction/PWY-5344) 
+
+
+### L-homocysteine catabolic process `http://purl.obolibrary.org/obo/GO_0043418`
+#### Removed
+- [L-homocysteine catabolic process](http://purl.obolibrary.org/obo/GO_0043418) SubClassOf [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) 
+
 
 
 ### L-homolanthionine `http://purl.obolibrary.org/obo/CHEBI_62856`
@@ -34065,10 +34115,54 @@
 - [L-leucine](http://purl.obolibrary.org/obo/CHEBI_15603) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-leucine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009098`
+#### Removed
+- [L-leucine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009098) SubClassOf [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) 
+
+
+
+### L-leucine catabolic process `http://purl.obolibrary.org/obo/GO_0006552`
+#### Removed
+- [L-leucine catabolic process](http://purl.obolibrary.org/obo/GO_0006552) SubClassOf [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) 
+
+
+
 ### L-leucine derivative `http://purl.obolibrary.org/obo/CHEBI_25018`
 
 #### Added
 - [L-leucine derivative](http://purl.obolibrary.org/obo/CHEBI_25018) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-leucine metabolic process `http://purl.obolibrary.org/obo/GO_0006551`
+#### Removed
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving L-leucine, 2-amino-4-methylpentanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-leucine metabolic process" 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-leucine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57427)) 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) SubClassOf [branched-chain amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0009081) 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) SubClassOf [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-leucine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57427) 
+
+#### Added
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-leucine catabolic process](http://purl.obolibrary.org/obo/GO_0006552) 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-leucine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009098) 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving L-leucine, 2-amino-4-methylpentanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-leucine metabolic process" 
 
 
 ### L-leucinium `http://purl.obolibrary.org/obo/CHEBI_32620`
@@ -34242,6 +34336,18 @@
 - [L-methionine S-oxide](http://purl.obolibrary.org/obo/CHEBI_17016) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071265`
+#### Removed
+- [L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071265) SubClassOf [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) 
+
+
+
+### L-methionine catabolic process `http://purl.obolibrary.org/obo/GO_0009087`
+#### Removed
+- [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) SubClassOf [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) 
+
+
+
 ### L-methionine cycle `http://purl.obolibrary.org/obo/GO_0033353`
 #### Removed
 - [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetyaCyc:PWY-6151" 
@@ -34250,6 +34356,10 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31950558" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39394448" 
+
+- [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) 
+
+- [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) 
 
 #### Added
 - [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32362"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -34265,13 +34375,59 @@
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39394448" 
 
+- [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) 
+
 - [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [one-carbon metabolic process](http://purl.obolibrary.org/obo/GO_0006730) 
+
+- [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) 
+
+- [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [non-proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170041) 
+
+- [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57844) 
 
 
 ### L-methionine derivative `http://purl.obolibrary.org/obo/CHEBI_84121`
 
 #### Added
 - [L-methionine derivative](http://purl.obolibrary.org/obo/CHEBI_84121) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-methionine metabolic process `http://purl.obolibrary.org/obo/GO_0006555`
+#### Removed
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving L-methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-methionine metabolic process" 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57844)) 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) SubClassOf [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) SubClassOf [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57844) 
+
+#### Added
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071265) 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving L-methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-methionine metabolic process" 
 
 
 ### L-methionine salvage `http://purl.obolibrary.org/obo/GO_0071267`
@@ -34343,6 +34499,18 @@
 
 #### Added
 - [L-ornithine](http://purl.obolibrary.org/obo/CHEBI_15729) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-ornithine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006592`
+#### Removed
+- [L-ornithine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006592) SubClassOf [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) 
+
+
+
+### L-ornithine catabolic process `http://purl.obolibrary.org/obo/GO_0006593`
+#### Removed
+- [L-ornithine catabolic process](http://purl.obolibrary.org/obo/GO_0006593) SubClassOf [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) 
+
 
 
 ### L-ornithine derivative `http://purl.obolibrary.org/obo/CHEBI_21368`
@@ -34466,10 +34634,56 @@
 - [L-proline](http://purl.obolibrary.org/obo/CHEBI_17203) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-proline biosynthetic process `http://purl.obolibrary.org/obo/GO_0055129`
+#### Removed
+- [L-proline biosynthetic process](http://purl.obolibrary.org/obo/GO_0055129) SubClassOf [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) 
+
+
+
+### L-proline catabolic process `http://purl.obolibrary.org/obo/GO_0006562`
+#### Removed
+- [L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0006562) SubClassOf [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) 
+
+
+
 ### L-proline derivative `http://purl.obolibrary.org/obo/CHEBI_84186`
 
 #### Added
 - [L-proline derivative](http://purl.obolibrary.org/obo/CHEBI_84186) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-proline metabolic process `http://purl.obolibrary.org/obo/GO_0006560`
+#### Removed
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving proline (pyrrolidine-2-carboxylic acid), a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-proline metabolic process" 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-proline zwitterion](http://purl.obolibrary.org/obo/CHEBI_60039)) 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) SubClassOf [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-proline zwitterion](http://purl.obolibrary.org/obo/CHEBI_60039) 
+
+#### Added
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0006562) 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-proline biosynthetic process](http://purl.obolibrary.org/obo/GO_0055129) 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving proline (pyrrolidine-2-carboxylic acid), a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-proline metabolic process" 
 
 
 ### L-proline transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015193`
@@ -34637,6 +34851,18 @@
 
 
 
+### L-serine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006564`
+#### Removed
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) SubClassOf [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) 
+
+
+
+### L-serine catabolic process `http://purl.obolibrary.org/obo/GO_0006565`
+#### Removed
+- [L-serine catabolic process](http://purl.obolibrary.org/obo/GO_0006565) SubClassOf [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) 
+
+
+
 ### L-serine derivative `http://purl.obolibrary.org/obo/CHEBI_84135`
 
 #### Added
@@ -34645,9 +34871,39 @@
 
 ### L-serine metabolic process `http://purl.obolibrary.org/obo/GO_0006563`
 #### Removed
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving L-serine, the L-enantiomer of serine, i.e. (2S)-2-amino-3-hydroxypropanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
 - [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-977347" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Serine metabolism" 
 
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-serine metabolic process" 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-serine zwitterion](http://purl.obolibrary.org/obo/CHEBI_33384)) 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) SubClassOf [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-serine zwitterion](http://purl.obolibrary.org/obo/CHEBI_33384) 
+
+#### Added
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-serine catabolic process](http://purl.obolibrary.org/obo/GO_0006565) 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving L-serine, the L-enantiomer of serine, i.e. (2S)-2-amino-3-hydroxypropanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-serine metabolic process" 
 
 
 ### L-serine phosphoethanolamine `http://purl.obolibrary.org/obo/CHEBI_16542`
@@ -45778,6 +46034,24 @@
 - [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete acyl-glucuronidase activity" 
 
 
+### acylcarnitine hydrolase activity `http://purl.obolibrary.org/obo/GO_0047619`
+#### Removed
+- [acylcarnitine hydrolase activity](http://purl.obolibrary.org/obo/GO_0047619) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: O-acylcarnitine + H2O = a fatty acid + L-carnitine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ACYLCARNITINE-HYDROLASE-RXN" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.1.1.28" 
+
+#### Added
+- [acylcarnitine hydrolase activity](http://purl.obolibrary.org/obo/GO_0047619) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32928"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [acylcarnitine hydrolase activity](http://purl.obolibrary.org/obo/GO_0047619) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an O-acyl-L-carnitine + H2O = L-carnitine + a fatty acid + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17101" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ACYLCARNITINE-HYDROLASE-RXN" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.1.1.28" 
+
+
 ### acylglucosaminylphosphatidylinositol `http://purl.obolibrary.org/obo/CHEBI_52572`
 
 #### Added
@@ -50110,8 +50384,12 @@
 
 
 ### ammonia assimilation cycle `http://purl.obolibrary.org/obo/GO_0019676`
+#### Removed
+- [ammonia assimilation cycle](http://purl.obolibrary.org/obo/GO_0019676) SubClassOf [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) 
 
 #### Added
+- [ammonia assimilation cycle](http://purl.obolibrary.org/obo/GO_0019676) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [ammonia assimilation cycle](http://purl.obolibrary.org/obo/GO_0019676) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32376"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [ammonia assimilation cycle](http://purl.obolibrary.org/obo/GO_0019676) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
@@ -51756,6 +52034,38 @@
 - [arginine derivative](http://purl.obolibrary.org/obo/CHEBI_22617) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### arginine metabolic process `http://purl.obolibrary.org/obo/GO_0006525`
+#### Removed
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving arginine, 2-amino-5-(carbamimidamido)pentanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [label](http://www.w3.org/2000/01/rdf-schema#label) "arginine metabolic process" 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [argininium(1+)](http://purl.obolibrary.org/obo/CHEBI_32696)) 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) SubClassOf [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) SubClassOf [carboxylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0019752) 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [argininium(1+)](http://purl.obolibrary.org/obo/CHEBI_32696) 
+
+#### Added
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-arginine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006526) 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_0006527) 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving arginine, 2-amino-5-(carbamimidamido)pentanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete arginine metabolic process" 
+
+
 ### arginine residue `http://purl.obolibrary.org/obo/CHEBI_32700`
 
 #### Added
@@ -52343,6 +52653,42 @@
 - [aspartate carbamoyltransferase activity](http://purl.obolibrary.org/obo/GO_0004070) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73573" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CAD hexamer transforms CAP to N-carb-L-Asp" 
 
+
+
+### aspartate metabolic process `http://purl.obolibrary.org/obo/GO_0006531`
+#### Removed
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving aspartate, the anion derived from aspartic acid, 2-aminobutanedioic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [label](http://www.w3.org/2000/01/rdf-schema#label) "aspartate metabolic process" 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [aspartate(1-)](http://purl.obolibrary.org/obo/CHEBI_35391)) 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) SubClassOf [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) SubClassOf [dicarboxylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0043648) 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [aspartate(1-)](http://purl.obolibrary.org/obo/CHEBI_35391) 
+
+#### Added
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-aspartate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006532) 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-aspartate catabolic process](http://purl.obolibrary.org/obo/GO_0006533) 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving aspartate, the anion derived from aspartic acid, 2-aminobutanedioic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete aspartate metabolic process" 
 
 
 ### aspartate residue `http://purl.obolibrary.org/obo/CHEBI_32471`
@@ -57674,12 +58020,24 @@
 
 ### carnitine O-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0004092`
 #### Removed
+- [carnitine O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004092) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: acetyl-CoA + carnitine = (R)-O-acetylcarnitine + CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.7" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21136" 
+
 - [carnitine O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-390291" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "acetyl-CoA + carnitine =&gt; acetylcarnitine + CoASH" 
 
 - [carnitine O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-390284" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "propionyl-CoA + carnitine =&gt; propionylcarnitine + CoASH" 
 
+#### Added
+- [carnitine O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004092) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32928"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carnitine O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004092) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: acetyl-CoA + L-carnitine = O-acetyl-L-carnitine + CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.7" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21136" 
 
 
 ### carnitine O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0016406`
@@ -57814,6 +58172,42 @@
 - [carnosine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030735) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8876789" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CARNMT1 methylates CARN to Anserine" 
 
+
+
+### carnosine biosynthetic process `http://purl.obolibrary.org/obo/GO_0035499`
+#### Removed
+- [carnosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0035499) SubClassOf [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) 
+
+
+
+### carnosine metabolic process `http://purl.obolibrary.org/obo/GO_0035498`
+#### Removed
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving the dipeptide beta-alanyl-L-histidine (carnosine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20097752" 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [label](http://www.w3.org/2000/01/rdf-schema#label) "carnosine metabolic process" 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [carnosine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57485)) 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) SubClassOf [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) SubClassOf [carboxylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0019752) 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [carnosine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57485) 
+
+#### Added
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [carnosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0035499) 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving the dipeptide beta-alanyl-L-histidine (carnosine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20097752" 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete carnosine metabolic process" 
 
 
 ### carnosine synthase activity `http://purl.obolibrary.org/obo/GO_0047730`
@@ -74927,6 +75321,38 @@ TA: Transit Amplifying Cells"
 
 
 
+### glutamate metabolic process `http://purl.obolibrary.org/obo/GO_0006536`
+#### Removed
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving glutamate, the anion of 2-aminopentanedioic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamate metabolic process" 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [glutamate(1-)](http://purl.obolibrary.org/obo/CHEBI_14321)) 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) SubClassOf [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) SubClassOf [dicarboxylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0043648) 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [glutamate(1-)](http://purl.obolibrary.org/obo/CHEBI_14321) 
+
+#### Added
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-glutamate catabolic process](http://purl.obolibrary.org/obo/GO_0006538) 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving glutamate, the anion of 2-aminopentanedioic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glutamate metabolic process" 
+
+
 ### glutamate residue `http://purl.obolibrary.org/obo/CHEBI_32484`
 
 #### Added
@@ -76000,6 +76426,18 @@ TA: Transit Amplifying Cells"
 
 
 
+### glycine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006545`
+#### Removed
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) SubClassOf [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) 
+
+
+
+### glycine catabolic process `http://purl.obolibrary.org/obo/GO_0006546`
+#### Removed
+- [glycine catabolic process](http://purl.obolibrary.org/obo/GO_0006546) SubClassOf [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) 
+
+
+
 ### glycine decarboxylation via glycine cleavage system `http://purl.obolibrary.org/obo/GO_0019464`
 #### Removed
 - [glycine decarboxylation via glycine cleavage system](http://purl.obolibrary.org/obo/GO_0019464) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of glycine by oxidative cleavage to carbon dioxide, ammonia, and a methylene group, mediated by enzymes of the glycine cleavage complex." 
@@ -76034,6 +76472,36 @@ TA: Transit Amplifying Cells"
 - [glycine hydroxymethyltransferase activity](http://purl.obolibrary.org/obo/GO_0004372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5694137" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PXLP-K280-SHMT2 tetramer transfers CH2OH group to Gly to form L-Ser" 
 
+
+
+### glycine metabolic process `http://purl.obolibrary.org/obo/GO_0006544`
+#### Removed
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving glycine, aminoethanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycine metabolic process" 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57305)) 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) SubClassOf [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57305) 
+
+#### Added
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [glycine catabolic process](http://purl.obolibrary.org/obo/GO_0006546) 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving glycine, aminoethanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glycine metabolic process" 
 
 
 ### glycine receptor agonist `http://purl.obolibrary.org/obo/CHEBI_64589`
@@ -80430,6 +80898,40 @@ TA: Transit Amplifying Cells"
 - [homocysteine desulfhydrase activity](http://purl.obolibrary.org/obo/GO_0047982) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1614631" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Homocysteine is degraded to oxobutanoate and H2S" 
 
+
+
+### homocysteine metabolic process `http://purl.obolibrary.org/obo/GO_0050667`
+#### Removed
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving homocysteine, the amino acid alpha-amino-gamma-mercaptobutanoic acid. Homocysteine is an important intermediate in the metabolic reactions of its S-methyl derivative, methionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [label](http://www.w3.org/2000/01/rdf-schema#label) "homocysteine metabolic process" 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_58065)) 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) SubClassOf [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) SubClassOf [non-proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170041) 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_58065) 
+
+#### Added
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-homocysteine catabolic process](http://purl.obolibrary.org/obo/GO_0043418) 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-homocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071269) 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving homocysteine, the amino acid alpha-amino-gamma-mercaptobutanoic acid. Homocysteine is an important intermediate in the metabolic reactions of its S-methyl derivative, methionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete homocysteine metabolic process" 
 
 
 ### homocysteines `http://purl.obolibrary.org/obo/CHEBI_24610`
@@ -89633,6 +90135,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [membrane insertase activity](http://purl.obolibrary.org/obo/GO_0032977) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32404"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### membrane protein proteolysis `http://purl.obolibrary.org/obo/GO_0033619`
+
+#### Added
+- [membrane protein proteolysis](http://purl.obolibrary.org/obo/GO_0033619) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+
 ### membrane transport modulator `http://purl.obolibrary.org/obo/CHEBI_38632`
 
 #### Added
@@ -95539,6 +96047,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [negative regulation of glucose catabolic process to lactate via pyruvate](http://purl.obolibrary.org/obo/GO_1904024) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of pyruvate fermentation to lactate" 
 
 
+### negative regulation of glycogen metabolic process `http://purl.obolibrary.org/obo/GO_0070874`
+#### Removed
+- [negative regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070874) SubClassOf [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) 
+
+#### Added
+- [negative regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070874) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070874) SubClassOf [regulation of polysaccharide metabolic process](http://purl.obolibrary.org/obo/GO_0032881) 
+
+- [negative regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070874) SubClassOf [regulation of generation of precursor metabolites and energy](http://purl.obolibrary.org/obo/GO_0043467) 
+
+
 ### negative regulation of glycolytic fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001155`
 #### Removed
 - [negative regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001155) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of glucose catabolic process to ethanol." 
@@ -95619,6 +96139,43 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [negative regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904539) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a GO-CAM model." 
 
 - [negative regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904539) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of glycolytic process through fructose-6-phosphate" 
+
+
+### negative regulation of granulocyte colony-stimulating factor signaling pathway `http://purl.obolibrary.org/obo/GO_7770166`
+
+#### Added
+- Class: [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32992"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "lbreuza" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-19T14:50:56Z" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of G-CSF signaling pathway" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of granulocyte colony-stimulating factor signalling pathway" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of G-CSF signaling pathway" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770166" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of granulocyte colony-stimulating factor signaling pathway." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12133942" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of granulocyte colony-stimulating factor signaling pathway" 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_0038158)) 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) SubClassOf [negative regulation of cytokine-mediated signaling pathway](http://purl.obolibrary.org/obo/GO_0001960) 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Vertebrata <vertebrates>](http://purl.obolibrary.org/obo/NCBITaxon_7742) 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_0038158) 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [cellular response to granulocyte colony-stimulating factor](http://purl.obolibrary.org/obo/GO_1990643) 
 
 
 ### negative regulation of inflammatory response to antigenic stimulus `http://purl.obolibrary.org/obo/GO_0002862`
@@ -95723,6 +96280,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
 
 - [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### negative regulation of membrane protein ectodomain proteolysis `http://purl.obolibrary.org/obo/GO_0051045`
+
+#### Added
+- [negative regulation of membrane protein ectodomain proteolysis](http://purl.obolibrary.org/obo/GO_0051045) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
 
 
 ### negative regulation of mitochondrial respiratory chain complex I assembly `http://purl.obolibrary.org/obo/GO_7770120`
@@ -95975,6 +96538,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [negative regulation of protein processing in phagocytic vesicle](http://purl.obolibrary.org/obo/GO_1903922) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
 
 - [negative regulation of protein processing in phagocytic vesicle](http://purl.obolibrary.org/obo/GO_1903922) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+
+### negative regulation of proteolysis `http://purl.obolibrary.org/obo/GO_0045861`
+
+#### Added
+- [negative regulation of proteolysis](http://purl.obolibrary.org/obo/GO_0045861) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
 
 
 ### negative regulation of purine nucleobase metabolic process `http://purl.obolibrary.org/obo/GO_0045982`
@@ -99544,6 +100113,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 
 
+### obsolete methionine and threonine metabolic process `http://purl.obolibrary.org/obo/GO_0018927`
+#### Removed
+- [obsolete methionine and threonine metabolic process](http://purl.obolibrary.org/obo/GO_0018927) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) 
+
+#### Added
+- [obsolete methionine and threonine metabolic process](http://purl.obolibrary.org/obo/GO_0018927) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete methionine and threonine metabolic process](http://purl.obolibrary.org/obo/GO_0018927) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) 
+
+- [obsolete methionine and threonine metabolic process](http://purl.obolibrary.org/obo/GO_0018927) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071265) 
+
+
 ### obsolete methyl fluoride metabolic process `http://purl.obolibrary.org/obo/GO_0018929`
 #### Removed
 - [obsolete methyl fluoride metabolic process](http://purl.obolibrary.org/obo/GO_0018929) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
@@ -99906,6 +100487,20 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 - [obsolete regulation of 18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900950) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
 
+
+
+### obsolete regulation of cell wall chitin metabolic process `http://purl.obolibrary.org/obo/GO_0034222`
+#### Removed
+- [obsolete regulation of cell wall chitin metabolic process](http://purl.obolibrary.org/obo/GO_0034222) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) 
+
+- [obsolete regulation of cell wall chitin metabolic process](http://purl.obolibrary.org/obo/GO_0034222) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this^Cerm is mixing biological process and cellular component." 
+
+#### Added
+- [obsolete regulation of cell wall chitin metabolic process](http://purl.obolibrary.org/obo/GO_0034222) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of cell wall chitin metabolic process](http://purl.obolibrary.org/obo/GO_0034222) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of chitin biosynthetic process](http://purl.obolibrary.org/obo/GO_0032883) 
+
+- [obsolete regulation of cell wall chitin metabolic process](http://purl.obolibrary.org/obo/GO_0034222) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is mixing biological process and cellular component." 
 
 
 ### obsolete regulation of cordyol C biosynthetic process `http://purl.obolibrary.org/obo/GO_1900861`
@@ -101556,6 +102151,10 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [ornithine carbamoyltransferase activity](http://purl.obolibrary.org/obo/GO_0004585) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70560" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "carbamoyl phosphate + ornithine =&gt; citrulline + orthophosphate" 
 
+- [ornithine carbamoyltransferase activity](http://purl.obolibrary.org/obo/GO_0004585) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) 
+
+#### Added
+- [ornithine carbamoyltransferase activity](http://purl.obolibrary.org/obo/GO_0004585) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### ornithine carbamoyltransferase inhibitor activity `http://purl.obolibrary.org/obo/GO_0090369`
@@ -101599,6 +102198,40 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [ornithine derivative](http://purl.obolibrary.org/obo/CHEBI_25718) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### ornithine metabolic process `http://purl.obolibrary.org/obo/GO_0006591`
+#### Removed
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving ornithine, an amino acid only rarely found in proteins, but which is important in living organisms as an intermediate in the reactions of the urea cycle and in arginine biosynthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0192801023" 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [label](http://www.w3.org/2000/01/rdf-schema#label) "ornithine metabolic process" 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [ornithinium(1+)](http://purl.obolibrary.org/obo/CHEBI_46912)) 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) SubClassOf [non-proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170041) 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [ornithinium(1+)](http://purl.obolibrary.org/obo/CHEBI_46912) 
+
+#### Added
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31172"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-ornithine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006592) 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-ornithine catabolic process](http://purl.obolibrary.org/obo/GO_0006593) 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving ornithine, an amino acid only rarely found in proteins, but which is important in living organisms as an intermediate in the reactions of the urea cycle and in arginine biosynthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0192801023" 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is an unnecessary grouping term." 
+
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ornithine metabolic process" 
 
 
 ### ornithinium(2+) `http://purl.obolibrary.org/obo/CHEBI_46913`
@@ -108692,6 +109325,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [positive regulation of glucose catabolic process to lactate via pyruvate](http://purl.obolibrary.org/obo/GO_1904025) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of pyruvate fermentation to lactate" 
 
 
+### positive regulation of glycogen metabolic process `http://purl.obolibrary.org/obo/GO_0070875`
+#### Removed
+- [positive regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070875) SubClassOf [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) 
+
+#### Added
+- [positive regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070875) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070875) SubClassOf [regulation of polysaccharide metabolic process](http://purl.obolibrary.org/obo/GO_0032881) 
+
+- [positive regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070875) SubClassOf [regulation of generation of precursor metabolites and energy](http://purl.obolibrary.org/obo/GO_0043467) 
+
+
 ### positive regulation of glycolytic fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001172`
 #### Removed
 - [positive regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001172) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of glucose catabolic process to ethanol." 
@@ -108917,6 +109562,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### positive regulation of membrane protein ectodomain proteolysis `http://purl.obolibrary.org/obo/GO_0051044`
+
+#### Added
+- [positive regulation of membrane protein ectodomain proteolysis](http://purl.obolibrary.org/obo/GO_0051044) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+
 ### positive regulation of mitochondrial translation `http://purl.obolibrary.org/obo/GO_0070131`
 #### Removed
 - [positive regulation of mitochondrial translation](http://purl.obolibrary.org/obo/GO_0070131) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of mitochondrial protein anabolism" 
@@ -109105,6 +109756,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [positive regulation of protein processing in phagocytic vesicle](http://purl.obolibrary.org/obo/GO_1903923) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
 
 - [positive regulation of protein processing in phagocytic vesicle](http://purl.obolibrary.org/obo/GO_1903923) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+
+### positive regulation of proteolysis `http://purl.obolibrary.org/obo/GO_0045862`
+
+#### Added
+- [positive regulation of proteolysis](http://purl.obolibrary.org/obo/GO_0045862) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
 
 
 ### positive regulation of pseudohyphal growth by positive regulation of transcription from RNA polymerase II promoter `http://purl.obolibrary.org/obo/GO_1900461`
@@ -115863,6 +116520,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [proteinogenic amino-acid side-chain group](http://purl.obolibrary.org/obo/CHEBI_50325) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### proteolysis `http://purl.obolibrary.org/obo/GO_0006508`
+
+#### Added
+- [proteolysis](http://purl.obolibrary.org/obo/GO_0006508) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+
 ### protic solvent `http://purl.obolibrary.org/obo/CHEBI_48356`
 
 #### Added
@@ -118388,6 +119051,42 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of cell adhesion mediated by integrin" 
 
 
+### regulation of cell wall pectin metabolic process `http://purl.obolibrary.org/obo/GO_1902066`
+#### Removed
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of cell wall pectin metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23453954" 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cell wall pectin metabolic process" 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_0052546)) 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) SubClassOf [regulation of polysaccharide metabolic process](http://purl.obolibrary.org/obo/GO_0032881) 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_0052546) 
+
+#### Added
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of pectin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900030) 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of pectin catabolic process](http://purl.obolibrary.org/obo/GO_2001003) 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of cell wall pectin metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23453954" 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of cell wall pectin metabolic process" 
+
+
 ### regulation of cell-cell adhesion mediated by cadherin `http://purl.obolibrary.org/obo/GO_2000047`
 #### Removed
 - [regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
@@ -118452,6 +119151,40 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
 
 - [regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of cell-cell adhesion mediated by integrin" 
+
+
+### regulation of chitin biosynthetic process `http://purl.obolibrary.org/obo/GO_0032883`
+#### Removed
+- [regulation of chitin biosynthetic process](http://purl.obolibrary.org/obo/GO_0032883) SubClassOf [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) 
+
+
+
+### regulation of chitin metabolic process `http://purl.obolibrary.org/obo/GO_0032882`
+#### Removed
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of chitin metabolic process" 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [chitin metabolic process](http://purl.obolibrary.org/obo/GO_0006030)) 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) SubClassOf [regulation of polysaccharide metabolic process](http://purl.obolibrary.org/obo/GO_0032881) 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [chitin metabolic process](http://purl.obolibrary.org/obo/GO_0006030) 
+
+#### Added
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of chitin biosynthetic process](http://purl.obolibrary.org/obo/GO_0032883) 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of chitin metabolic process" 
 
 
 ### regulation of circadian rhythm `http://purl.obolibrary.org/obo/GO_0042752`
@@ -118809,6 +119542,60 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [regulation of glucose catabolic process to lactate via pyruvate](http://purl.obolibrary.org/obo/GO_1904023) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of pyruvate fermentation to lactate" 
 
 
+### regulation of glycogen biosynthetic process `http://purl.obolibrary.org/obo/GO_0005979`
+#### Removed
+- [regulation of glycogen biosynthetic process](http://purl.obolibrary.org/obo/GO_0005979) SubClassOf [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) 
+
+#### Added
+- [regulation of glycogen biosynthetic process](http://purl.obolibrary.org/obo/GO_0005979) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of glycogen biosynthetic process](http://purl.obolibrary.org/obo/GO_0005979) SubClassOf [regulation of generation of precursor metabolites and energy](http://purl.obolibrary.org/obo/GO_0043467) 
+
+
+### regulation of glycogen catabolic process `http://purl.obolibrary.org/obo/GO_0005981`
+#### Removed
+- [regulation of glycogen catabolic process](http://purl.obolibrary.org/obo/GO_0005981) SubClassOf [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) 
+
+#### Added
+- [regulation of glycogen catabolic process](http://purl.obolibrary.org/obo/GO_0005981) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of glycogen catabolic process](http://purl.obolibrary.org/obo/GO_0005981) SubClassOf [regulation of polysaccharide metabolic process](http://purl.obolibrary.org/obo/GO_0032881) 
+
+- [regulation of glycogen catabolic process](http://purl.obolibrary.org/obo/GO_0005981) SubClassOf [regulation of generation of precursor metabolites and energy](http://purl.obolibrary.org/obo/GO_0043467) 
+
+
+### regulation of glycogen metabolic process `http://purl.obolibrary.org/obo/GO_0070873`
+#### Removed
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving glycogen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of glycogen metabolic process" 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0005977)) 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) SubClassOf [regulation of polysaccharide metabolic process](http://purl.obolibrary.org/obo/GO_0032881) 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) SubClassOf [regulation of generation of precursor metabolites and energy](http://purl.obolibrary.org/obo/GO_0043467) 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0005977) 
+
+#### Added
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of glycogen biosynthetic process](http://purl.obolibrary.org/obo/GO_0005979) 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of glycogen catabolic process](http://purl.obolibrary.org/obo/GO_0005981) 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving glycogen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of glycogen metabolic process" 
+
+
 ### regulation of glycolytic fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001154`
 #### Removed
 - [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of glucose catabolic process to ethanol." 
@@ -118998,6 +119785,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
 
 - [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### regulation of membrane protein ectodomain proteolysis `http://purl.obolibrary.org/obo/GO_0051043`
+
+#### Added
+- [regulation of membrane protein ectodomain proteolysis](http://purl.obolibrary.org/obo/GO_0051043) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
 
 
 ### regulation of mitochondrial respiratory chain complex I assembly `http://purl.obolibrary.org/obo/GO_7770119`
@@ -119243,6 +120036,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [regulation of protein processing in phagocytic vesicle](http://purl.obolibrary.org/obo/GO_1903921) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
 
 - [regulation of protein processing in phagocytic vesicle](http://purl.obolibrary.org/obo/GO_1903921) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+
+### regulation of proteolysis `http://purl.obolibrary.org/obo/GO_0030162`
+
+#### Added
+- [regulation of proteolysis](http://purl.obolibrary.org/obo/GO_0030162) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
 
 
 ### regulation of purine nucleobase metabolic process `http://purl.obolibrary.org/obo/GO_0006141`
@@ -119536,6 +120335,50 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [regulation of sprouting of injured axon](http://purl.obolibrary.org/obo/GO_0048686) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19737"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [regulation of sprouting of injured axon](http://purl.obolibrary.org/obo/GO_0048686) SubClassOf [regulation of cell growth](http://purl.obolibrary.org/obo/GO_0001558) 
+
+
+### regulation of starch biosynthetic process `http://purl.obolibrary.org/obo/GO_0010581`
+#### Removed
+- [regulation of starch biosynthetic process](http://purl.obolibrary.org/obo/GO_0010581) SubClassOf [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) 
+
+
+
+### regulation of starch catabolic process `http://purl.obolibrary.org/obo/GO_2000881`
+#### Removed
+- [regulation of starch catabolic process](http://purl.obolibrary.org/obo/GO_2000881) SubClassOf [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) 
+
+#### Added
+- [regulation of starch catabolic process](http://purl.obolibrary.org/obo/GO_2000881) SubClassOf [regulation of polysaccharide metabolic process](http://purl.obolibrary.org/obo/GO_0032881) 
+
+
+### regulation of starch metabolic process `http://purl.obolibrary.org/obo/GO_2000904`
+#### Removed
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of starch metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of starch metabolic process" 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [starch metabolic process](http://purl.obolibrary.org/obo/GO_0005982)) 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) SubClassOf [regulation of polysaccharide metabolic process](http://purl.obolibrary.org/obo/GO_0032881) 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [starch metabolic process](http://purl.obolibrary.org/obo/GO_0005982) 
+
+#### Added
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of starch biosynthetic process](http://purl.obolibrary.org/obo/GO_0010581) 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of starch catabolic process](http://purl.obolibrary.org/obo/GO_2000881) 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of starch metabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of starch metabolic process" 
 
 
 ### regulation of substrate adhesion-dependent cell spreading `http://purl.obolibrary.org/obo/GO_1900024`
