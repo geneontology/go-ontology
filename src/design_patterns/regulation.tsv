@@ -63,6 +63,7 @@ http://purl.obolibrary.org/obo/GO_0140215	regulation of D-aspartate import acros
 http://purl.obolibrary.org/obo/GO_0046324	regulation of D-glucose import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098708	D-glucose import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0010827	regulation of D-glucose transmembrane transport	http://purl.obolibrary.org/obo/GO_1904659	D-glucose transmembrane transport
 http://purl.obolibrary.org/obo/GO_0043469	regulation of D-xylose catabolic process	http://purl.obolibrary.org/obo/GO_0042843	D-xylose catabolic process
+http://purl.obolibrary.org/obo/GO_1900515	regulation of D-xylose fermentation	http://purl.obolibrary.org/obo/GO_0044577	D-xylose fermentation
 http://purl.obolibrary.org/obo/GO_1904523	regulation of DNA amplification	http://purl.obolibrary.org/obo/GO_0006277	DNA amplification
 http://purl.obolibrary.org/obo/GO_0051101	regulation of DNA binding	http://purl.obolibrary.org/obo/GO_0003677	DNA binding
 http://purl.obolibrary.org/obo/GO_2000278	regulation of DNA biosynthetic process	http://purl.obolibrary.org/obo/GO_0071897	DNA biosynthetic process
@@ -128,6 +129,7 @@ http://purl.obolibrary.org/obo/GO_0062132	regulation of L-glutamine biosynthetic
 http://purl.obolibrary.org/obo/GO_1901034	regulation of L-glutamine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903803	L-glutamine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2001276	regulation of L-leucine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009098	L-leucine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905532	regulation of L-leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
+http://purl.obolibrary.org/obo/GO_1902986	regulation of L-lysine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009085	L-lysine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905008	regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905624	regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1902005	regulation of L-proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0055129	L-proline biosynthetic process
@@ -627,7 +629,6 @@ http://purl.obolibrary.org/obo/GO_0070608	regulation of cell wall (1->3)-alpha-g
 http://purl.obolibrary.org/obo/GO_0090334	regulation of cell wall (1->3)-beta-D-glucan biosynthetic process	http://purl.obolibrary.org/obo/GO_0034411	cell wall (1->3)-beta-D-glucan biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010981	regulation of cell wall macromolecule metabolic process	http://purl.obolibrary.org/obo/GO_0044036	cell wall macromolecule metabolic process
 http://purl.obolibrary.org/obo/GO_1903338	regulation of cell wall organization or biogenesis	http://purl.obolibrary.org/obo/GO_0071554	cell wall organization or biogenesis
-http://purl.obolibrary.org/obo/GO_1902066	regulation of cell wall pectin metabolic process	http://purl.obolibrary.org/obo/GO_0052546	cell wall pectin metabolic process
 http://purl.obolibrary.org/obo/GO_2000966	regulation of cell wall polysaccharide catabolic process	http://purl.obolibrary.org/obo/GO_0044347	cell wall polysaccharide catabolic process
 http://purl.obolibrary.org/obo/GO_0022407	regulation of cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0098609	cell-cell adhesion
 http://purl.obolibrary.org/obo/GO_0070587	regulation of cell-cell adhesion involved in gastrulation	http://purl.obolibrary.org/obo/GO_0070586	cell-cell adhesion involved in gastrulation
@@ -708,7 +709,6 @@ http://purl.obolibrary.org/obo/GO_1904365	regulation of chemokinesis	http://purl
 http://purl.obolibrary.org/obo/GO_0050920	regulation of chemotaxis	http://purl.obolibrary.org/obo/GO_0006935	chemotaxis
 http://purl.obolibrary.org/obo/GO_1904552	regulation of chemotaxis to arachidonate	http://purl.obolibrary.org/obo/GO_0034670	chemotaxis to arachidonate
 http://purl.obolibrary.org/obo/GO_0032883	regulation of chitin biosynthetic process	http://purl.obolibrary.org/obo/GO_0006031	chitin biosynthetic process
-http://purl.obolibrary.org/obo/GO_0032882	regulation of chitin metabolic process	http://purl.obolibrary.org/obo/GO_0006030	chitin metabolic process
 http://purl.obolibrary.org/obo/GO_0007564	regulation of chitin-based cuticle tanning	http://purl.obolibrary.org/obo/GO_0007593	chitin-based cuticle sclerotization
 http://purl.obolibrary.org/obo/GO_2001225	regulation of chloride transport	http://purl.obolibrary.org/obo/GO_0006821	chloride transport
 http://purl.obolibrary.org/obo/GO_0010380	regulation of chlorophyll biosynthetic process	http://purl.obolibrary.org/obo/GO_0015995	chlorophyll biosynthetic process
@@ -754,7 +754,7 @@ http://purl.obolibrary.org/obo/GO_1905443	regulation of clathrin coat assembly	h
 http://purl.obolibrary.org/obo/GO_2000369	regulation of clathrin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0072583	clathrin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_0070796	regulation of cleistothecium development	http://purl.obolibrary.org/obo/GO_0070791	cleistothecium development
 http://purl.obolibrary.org/obo/GO_0050818	regulation of coagulation	http://purl.obolibrary.org/obo/GO_0050817	coagulation
-http://purl.obolibrary.org/obo/GO_0106064	regulation of cobalamin catabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
+http://purl.obolibrary.org/obo/GO_0106064	regulation of cobalamin catabolic process	http://purl.obolibrary.org/obo/GO_0042366	cobalamin catabolic process
 http://purl.obolibrary.org/obo/GO_0080020	regulation of coenzyme A biosynthetic process	http://purl.obolibrary.org/obo/GO_0015937	coenzyme A biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900288	regulation of coenzyme F420-dependent bicyclic nitroimidazole catabolic process	http://purl.obolibrary.org/obo/GO_0052799	coenzyme F420-dependent bicyclic nitroimidazole catabolic process
 http://purl.obolibrary.org/obo/GO_0120161	regulation of cold-induced thermogenesis	http://purl.obolibrary.org/obo/GO_0106106	cold-induced thermogenesis
@@ -1149,7 +1149,6 @@ http://purl.obolibrary.org/obo/GO_2000849	regulation of glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_2000898	regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
 http://purl.obolibrary.org/obo/GO_0035430	regulation of gluconate transmembrane transport	http://purl.obolibrary.org/obo/GO_0035429	gluconate transmembrane transport
 http://purl.obolibrary.org/obo/GO_0006111	regulation of gluconeogenesis	http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis
-http://purl.obolibrary.org/obo/GO_1904023	regulation of glucose catabolic process to lactate via pyruvate	http://purl.obolibrary.org/obo/GO_0019244	pyruvate fermentation to lactate
 http://purl.obolibrary.org/obo/GO_1902659	regulation of glucose mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0010255	glucose mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0010906	regulation of glucose metabolic process	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
 http://purl.obolibrary.org/obo/GO_0010439	regulation of glucosinolate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019761	glucosinolate biosynthetic process
@@ -1171,7 +1170,6 @@ http://purl.obolibrary.org/obo/GO_1904624	regulation of glycine secretion, neuro
 http://purl.obolibrary.org/obo/GO_2000465	regulation of glycogen (starch) synthase activity	http://purl.obolibrary.org/obo/GO_0004373	alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity
 http://purl.obolibrary.org/obo/GO_0005979	regulation of glycogen biosynthetic process	http://purl.obolibrary.org/obo/GO_0005978	glycogen biosynthetic process
 http://purl.obolibrary.org/obo/GO_0005981	regulation of glycogen catabolic process	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
-http://purl.obolibrary.org/obo/GO_0070873	regulation of glycogen metabolic process	http://purl.obolibrary.org/obo/GO_0005977	glycogen metabolic process
 http://purl.obolibrary.org/obo/GO_0006110	regulation of glycolysis	http://purl.obolibrary.org/obo/GO_0006096	glycolysis
 http://purl.obolibrary.org/obo/GO_0010559	regulation of glycoprotein biosynthetic process	http://purl.obolibrary.org/obo/GO_0009101	glycoprotein biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903018	regulation of glycoprotein metabolic process	http://purl.obolibrary.org/obo/GO_0009100	glycoprotein metabolic process
@@ -1512,7 +1510,6 @@ http://purl.obolibrary.org/obo/GO_2000401	regulation of lymphocyte migration	htt
 http://purl.obolibrary.org/obo/GO_0050670	regulation of lymphocyte proliferation	http://purl.obolibrary.org/obo/GO_0046651	lymphocyte proliferation
 http://purl.obolibrary.org/obo/GO_1905456	regulation of lymphoid progenitor cell differentiation	http://purl.obolibrary.org/obo/GO_0002320	lymphoid progenitor cell differentiation
 http://purl.obolibrary.org/obo/GO_0032681	regulation of lymphotoxin A production	http://purl.obolibrary.org/obo/GO_0032641	lymphotoxin A production
-http://purl.obolibrary.org/obo/GO_1902986	regulation of lysine biosynthetic process via aminoadipic acid	http://purl.obolibrary.org/obo/GO_0009085	L-lysine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905165	regulation of lysosomal protein catabolic process	http://purl.obolibrary.org/obo/GO_1905146	lysosomal protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905671	regulation of lysosome organization	http://purl.obolibrary.org/obo/GO_0007040	lysosome organization
 http://purl.obolibrary.org/obo/GO_0031440	regulation of mRNA 3'-end processing	http://purl.obolibrary.org/obo/GO_0031124	mRNA 3'-end processing
@@ -2254,6 +2251,7 @@ http://purl.obolibrary.org/obo/GO_1900397	regulation of pyrimidine nucleotide bi
 http://purl.obolibrary.org/obo/GO_1903930	regulation of pyrimidine-containing compound salvage	http://purl.obolibrary.org/obo/GO_0008655	pyrimidine-containing compound salvage
 http://purl.obolibrary.org/obo/GO_0010510	regulation of pyruvate decarboxylation to acetyl-CoA	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
 http://purl.obolibrary.org/obo/GO_2001154	regulation of pyruvate fermentation to ethanol	http://purl.obolibrary.org/obo/GO_0019655	pyruvate fermentation to ethanol
+http://purl.obolibrary.org/obo/GO_1904023	regulation of pyruvate fermentation to lactate	http://purl.obolibrary.org/obo/GO_0019244	pyruvate fermentation to lactate
 http://purl.obolibrary.org/obo/GO_1903302	regulation of pyruvate kinase activity	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity
 http://purl.obolibrary.org/obo/GO_1904984	regulation of quinolinate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019805	quinolinate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0061187	regulation of rDNA heterochromatin formation	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin formation
@@ -2514,7 +2512,6 @@ http://purl.obolibrary.org/obo/GO_1903670	regulation of sprouting angiogenesis	h
 http://purl.obolibrary.org/obo/GO_0048686	regulation of sprouting of injured axon	http://purl.obolibrary.org/obo/GO_0048682	sprouting of injured axon
 http://purl.obolibrary.org/obo/GO_0010581	regulation of starch biosynthetic process	http://purl.obolibrary.org/obo/GO_0019252	starch biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000881	regulation of starch catabolic process	http://purl.obolibrary.org/obo/GO_0005983	starch catabolic process
-http://purl.obolibrary.org/obo/GO_2000904	regulation of starch metabolic process	http://purl.obolibrary.org/obo/GO_0005982	starch metabolic process
 http://purl.obolibrary.org/obo/GO_1900512	regulation of starch utilization system complex assembly	http://purl.obolibrary.org/obo/GO_0044574	starch utilization system complex assembly
 http://purl.obolibrary.org/obo/GO_2000736	regulation of stem cell differentiation	http://purl.obolibrary.org/obo/GO_0048863	stem cell differentiation
 http://purl.obolibrary.org/obo/GO_2000035	regulation of stem cell division	http://purl.obolibrary.org/obo/GO_0017145	stem cell division
@@ -2824,7 +2821,6 @@ http://purl.obolibrary.org/obo/GO_1905699	regulation of xenobiotic detoxificatio
 http://purl.obolibrary.org/obo/GO_1904415	regulation of xenophagy	http://purl.obolibrary.org/obo/GO_0098792	xenophagy
 http://purl.obolibrary.org/obo/GO_2001000	regulation of xylan catabolic process	http://purl.obolibrary.org/obo/GO_0045493	xylan catabolic process
 http://purl.obolibrary.org/obo/GO_2000951	regulation of xyloglucan catabolic process	http://purl.obolibrary.org/obo/GO_2000899	xyloglucan catabolic process
-http://purl.obolibrary.org/obo/GO_1900515	regulation of xylose catabolic process to ethanol	http://purl.obolibrary.org/obo/GO_0044577	D-xylose fermentation
 http://purl.obolibrary.org/obo/GO_0071581	regulation of zinc ion transmembrane import	http://purl.obolibrary.org/obo/GO_0071578	zinc ion import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0071580	regulation of zinc ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0071577	zinc ion transmembrane transport
 http://purl.obolibrary.org/obo/GO_0071579	regulation of zinc ion transport	http://purl.obolibrary.org/obo/GO_0006829	zinc ion transport
