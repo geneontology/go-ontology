@@ -53531,6 +53531,7 @@ alt_id: GO:0005317
 alt_id: GO:1901677
 def: "Enables the transfer of phosphate ions from one side of a membrane to the other, up its concentration gradient. The transporter binds the solute and undergoes a series of conformational changes. Transport works equally well in either direction and is driven by a chemiosmotic source of energy. Secondary active transporters include symporters and antiporters." [GOC:mtg_transport]
 synonym: "inorganic phosphate transmembrane transporter activity" EXACT []
+xref: RHEA:32823 {source="skos:narrowMatch"}
 is_a: GO:0015291 ! secondary active transmembrane transporter activity
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:43474 ! hydrogenphosphate
@@ -53894,6 +53895,7 @@ alt_id: GO:0019192
 def: "Enables the transfer of fructose from one side of a membrane to the other. Fructose exists in a open chain form or as a ring compound. D-fructose is the sweetest of the sugars and is found free in a large number of fruits and honey." [GOC:ai, GOC:mtg_transport, ISBN:0815340729]
 synonym: "fructose permease activity" EXACT []
 synonym: "fructose porter activity" EXACT []
+xref: RHEA:60372 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:28757 ! fructose
 relationship: part_of GO:0015755 ! fructose transmembrane transport
@@ -53904,6 +53906,7 @@ name: galactose transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of galactose from one side of a membrane to the other. D-galactose is widely distributed in combined form in plants, animals and microorganisms as a constituent of oligo- and polysaccharides; it also occurs in galactolipids and as its glucoside in lactose and melibiose." [GOC:ai, GOC:mtg_transport, ISBN:0815340729]
 synonym: "galactose/glucose (methylgalactoside) porter activity" RELATED []
+xref: RHEA:34915 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:28260 ! galactose
 relationship: part_of GO:0015757 ! galactose transmembrane transport
@@ -54100,6 +54103,7 @@ id: GO:0005372
 name: water transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of water (H2O) from one side of a membrane to the other." [GOC:ai]
+xref: RHEA:29667 {source="skos:narrowMatch"}
 is_a: GO:0022857 ! transmembrane transporter activity
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:15377 ! water
@@ -113580,6 +113584,7 @@ namespace: molecular_function
 def: "Enables the transfer of a proton from one side of a membrane to the other." [GOC:ai]
 synonym: "hydrogen ion transmembrane transporter activity" EXACT []
 synonym: "proton transporter activity" EXACT []
+xref: RHEA:34979 {source="skos:narrowMatch"}
 intersection_of: GO:0005215 ! transporter activity
 intersection_of: has_primary_input CHEBI:15378 ! hydron
 intersection_of: results_in_transport_across GO:0016020 ! membrane
@@ -113595,6 +113600,7 @@ def: "Enables the transfer of potassium ions (K+) from one side of a membrane to
 synonym: "potassium transporter activity" EXACT []
 synonym: "potassium uptake permease activity" RELATED []
 synonym: "potassium uptake transmembrane transporter activity" RELATED []
+xref: RHEA:29463 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:29103 ! potassium(1+)
 relationship: part_of GO:0071805 {source="GO_REF:0000090"} ! potassium ion transmembrane transport
@@ -113617,6 +113623,7 @@ namespace: molecular_function
 alt_id: GO:0022816
 def: "Enables the transfer of sodium ions (Na+) from one side of a membrane to the other." [GOC:ai, GOC:BHF]
 synonym: "sodium transporter activity" EXACT []
+xref: RHEA:34963 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:29101 ! sodium(1+)
 relationship: part_of GO:0035725 ! sodium ion transmembrane transport
@@ -113642,6 +113649,7 @@ name: calcium ion transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of calcium (Ca) ions from one side of a membrane to the other." [GOC:dgf]
 xref: MetaCyc:TRANS-RXN-144
+xref: RHEA:29671 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:29108 ! calcium(2+)
 relationship: part_of GO:0070588 ! calcium ion transmembrane transport
@@ -113842,6 +113850,7 @@ name: bicarbonate transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of bicarbonate from one side of a membrane to the other. Bicarbonate is the hydrogencarbonate ion, HCO3-." [GOC:ai]
 synonym: "hydrogencarbonate transmembrane transporter activity" EXACT []
+xref: RHEA:28695 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:17544 ! hydrogencarbonate
 relationship: part_of GO:0015701 ! bicarbonate transport
@@ -113869,6 +113878,7 @@ synonym: "chloride ABC transporter" NARROW []
 synonym: "chloride ion transmembrane transporter activity" EXACT [GOC:pr]
 synonym: "chloride transporting ATPase activity" NARROW []
 synonym: "chloride-transporting ATPase activity" NARROW []
+xref: RHEA:29823 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:17996 ! chloride
 relationship: part_of GO:1902476 ! chloride transmembrane transport
@@ -113899,6 +113909,7 @@ id: GO:0015111
 name: iodide transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of iodide ions from one side of a membrane to the other." [GOC:ai]
+xref: RHEA:66324 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:16382 ! iodide
 relationship: part_of GO:0015705 ! iodide transport
@@ -114442,6 +114453,7 @@ id: GO:0015168
 name: glycerol transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of glycerol from one side of a membrane to the other. Glycerol is 1,2,3-propanetriol, a sweet, hygroscopic, viscous liquid, widely distributed in nature as a constituent of many lipids." [GOC:ai]
+xref: RHEA:29675 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:17754 ! glycerol
 relationship: part_of GO:0015793 ! glycerol transmembrane transport
@@ -114783,6 +114795,7 @@ namespace: molecular_function
 alt_id: GO:0015287
 def: "Enables the transfer of urea from one side of a membrane to the other. Urea is the water soluble compound H2N-CO-NH2." [ISBN:0198506732]
 synonym: "urea transporter activity" BROAD []
+xref: RHEA:32799 {source="skos:narrowMatch"}
 intersection_of: GO:0005215 ! transporter activity
 intersection_of: has_primary_input CHEBI:16199 ! urea
 intersection_of: results_in_transport_across GO:0016020 ! membrane
@@ -353273,6 +353286,7 @@ name: D-glucose transmembrane transporter activity
 namespace: molecular_function
 alt_id: GO:0015579
 def: "Enables the transfer of the D-enantiomer of the hexose monosaccharide glucose from one side of a membrane to the other." [GOC:jid, GOC:jsg, GOC:mah]
+xref: RHEA:60376 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:4167 ! D-glucopyranose
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27326" xsd:anyURI
