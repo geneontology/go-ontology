@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-11-20go.owl-statistics
+id: obo:go/releases/2026-11-21go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-11-20go.owl
+  version: obo:go/releases/2026-11-21go.owl
 was_generated_by:
-  started_at_time: '2026-11-20T05:48:56.275050'
+  started_at_time: '2026-11-21T05:43:19.379449'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -47,16 +47,16 @@ partitions:
     synonym_statement_count: 94485
     change_summary:
       NodeTextDefinitionChange: 392
-      NodeRename: 298
       EdgeCreation: 756
-      NodeUnobsoletion: 245
-      RemoveSynonym: 163
       RemoveMapping: 79
-      NodeDeletion: 45
+      RemoveSynonym: 163
       EdgeDeletion: 260
+      NodeRename: 298
+      NodeUnobsoletion: 245
+      RemoveNodeFromSubset: 25
+      NodeDeletion: 45
       MappingCreation: 51
       NewSynonym: 166
-      RemoveNodeFromSubset: 25
       NodeObsoletion: 1
       AddNodeToSubset: 2
       All_Obsoletion: 1
@@ -95,17 +95,17 @@ partitions:
     synonym_statement_count: 29967
     change_summary:
       MappingCreation: 6774
-      RemoveMapping: 216
-      NodeDeletion: 56
       EdgeDeletion: 148
       NodeTextDefinitionChange: 141
-      RemoveSynonym: 94
       NodeRename: 78
-      EdgeCreation: 100
-      NewSynonym: 46
-      NodeUnobsoletion: 37
-      RemoveNodeFromSubset: 1
+      RemoveMapping: 216
+      RemoveSynonym: 94
       NodeObsoletionWithDirectReplacement: 1
+      EdgeCreation: 100
+      NodeUnobsoletion: 37
+      NodeDeletion: 56
+      NewSynonym: 46
+      RemoveNodeFromSubset: 1
       All_Obsoletion: 1
       All_Synonym: 140
     edge_count: 13576
@@ -129,16 +129,16 @@ partitions:
     distinct_synonym_count: 5136
     synonym_statement_count: 5335
     change_summary:
-      NodeTextDefinitionChange: 30
-      NodeRename: 6
       EdgeDeletion: 21
       EdgeCreation: 15
-      RemoveSynonym: 4
-      NewSynonym: 4
+      NodeTextDefinitionChange: 30
+      NodeRename: 6
+      NodeUnobsoletion: 3
       NodeDeletion: 9
       RemoveMapping: 2
       MappingCreation: 2
-      NodeUnobsoletion: 3
+      RemoveSynonym: 4
+      NewSynonym: 4
       RemoveNodeFromSubset: 1
       All_Obsoletion: 0
       All_Synonym: 8
