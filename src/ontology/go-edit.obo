@@ -354677,17 +354677,22 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0060071
-name: Wnt signaling pathway, planar cell polarity pathway
+name: obsolete Wnt signaling pathway, planar cell polarity pathway
 namespace: biological_process
-def: "A type of non-canonical Wnt signaling pathway in which Wnt binding to its receptor on the surface of a target cell results in the activation small G proteins such as Rho, Rac, and Cdc42 which, in turn activate effectors, including C-Jun N-terminal kinase (JNK) and Rho kinase (Rok). The signaling ends with change in the transcription of target genes and/or reorganisation of the cytoskeleton." [PMID:11532397, PMID:25349257, PMID:28293032, PMID:37804416]
+def: "OBSOLETE. A type of non-canonical Wnt signaling pathway in which Wnt binding to its receptor on the surface of a target cell results in the activation small G proteins such as Rho, Rac, and Cdc42 which, in turn activate effectors, including C-Jun N-terminal kinase (JNK) and Rho kinase (Rok). The signaling ends with change in the transcription of target genes and/or reorganisation of the cytoskeleton." [PMID:11532397, PMID:25349257, PMID:28293032, PMID:37804416]
+comment: The reason for obsoletion is that Wnt/PCP signaling does not exist as a separate signaling process; rather, the Wnt component can regulate planar cell polarity in some systems.
 synonym: "non-canonical Wnt signaling pathway" RELATED [GOC:bf]
 synonym: "Wnt receptor signaling pathway, planar cell polarity pathway" EXACT []
 synonym: "Wnt receptor signalling pathway, planar cell polarity pathway" EXACT []
 synonym: "Wnt-activated signaling pathway, planar cell polarity pathway" EXACT [GOC:signaling]
 synonym: "Wnt-JNK signaling pathway" RELATED [GOC:bf]
 synonym: "Wnt-PCP signaling pathway" RELATED [GOC:rph]
-is_a: GO:0035567 ! non-canonical Wnt signaling pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26335" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
+consider: GO:0035567
+consider: GO:7770140
 
 [Term]
 id: GO:0060072
@@ -478960,12 +478965,15 @@ creation_date: 2023-10-31T12:21:09Z
 
 [Term]
 id: GO:0141113
-name: negative regulation of Wnt signaling pathway, planar cell polarity pathway
+name: obsolete negative regulation of Wnt signaling pathway, planar cell polarity pathway
 namespace: biological_process
-def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the Wnt signaling pathway, planar cell polarity pathway." [PMID:19056682]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0060071 ! Wnt signaling pathway, planar cell polarity pathway
+def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the Wnt signaling pathway, planar cell polarity pathway." [PMID:19056682]
+comment: The reason for obsoletion is that Wnt/PCP signaling does not exist as a separate signaling process; rather, the Wnt component can regulate planar cell polarity in some systems.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26394" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:2000051
+consider: GO:7770161
 created_by: pg
 creation_date: 2023-11-10T10:33:34Z
 
@@ -575051,7 +575059,7 @@ synonym: "Wnt-PCP signaling pathway involved in axon pathfinding" RELATED [GOC:T
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25766" xsd:anyURI
 is_obsolete: true
 consider: GO:0007411
-consider: GO:0060071
+consider: GO:0001736
 created_by: bf
 creation_date: 2016-02-02T14:46:26Z
 
@@ -575553,7 +575561,7 @@ synonym: "Wnt-PCP signaling pathway involved in midbrain dopaminergic neuron dif
 synonym: "Wnt-PCP signaling pathway involved in midbrain dopaminergic neuron production" RELATED [GOC:TermGenie]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25766" xsd:anyURI
 is_obsolete: true
-consider: GO:0060071
+consider: GO:0001736
 consider: GO:1904948
 created_by: bf
 creation_date: 2016-02-09T11:04:56Z
@@ -606308,9 +606316,10 @@ creation_date: 2010-09-03T06:12:28Z
 
 [Term]
 id: GO:2000095
-name: regulation of Wnt signaling pathway, planar cell polarity pathway
+name: obsolete regulation of Wnt signaling pathway, planar cell polarity pathway
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." [GOC:BHF]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." [GOC:BHF]
+comment: The reason for obsoletion is that Wnt/PCP signaling does not exist as a separate signaling process; rather, the Wnt component can regulate planar cell polarity in some systems.
 synonym: "regulation of non-canonical Wnt signaling pathway" RELATED [GOC:obol]
 synonym: "regulation of PCP pathway" EXACT [GOC:obol]
 synonym: "regulation of Wnt receptor signaling pathway, planar cell polarity pathway" EXACT []
@@ -606318,16 +606327,19 @@ synonym: "regulation of Wnt receptor signalling pathway, planar cell polarity pa
 synonym: "regulation of Wnt-activated signaling pathway, planar cell polarity pathway" EXACT [GOC:signaling]
 synonym: "regulation of Wnt-JNK signaling pathway" RELATED [GOC:obol]
 synonym: "regulation of Wnt-PCP signaling pathway" RELATED [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0060071 ! Wnt signaling pathway, planar cell polarity pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0090175
+consider: GO:2000050
 created_by: jl
 creation_date: 2010-09-08T01:07:39Z
 
 [Term]
 id: GO:2000096
-name: positive regulation of Wnt signaling pathway, planar cell polarity pathway
+name: obsolete positive regulation of Wnt signaling pathway, planar cell polarity pathway
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." [GOC:BHF]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." [GOC:BHF]
+comment: The reason for obsoletion is that Wnt/PCP signaling does not exist as a separate signaling process; rather, the Wnt component can regulate planar cell polarity in some systems.
 synonym: "positive regulation of non-canonical Wnt signaling pathway" RELATED [GOC:obol]
 synonym: "positive regulation of PCP pathway" EXACT [GOC:obol]
 synonym: "positive regulation of Wnt receptor signaling pathway, planar cell polarity pathway" EXACT []
@@ -606335,8 +606347,10 @@ synonym: "positive regulation of Wnt receptor signalling pathway, planar cell po
 synonym: "positive regulation of Wnt-activated signaling pathway, planar cell polarity pathway" EXACT [GOC:signaling]
 synonym: "positive regulation of Wnt-JNK signaling pathway" RELATED [GOC:obol]
 synonym: "positive regulation of Wnt-PCP signaling pathway" RELATED [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0060071 ! Wnt signaling pathway, planar cell polarity pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:2000052
+consider: GO:7770160
 created_by: jl
 creation_date: 2010-09-08T01:07:42Z
 
@@ -606964,7 +606978,7 @@ comment: This term was obsoleted because it represents a GO-CAM model.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25766" xsd:anyURI
 is_obsolete: true
 consider: GO:0060412
-consider: GO:2000095
+consider: GO:0090175
 created_by: dph
 creation_date: 2010-10-01T07:09:49Z
 
@@ -606988,7 +607002,7 @@ comment: This term was obsoleted because it represents a GO-CAM model.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25766" xsd:anyURI
 is_obsolete: true
 consider: GO:0055008
-consider: GO:2000095
+consider: GO:0090175
 created_by: dph
 creation_date: 2010-10-01T07:11:11Z
 
@@ -607133,7 +607147,7 @@ comment: This term was obsoleted because it represents a GO-CAM model.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25766" xsd:anyURI
 is_obsolete: true
 consider: GO:0003213
-consider: GO:2000095
+consider: GO:0090175
 created_by: dph
 creation_date: 2010-10-05T01:05:21Z
 
@@ -607146,7 +607160,7 @@ comment: This term was obsoleted because it represents a GO-CAM model.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25766" xsd:anyURI
 is_obsolete: true
 consider: GO:0003209
-consider: GO:0141113
+consider: GO:7770161
 created_by: dph
 creation_date: 2010-10-05T01:05:24Z
 
@@ -607159,7 +607173,7 @@ comment: This term was obsoleted because it represents a GO-CAM model.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25766" xsd:anyURI
 is_obsolete: true
 consider: GO:0003151
-consider: GO:2000095
+consider: GO:0090175
 created_by: dph
 creation_date: 2010-10-05T01:06:13Z
 
@@ -607183,7 +607197,7 @@ comment: This term was obsoleted because it represents a GO-CAM model.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25766" xsd:anyURI
 is_obsolete: true
 consider: GO:0003344
-consider: GO:2000095
+consider: GO:0090175
 created_by: dph
 creation_date: 2010-10-05T01:07:36Z
 
