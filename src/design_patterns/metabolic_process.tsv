@@ -59,12 +59,8 @@ http://purl.obolibrary.org/obo/GO_0019852	L-ascorbic acid metabolic process	http
 http://purl.obolibrary.org/obo/GO_0042354	L-fucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_2181	L-fucopyranose
 http://purl.obolibrary.org/obo/GO_0006541	L-glutamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58359	L-glutamine zwitterion
 http://purl.obolibrary.org/obo/GO_0009092	L-homoserine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57476	L-homoserine zwitterion
-http://purl.obolibrary.org/obo/GO_0006551	L-leucine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57427	L-leucine zwitterion
 http://purl.obolibrary.org/obo/GO_0019324	L-lyxose metabolic process	http://purl.obolibrary.org/obo/CHEBI_28480	aldehydo-L-lyxose
-http://purl.obolibrary.org/obo/GO_0006555	L-methionine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57844	L-methionine zwitterion
 http://purl.obolibrary.org/obo/GO_0046491	L-methylmalonyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_57326	(R)-methylmalonyl-CoA(5-)
-http://purl.obolibrary.org/obo/GO_0006560	L-proline metabolic process	http://purl.obolibrary.org/obo/CHEBI_60039	L-proline zwitterion
-http://purl.obolibrary.org/obo/GO_0006563	L-serine metabolic process	http://purl.obolibrary.org/obo/CHEBI_33384	L-serine zwitterion
 http://purl.obolibrary.org/obo/GO_0006566	L-threonine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57926	L-threonine zwitterion
 http://purl.obolibrary.org/obo/GO_0019720	Mo-molybdopterin cofactor metabolic process	http://purl.obolibrary.org/obo/CHEBI_21437	Mo-molybdopterin cofactor
 http://purl.obolibrary.org/obo/GO_0097172	N-acetylmuramic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_47978	N-acetylmuramate
@@ -122,11 +118,9 @@ http://purl.obolibrary.org/obo/GO_0042868	antisense RNA metabolic process	http:/
 http://purl.obolibrary.org/obo/GO_0031221	arabinan metabolic process	http://purl.obolibrary.org/obo/CHEBI_22590	arabinan
 http://purl.obolibrary.org/obo/GO_0019566	arabinose metabolic process	http://purl.obolibrary.org/obo/CHEBI_22599	arabinose
 http://purl.obolibrary.org/obo/GO_0019369	arachidonate metabolic process	http://purl.obolibrary.org/obo/CHEBI_32395	arachidonate
-http://purl.obolibrary.org/obo/GO_0006525	arginine metabolic process	http://purl.obolibrary.org/obo/CHEBI_32696	argininium(1+)
 http://purl.obolibrary.org/obo/GO_0009072	aromatic amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_33856	aromatic amino acid
 http://purl.obolibrary.org/obo/GO_1902654	aromatic primary alcohol metabolic process	http://purl.obolibrary.org/obo/CHEBI_33857	aromatic primary alcohol
 http://purl.obolibrary.org/obo/GO_0018872	arsonoacetate metabolic process	http://purl.obolibrary.org/obo/CHEBI_28506	arsonoacetic acid
-http://purl.obolibrary.org/obo/GO_0006531	aspartate metabolic process	http://purl.obolibrary.org/obo/CHEBI_35391	aspartate(1-)
 http://purl.obolibrary.org/obo/GO_0036182	asperthecin metabolic process	http://purl.obolibrary.org/obo/CHEBI_64161	asperthecin
 http://purl.obolibrary.org/obo/GO_0009850	auxin metabolic process	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
 http://purl.obolibrary.org/obo/GO_0046224	bacteriocin metabolic process	http://purl.obolibrary.org/obo/CHEBI_48081	bacteriocin
@@ -158,7 +152,6 @@ http://purl.obolibrary.org/obo/GO_0018885	carbon tetrachloride metabolic process
 http://purl.obolibrary.org/obo/GO_0019752	carboxylic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_29067	carboxylic acid anion
 http://purl.obolibrary.org/obo/GO_0032048	cardiolipin metabolic process	http://purl.obolibrary.org/obo/CHEBI_62237	cardiolipin(2-)
 http://purl.obolibrary.org/obo/GO_0009437	carnitine metabolic process	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
-http://purl.obolibrary.org/obo/GO_0035498	carnosine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57485	carnosine zwitterion
 http://purl.obolibrary.org/obo/GO_0016119	carotene metabolic process	http://purl.obolibrary.org/obo/CHEBI_23042	carotene
 http://purl.obolibrary.org/obo/GO_0016116	carotenoid metabolic process	http://purl.obolibrary.org/obo/CHEBI_23044	carotenoid
 http://purl.obolibrary.org/obo/GO_0009712	catechol-containing compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_33566	catechols
@@ -302,14 +295,12 @@ http://purl.obolibrary.org/obo/GO_0006678	glucosylceramide metabolic process	htt
 http://purl.obolibrary.org/obo/GO_0051472	glucosylglycerol metabolic process	http://purl.obolibrary.org/obo/CHEBI_24287	glucosylglycerol
 http://purl.obolibrary.org/obo/GO_0019585	glucuronate metabolic process	http://purl.obolibrary.org/obo/CHEBI_24297	glucuronate
 http://purl.obolibrary.org/obo/GO_0010413	glucuronoxylan metabolic process	http://purl.obolibrary.org/obo/CHEBI_60938	glucuronoxylan
-http://purl.obolibrary.org/obo/GO_0006536	glutamate metabolic process	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)
 http://purl.obolibrary.org/obo/GO_0006749	glutathione metabolic process	http://purl.obolibrary.org/obo/CHEBI_57925	glutathionate(1-)
 http://purl.obolibrary.org/obo/GO_0019682	glyceraldehyde-3-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_58027	glyceraldehyde 3-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0006071	glycerol metabolic process	http://purl.obolibrary.org/obo/CHEBI_17754	glycerol
 http://purl.obolibrary.org/obo/GO_0006072	glycerol-3-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57597	sn-glycerol 3-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0046486	glycerolipid metabolic process	http://purl.obolibrary.org/obo/CHEBI_35741	glycerolipid
 http://purl.obolibrary.org/obo/GO_0006650	glycerophospholipid metabolic process	http://purl.obolibrary.org/obo/CHEBI_37739	glycerophospholipid
-http://purl.obolibrary.org/obo/GO_0006544	glycine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57305	glycine zwitterion
 http://purl.obolibrary.org/obo/GO_0005977	glycogen metabolic process	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen
 http://purl.obolibrary.org/obo/GO_0042844	glycol metabolic process	http://purl.obolibrary.org/obo/CHEBI_13643	glycol
 http://purl.obolibrary.org/obo/GO_0009441	glycolate metabolic process	http://purl.obolibrary.org/obo/CHEBI_29805	glycolate
@@ -336,7 +327,6 @@ http://purl.obolibrary.org/obo/GO_0046458	hexadecanal metabolic process	http://p
 http://purl.obolibrary.org/obo/GO_0006059	hexitol metabolic process	http://purl.obolibrary.org/obo/CHEBI_24583	hexitol
 http://purl.obolibrary.org/obo/GO_0019318	hexose metabolic process	http://purl.obolibrary.org/obo/CHEBI_18133	hexose
 http://purl.obolibrary.org/obo/GO_0001692	histamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58432	histaminium
-http://purl.obolibrary.org/obo/GO_0050667	homocysteine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58065	homocysteine zwitterion
 http://purl.obolibrary.org/obo/GO_0010394	homogalacturonan metabolic process	http://purl.obolibrary.org/obo/CHEBI_60190	homogalacturonan
 http://purl.obolibrary.org/obo/GO_0042445	hormone metabolic process	http://purl.obolibrary.org/obo/GOCHE_24621	substance with hormone role
 http://purl.obolibrary.org/obo/GO_0030212	hyaluronan metabolic process	http://purl.obolibrary.org/obo/CHEBI_16336	hyaluronic acid
@@ -467,7 +457,6 @@ http://purl.obolibrary.org/obo/GO_0090345	organohalogen metabolic process	http:/
 http://purl.obolibrary.org/obo/GO_0018942	organometal metabolic process	http://purl.obolibrary.org/obo/CHEBI_25707	organometallic compound
 http://purl.obolibrary.org/obo/GO_0019637	organophosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_25710	organophosphorus compound
 http://purl.obolibrary.org/obo/GO_1900819	orlandin metabolic process	http://purl.obolibrary.org/obo/CHEBI_145992	orlandin(1-)
-http://purl.obolibrary.org/obo/GO_0006591	ornithine metabolic process	http://purl.obolibrary.org/obo/CHEBI_46912	ornithinium(1+)
 http://purl.obolibrary.org/obo/GO_0033609	oxalate metabolic process	http://purl.obolibrary.org/obo/CHEBI_30623	oxalate(2-)
 http://purl.obolibrary.org/obo/GO_0006107	oxaloacetate metabolic process	http://purl.obolibrary.org/obo/CHEBI_16452	oxaloacetate(2-)
 http://purl.obolibrary.org/obo/GO_0043436	oxoacid metabolic process	http://purl.obolibrary.org/obo/CHEBI_35406	oxoanion
