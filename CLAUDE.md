@@ -62,6 +62,35 @@ If `~/bin` is not already on `PATH`, add it (`export PATH="$HOME/bin:$PATH"` in 
 
 Do not fall back to plain `grep` or to hand-editing `go-edit.obo` — that path is much slower and error-prone, and the rest of this guide assumes the tools are in place.
 
+## WORKING COPY: one git worktree per task (skip if running in a GitHub Action)
+
+Assume other agent sessions are using the same clone. A curator often runs several
+sessions at once, one per ticket, all started in the same `go-ontology` directory.
+A clone has a single HEAD, index and working tree, so if one session runs `git switch`,
+every other session's next commit lands on that branch. The same goes for edits to
+`go-edit.obo` and the contents of `terms/` (see #32968, where a commit for one ticket
+landed on another ticket's branch three seconds after it was created).
+
+So each ticket gets its own git worktree, and all of that ticket's work happens in it:
+
+```bash
+# from the main clone; never switch branches in the main clone itself
+git fetch origin
+git worktree add -b <branch> ../go-ontology-worktrees/<branch> origin/master
+cd ../go-ontology-worktrees/<branch>
+```
+
+- Run everything for the ticket from the worktree: `obo-grep.pl`, `obo-checkout.pl`/`obo-checkin.pl` (its `terms/` is private to it), the edits, commits, push and `gh pr create`. Don't `cd` back to the main clone. If a later step can't find `go-edit.obo`, go back to the worktree, not the main clone.
+- Never run `git checkout`/`git switch`/`git reset` in a working tree you did not create for this task. To work on an existing PR branch, add a worktree for it instead: `git worktree add ../go-ontology-worktrees/<branch> <branch>`. Git refuses to check out the same branch in two worktrees, and that refusal is the protection, so don't force it.
+- The stash is shared between all worktrees. Don't use `git stash`; make a temporary commit on your branch instead.
+- Make the branch check part of the same command as the commit, so a branch switch in between can't slip through:
+  `test "$(git branch --show-current)" = <branch> && git commit ...`
+- Push by name (`git push -u origin <branch>`). Before `gh pr create`, check that `git log --oneline origin/master..<branch>` lists exactly your commits.
+- Base every branch on `origin/master`, not on another open PR's branch.
+- When the work is finished (PR opened and nothing more to do locally), remove the worktree from the main clone: `git worktree remove ../go-ontology-worktrees/<branch>`. The branch stays on GitHub.
+
+A worktree shares the object store with the main clone. It is cheap to create and inherits sparse-checkout settings.
+
 ## PLAN: Analyze Issue, Plan Approach, and create a TODO/checklist
 
 Read the entire issue and all associated comments. Be aware that some issues may have auxhiliary discussions, your must first infer the
@@ -71,6 +100,7 @@ issue is hopelessly ambiguous, then write a note asking for clarification in the
 Create a plan for addressing the issue. The plan MUST have the following components (you can have more components depending on the nature of the issue)
 
 - [ ] PLAN: The issue and all its context has been analyzed, the intent is clear, and a plan for addressing it has been created
+- [ ] WORKING-COPY: A dedicated git worktree on a fresh branch from `origin/master` has been created for this issue, and all work happens there (see WORKING COPY; N/A in GitHub Actions)
 - [ ] PRE-VALIDATION: Current state of the ontology validates prior to any changes (if not, we can't validate our changes)
 - [ ] RESEARCH: If appropriate, necessary background research performed; always use /research for this, it produces a RESEARCH.md file
 - [ ] TERM-SEARCH: Relevant ontology terms (this ontology or others) have been consulted
@@ -93,6 +123,7 @@ Create a plan for addressing the issue. The plan MUST have the following compone
     - [ ] RELEVANT-FILES: changes to src/ontology/go-edit.obo and any other content file are committed with detailed messages and signatures
     - [ ] ACCURACY: The changes made are biologically correct, accurate, and reasonably complete; always use /research to obtain background material
     - [ ] ISSUE-ALIGNMENT: The changes made are in accordance with the issue request and forms a coherent unit of work;
+    - [ ] BRANCH-CHECK: commits were made with the branch verified in the same command, and `git log origin/master..<branch>` shows only this issue's commits before the PR is created
     - [ ] PR is created or amended
     - [ ] Communicate high level summary of changes on original issue(s), and any requests for further info 
     - [ ] Communicated on PR detailed description of changes made, and rationale. Include checklists.
@@ -136,7 +167,7 @@ The recommended way to find terms in `src/ontology/go-edit.obo` is using `obo-gr
 - `obo-grep.pl` is not a baseline command — it comes from the obo-scripts tooling (upstream `cmungall/obo-scripts`, also bundled in the `editing-obo-ontologies` skill) and is only on your PATH once that tooling is installed (or the skill is loaded). If you get `command not found`, install/locate it (`find ~ -name obo-grep.pl 2>/dev/null`, or clone `cmungall/obo-scripts`) and call it by full path — don't fall back to plain `grep`, which loses stanza-aware matching.
 - Only search over `src/ontology/go-edit.obo`
 
-Troubleshooting: if you can't find `go-edit.obo` it likely means you have changed folder, navigate back up to where the repo is checked out
+Troubleshooting: if you can't find `go-edit.obo` it likely means you have changed folder, navigate back up to the top of your worktree for this task (see WORKING COPY)
 
 ### Searching terms in other ontologies
 
