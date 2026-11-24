@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-23/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-24/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-23" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-24" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -3726,6 +3726,10 @@
 - [D-glucose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0055056) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-499981" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Transport of Extracellular Glucose to the Cytosol by GLUT1 and GLUT2" 
 
+#### Added
+- [D-glucose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0055056) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60376" 
+
+- [D-glucose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0055056) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60376](http://rdf.rhea-db.org/60376) 
 
 
 ### D-glucose:sodium symporter activity `http://purl.obolibrary.org/obo/GO_0005412`
@@ -9522,6 +9526,42 @@
 - [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "planar cell polarity pathway" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cjm" 
 
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A type of non-canonical Wnt signaling pathway in which Wnt binding to its receptor on the surface of a target cell results in the activation small G proteins such as Rho, Rac, and Cdc42 which, in turn activate effectors, including C-Jun N-terminal kinase (JNK) and Rho kinase (Rok). The signaling ends with change in the transcription of target genes and/or reorganisation of the cytoskeleton." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11532397" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25349257" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37804416" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28293032" 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [label](http://www.w3.org/2000/01/rdf-schema#label) "Wnt signaling pathway, planar cell polarity pathway" 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) SubClassOf [non-canonical Wnt signaling pathway](http://purl.obolibrary.org/obo/GO_0035567) 
+
+#### Added
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [non-canonical Wnt signaling pathway](http://purl.obolibrary.org/obo/GO_0035567) 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A type of non-canonical Wnt signaling pathway in which Wnt binding to its receptor on the surface of a target cell results in the activation small G proteins such as Rho, Rac, and Cdc42 which, in turn activate effectors, including C-Jun N-terminal kinase (JNK) and Rho kinase (Rok). The signaling ends with change in the transcription of target genes and/or reorganisation of the cytoskeleton." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11532397" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25349257" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37804416" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28293032" 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that Wnt/PCP signaling does not exist as a separate signaling process; rather, the Wnt component can regulate planar cell polarity in some systems." 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete Wnt signaling pathway, planar cell polarity pathway" 
 
 
 ### XMP salvage `http://purl.obolibrary.org/obo/GO_0032265`
@@ -13132,6 +13172,10 @@
 - [bicarbonate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2752067" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "BESTs transport cytosolic HCO3- to extracellular region" 
 
+#### Added
+- [bicarbonate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28695" 
+
+- [bicarbonate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [28695](http://rdf.rhea-db.org/28695) 
 
 
 ### bile acid binding `http://purl.obolibrary.org/obo/GO_0032052`
@@ -13529,6 +13573,10 @@
 - [calcium ion transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2534359" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CatSper Channel Mediated Calcium Transport" 
 
+#### Added
+- [calcium ion transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:29671" 
+
+- [calcium ion transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [29671](http://rdf.rhea-db.org/29671) 
 
 
 ### calcium sensitive guanylate cyclase activator activity `http://purl.obolibrary.org/obo/GO_0008048`
@@ -14944,6 +14992,10 @@
 - [chloride transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015108) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678992" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Ivacaftor:CFTR G551D transports Cl- from cytosol to extracellular region" 
 
+#### Added
+- [chloride transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015108) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:29823" 
+
+- [chloride transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015108) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [29823](http://rdf.rhea-db.org/29823) 
 
 
 ### chloroplast outer membrane translocon `http://purl.obolibrary.org/obo/GO_0010278`
@@ -19884,6 +19936,10 @@
 - [fructose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-189222" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC2A5 transports fructose from extracellular region to cytosol" 
 
+#### Added
+- [fructose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60372" 
+
+- [fructose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005353) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60372](http://rdf.rhea-db.org/60372) 
 
 
 ### fructose-1-phosphate aldolase activity `http://purl.obolibrary.org/obo/GO_0061609`
@@ -20024,6 +20080,14 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GALDEG-PWY" 
 
 - [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-galactose catabolic process to D-galactonate" 
+
+
+### galactose transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005354`
+
+#### Added
+- [galactose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005354) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34915" 
+
+- [galactose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005354) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [34915](http://rdf.rhea-db.org/34915) 
 
 
 ### galactoside 2-alpha-L-fucosyltransferase activity `http://purl.obolibrary.org/obo/GO_0008107`
@@ -21058,6 +21122,14 @@
 - [glycerol kinase activity](http://purl.obolibrary.org/obo/GO_0004370) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-75887" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Conversion of Glycerol to Glycerol-3-phosphate" 
 
+
+
+### glycerol transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015168`
+
+#### Added
+- [glycerol transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015168) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:29675" 
+
+- [glycerol transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015168) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [29675](http://rdf.rhea-db.org/29675) 
 
 
 ### glycerol-3-phosphate O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0004366`
@@ -24583,6 +24655,10 @@
 - [iodide transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015111) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5627802" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC26A4 exports I- to follicular lumen" 
 
+#### Added
+- [iodide transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015111) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:66324" 
+
+- [iodide transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015111) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [66324](http://rdf.rhea-db.org/66324) 
 
 
 ### iodotyrosine deiodinase activity `http://purl.obolibrary.org/obo/GO_0140616`
@@ -29389,6 +29465,38 @@
 - [negative regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902689) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of NAD metabolic process" 
 
 
+### negative regulation of Wnt signaling pathway, planar cell polarity pathway `http://purl.obolibrary.org/obo/GO_0141113`
+#### Removed
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the Wnt signaling pathway, planar cell polarity pathway." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19056682" 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of Wnt signaling pathway, planar cell polarity pathway" 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071)) 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) SubClassOf [negative regulation of non-canonical Wnt signaling pathway](http://purl.obolibrary.org/obo/GO_2000051) 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) SubClassOf [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) 
+
+#### Added
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of non-canonical Wnt signaling pathway](http://purl.obolibrary.org/obo/GO_2000051) 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the Wnt signaling pathway, planar cell polarity pathway." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19056682" 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that Wnt/PCP signaling does not exist as a separate signaling process; rather, the Wnt component can regulate planar cell polarity in some systems." 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of Wnt signaling pathway, planar cell polarity pathway" 
+
+
 ### negative regulation of auxin biosynthetic process `http://purl.obolibrary.org/obo/GO_1901997`
 #### Removed
 - [negative regulation of auxin biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "negative regulation of indoleacetic acid biosynthetic process" 
@@ -32088,6 +32196,14 @@
 - [obsolete mitochondrial translocation](http://purl.obolibrary.org/obo/GO_0006628) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
 
 
+### obsolete negative regulation of planar cell polarity pathway involved in cardiac right atrium morphogenesis `http://purl.obolibrary.org/obo/GO_2000162`
+#### Removed
+- [obsolete negative regulation of planar cell polarity pathway involved in cardiac right atrium morphogenesis](http://purl.obolibrary.org/obo/GO_2000162) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) 
+
+#### Added
+- [obsolete negative regulation of planar cell polarity pathway involved in cardiac right atrium morphogenesis](http://purl.obolibrary.org/obo/GO_2000162) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) 
+
+
 ### obsolete negative regulation of protein processing involved in protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_1903217`
 #### Removed
 - [obsolete negative regulation of protein processing involved in protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903217) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) 
@@ -32154,6 +32270,22 @@
 - [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8867876" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "OSBPL5,8,10 exchange PS with PI4P from ER membrane to plasma membrane" 
 
+
+
+### obsolete planar cell polarity pathway involved in axon guidance `http://purl.obolibrary.org/obo/GO_1904938`
+#### Removed
+- [obsolete planar cell polarity pathway involved in axon guidance](http://purl.obolibrary.org/obo/GO_1904938) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) 
+
+#### Added
+- [obsolete planar cell polarity pathway involved in axon guidance](http://purl.obolibrary.org/obo/GO_1904938) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+
+### obsolete planar cell polarity pathway involved in midbrain dopaminergic neuron differentiation `http://purl.obolibrary.org/obo/GO_1904955`
+#### Removed
+- [obsolete planar cell polarity pathway involved in midbrain dopaminergic neuron differentiation](http://purl.obolibrary.org/obo/GO_1904955) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) 
+
+#### Added
+- [obsolete planar cell polarity pathway involved in midbrain dopaminergic neuron differentiation](http://purl.obolibrary.org/obo/GO_1904955) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
 
 
 ### obsolete polydeoxyribonucleotide kinase activity `http://purl.obolibrary.org/obo/GO_0051733`
@@ -32245,6 +32377,46 @@
 - [obsolete regulation of ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0090368) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-350562" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Regulation of ornithine decarboxylase (ODC)" 
 
+
+
+### obsolete regulation of planar cell polarity pathway involved in cardiac muscle tissue morphogenesis `http://purl.obolibrary.org/obo/GO_2000150`
+#### Removed
+- [obsolete regulation of planar cell polarity pathway involved in cardiac muscle tissue morphogenesis](http://purl.obolibrary.org/obo/GO_2000150) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) 
+
+#### Added
+- [obsolete regulation of planar cell polarity pathway involved in cardiac muscle tissue morphogenesis](http://purl.obolibrary.org/obo/GO_2000150) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+
+### obsolete regulation of planar cell polarity pathway involved in cardiac right atrium morphogenesis `http://purl.obolibrary.org/obo/GO_2000161`
+#### Removed
+- [obsolete regulation of planar cell polarity pathway involved in cardiac right atrium morphogenesis](http://purl.obolibrary.org/obo/GO_2000161) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) 
+
+#### Added
+- [obsolete regulation of planar cell polarity pathway involved in cardiac right atrium morphogenesis](http://purl.obolibrary.org/obo/GO_2000161) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+
+### obsolete regulation of planar cell polarity pathway involved in outflow tract morphogenesis `http://purl.obolibrary.org/obo/GO_2000163`
+#### Removed
+- [obsolete regulation of planar cell polarity pathway involved in outflow tract morphogenesis](http://purl.obolibrary.org/obo/GO_2000163) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) 
+
+#### Added
+- [obsolete regulation of planar cell polarity pathway involved in outflow tract morphogenesis](http://purl.obolibrary.org/obo/GO_2000163) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+
+### obsolete regulation of planar cell polarity pathway involved in pericardium morphogenesis `http://purl.obolibrary.org/obo/GO_2000165`
+#### Removed
+- [obsolete regulation of planar cell polarity pathway involved in pericardium morphogenesis](http://purl.obolibrary.org/obo/GO_2000165) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) 
+
+#### Added
+- [obsolete regulation of planar cell polarity pathway involved in pericardium morphogenesis](http://purl.obolibrary.org/obo/GO_2000165) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+
+### obsolete regulation of planar cell polarity pathway involved in ventricular septum morphogenesis `http://purl.obolibrary.org/obo/GO_2000148`
+#### Removed
+- [obsolete regulation of planar cell polarity pathway involved in ventricular septum morphogenesis](http://purl.obolibrary.org/obo/GO_2000148) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) 
+
+#### Added
+- [obsolete regulation of planar cell polarity pathway involved in ventricular septum morphogenesis](http://purl.obolibrary.org/obo/GO_2000148) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
 
 
 ### obsolete regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway `http://purl.obolibrary.org/obo/GO_1900739`
@@ -33837,6 +34009,10 @@
 - [phosphate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005315) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5226964" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ANKH transports PPi from cytosol to extracellular region" 
 
+#### Added
+- [phosphate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005315) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:32823" 
+
+- [phosphate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005315) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [32823](http://rdf.rhea-db.org/32823) 
 
 
 ### phosphatidate cytidylyltransferase activity `http://purl.obolibrary.org/obo/GO_0004605`
@@ -35449,6 +35625,38 @@
 - [positive regulation of NAD metabolic process](http://purl.obolibrary.org/obo/GO_1902690) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of NAD metabolic process" 
 
 
+### positive regulation of Wnt signaling pathway, planar cell polarity pathway `http://purl.obolibrary.org/obo/GO_2000096`
+#### Removed
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of Wnt signaling pathway, planar cell polarity pathway" 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071)) 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) SubClassOf [positive regulation of non-canonical Wnt signaling pathway](http://purl.obolibrary.org/obo/GO_2000052) 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) SubClassOf [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) 
+
+#### Added
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of non-canonical Wnt signaling pathway](http://purl.obolibrary.org/obo/GO_2000052) 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that Wnt/PCP signaling does not exist as a separate signaling process; rather, the Wnt component can regulate planar cell polarity in some systems." 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of Wnt signaling pathway, planar cell polarity pathway" 
+
+
 ### positive regulation of cardiac endothelial to mesenchymal transition `http://purl.obolibrary.org/obo/GO_0062000`
 #### Removed
 - [positive regulation of cardiac endothelial to mesenchymal transition](http://purl.obolibrary.org/obo/GO_0062000) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of cardiac endothelial to mesenchymal trnasition." 
@@ -36809,6 +37017,14 @@
 
 #### Added
 - [potassium channel regulator activity](http://purl.obolibrary.org/obo/GO_0015459) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage." 
+
+
+### potassium ion transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015079`
+
+#### Added
+- [potassium ion transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015079) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:29463" 
+
+- [potassium ion transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015079) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [29463](http://rdf.rhea-db.org/29463) 
 
 
 ### potassium:chloride symporter activity `http://purl.obolibrary.org/obo/GO_0015379`
@@ -41823,6 +42039,10 @@
 - [proton transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015078) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-168313" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Virion-associated M2 protein mediated ion infusion" 
 
+#### Added
+- [proton transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015078) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34979" 
+
+- [proton transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015078) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [34979](http://rdf.rhea-db.org/34979) 
 
 
 ### proton-transporting ATP synthase activity, rotational mechanism `http://purl.obolibrary.org/obo/GO_0046933`
@@ -42759,6 +42979,36 @@
 #### Added
 - [regulation of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_0062025) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency or extent of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process, the chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of ubiquitin, with ubiquitin-protein ligation catalyzed by an SCF (Skp1/Cul1/F-box protein) complex, and mediated by the proteasome." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28007894" 
+
+
+### regulation of Wnt signaling pathway, planar cell polarity pathway `http://purl.obolibrary.org/obo/GO_2000095`
+#### Removed
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of Wnt signaling pathway, planar cell polarity pathway" 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071)) 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) SubClassOf [regulation of non-canonical Wnt signaling pathway](http://purl.obolibrary.org/obo/GO_2000050) 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) 
+
+#### Added
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of non-canonical Wnt signaling pathway](http://purl.obolibrary.org/obo/GO_2000050) 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that Wnt/PCP signaling does not exist as a separate signaling process; rather, the Wnt component can regulate planar cell polarity in some systems." 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of Wnt signaling pathway, planar cell polarity pathway" 
 
 
 ### regulation of adenine biosynthetic process `http://purl.obolibrary.org/obo/GO_0061934`
@@ -45968,6 +46218,14 @@
 
 #### Added
 - [sodium channel regulator activity](http://purl.obolibrary.org/obo/GO_0017080) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage." 
+
+
+### sodium ion transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015081`
+
+#### Added
+- [sodium ion transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015081) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34963" 
+
+- [sodium ion transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015081) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [34963](http://rdf.rhea-db.org/34963) 
 
 
 ### sodium-dependent multivitamin transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0008523`
@@ -50508,6 +50766,10 @@
 - [urea transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015204) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-444126" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "HUT2 and HUT11 mediate urea transport in kidney and erythrocytes respectively" 
 
+#### Added
+- [urea transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015204) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:32799" 
+
+- [urea transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015204) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [32799](http://rdf.rhea-db.org/32799) 
 
 
 ### urease activator activity `http://purl.obolibrary.org/obo/GO_0018237`
@@ -51691,6 +51953,14 @@
 - [water channel activity](http://purl.obolibrary.org/obo/GO_0015250) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-432065" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "p-S256-Aquaporin-2 passively transports water into cell" 
 
+
+
+### water transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005372`
+
+#### Added
+- [water transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:29667" 
+
+- [water transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [29667](http://rdf.rhea-db.org/29667) 
 
 
 ### xanthine dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0004854`
