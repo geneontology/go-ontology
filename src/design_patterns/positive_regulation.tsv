@@ -54,6 +54,7 @@ http://purl.obolibrary.org/obo/GO_2000454	positive regulation of CD8-positive, a
 http://purl.obolibrary.org/obo/GO_0140217	positive regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0046326	positive regulation of D-glucose import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098708	D-glucose import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0010828	positive regulation of D-glucose transmembrane transport	http://purl.obolibrary.org/obo/GO_1904659	D-glucose transmembrane transport
+http://purl.obolibrary.org/obo/GO_1900517	positive regulation of D-xylose fermentation	http://purl.obolibrary.org/obo/GO_0044577	D-xylose fermentation
 http://purl.obolibrary.org/obo/GO_1904525	positive regulation of DNA amplification	http://purl.obolibrary.org/obo/GO_0006277	DNA amplification
 http://purl.obolibrary.org/obo/GO_0043388	positive regulation of DNA binding	http://purl.obolibrary.org/obo/GO_0003677	DNA binding
 http://purl.obolibrary.org/obo/GO_2000573	positive regulation of DNA biosynthetic process	http://purl.obolibrary.org/obo/GO_0071897	DNA biosynthetic process
@@ -113,6 +114,7 @@ http://purl.obolibrary.org/obo/GO_0062134	positive regulation of L-glutamine bio
 http://purl.obolibrary.org/obo/GO_1901036	positive regulation of L-glutamine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903803	L-glutamine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2001278	positive regulation of L-leucine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009098	L-leucine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905534	positive regulation of L-leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
+http://purl.obolibrary.org/obo/GO_2001196	positive regulation of L-lysine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009085	L-lysine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905010	positive regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905626	positive regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2001158	positive regulation of L-proline catabolic process	http://purl.obolibrary.org/obo/GO_0006562	L-proline catabolic process
@@ -208,7 +210,6 @@ http://purl.obolibrary.org/obo/GO_1904241	positive regulation of VCP-NPL4-UFD1 A
 http://purl.obolibrary.org/obo/GO_0061357	positive regulation of Wnt protein secretion	http://purl.obolibrary.org/obo/GO_0061355	Wnt protein secretion
 http://purl.obolibrary.org/obo/GO_0030177	positive regulation of Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_0045813	positive regulation of Wnt signaling pathway, calcium modulating pathway	http://purl.obolibrary.org/obo/GO_0007223	Wnt signaling pathway, calcium modulating pathway
-http://purl.obolibrary.org/obo/GO_2000096	positive regulation of Wnt signaling pathway, planar cell polarity pathway	http://purl.obolibrary.org/obo/GO_0060071	Wnt signaling pathway, planar cell polarity pathway
 http://purl.obolibrary.org/obo/GO_1904712	positive regulation of Wnt-Frizzled-LRP5/6 complex assembly	http://purl.obolibrary.org/obo/GO_1904701	Wnt-Frizzled-LRP5/6 complex assembly
 http://purl.obolibrary.org/obo/GO_1900489	positive regulation of [2Fe-2S] cluster assembly	http://purl.obolibrary.org/obo/GO_0044571	[2Fe-2S] cluster assembly
 http://purl.obolibrary.org/obo/GO_1900493	positive regulation of [4Fe-4S] cluster assembly	http://purl.obolibrary.org/obo/GO_0044572	[4Fe-4S] cluster assembly
@@ -363,6 +364,7 @@ http://purl.obolibrary.org/obo/GO_1905653	positive regulation of artery morphoge
 http://purl.obolibrary.org/obo/GO_1905656	positive regulation of artery smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0014824	artery smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_1900628	positive regulation of arugosin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900587	arugosin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0075296	positive regulation of ascospore formation	http://purl.obolibrary.org/obo/GO_0030437	ascospore formation
+http://purl.obolibrary.org/obo/GO_0140748	positive regulation of ascospore wall (1->3)-beta-D-glucan biosynthetic process	http://purl.obolibrary.org/obo/GO_0034413	ascospore wall (1->3)-beta-D-glucan biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903024	positive regulation of ascospore-type prospore membrane formation	http://purl.obolibrary.org/obo/GO_0032120	ascospore-type prospore membrane formation
 http://purl.obolibrary.org/obo/GO_0075319	positive regulation of ascus development	http://purl.obolibrary.org/obo/GO_0075317	ascus development
 http://purl.obolibrary.org/obo/GO_1903666	positive regulation of asexual reproduction	http://purl.obolibrary.org/obo/GO_0019954	asexual reproduction
@@ -675,7 +677,7 @@ http://purl.obolibrary.org/obo/GO_1905445	positive regulation of clathrin coat a
 http://purl.obolibrary.org/obo/GO_2000370	positive regulation of clathrin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0072583	clathrin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_0070798	positive regulation of cleistothecium development	http://purl.obolibrary.org/obo/GO_0070791	cleistothecium development
 http://purl.obolibrary.org/obo/GO_0050820	positive regulation of coagulation	http://purl.obolibrary.org/obo/GO_0050817	coagulation
-http://purl.obolibrary.org/obo/GO_0106121	positive regulation of cobalamin catabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
+http://purl.obolibrary.org/obo/GO_0106121	positive regulation of cobalamin catabolic process	http://purl.obolibrary.org/obo/GO_0042366	cobalamin catabolic process
 http://purl.obolibrary.org/obo/GO_1900290	positive regulation of coenzyme F420-dependent bicyclic nitroimidazole catabolic process	http://purl.obolibrary.org/obo/GO_0052799	coenzyme F420-dependent bicyclic nitroimidazole catabolic process
 http://purl.obolibrary.org/obo/GO_0120162	positive regulation of cold-induced thermogenesis	http://purl.obolibrary.org/obo/GO_0106106	cold-induced thermogenesis
 http://purl.obolibrary.org/obo/GO_0032967	positive regulation of collagen biosynthetic process	http://purl.obolibrary.org/obo/GO_0032964	collagen biosynthetic process
@@ -1029,7 +1031,6 @@ http://purl.obolibrary.org/obo/GO_2000851	positive regulation of glucocorticoid 
 http://purl.obolibrary.org/obo/GO_2000908	positive regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
 http://purl.obolibrary.org/obo/GO_0035432	positive regulation of gluconate transmembrane transport	http://purl.obolibrary.org/obo/GO_0035429	gluconate transmembrane transport
 http://purl.obolibrary.org/obo/GO_0045722	positive regulation of gluconeogenesis	http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis
-http://purl.obolibrary.org/obo/GO_1904025	positive regulation of glucose catabolic process to lactate via pyruvate	http://purl.obolibrary.org/obo/GO_0019244	pyruvate fermentation to lactate
 http://purl.obolibrary.org/obo/GO_1902661	positive regulation of glucose mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0010255	glucose mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0010907	positive regulation of glucose metabolic process	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
 http://purl.obolibrary.org/obo/GO_0046319	positive regulation of glucosylceramide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006679	glucosylceramide biosynthetic process
@@ -1370,7 +1371,6 @@ http://purl.obolibrary.org/obo/GO_2000403	positive regulation of lymphocyte migr
 http://purl.obolibrary.org/obo/GO_0050671	positive regulation of lymphocyte proliferation	http://purl.obolibrary.org/obo/GO_0046651	lymphocyte proliferation
 http://purl.obolibrary.org/obo/GO_1905458	positive regulation of lymphoid progenitor cell differentiation	http://purl.obolibrary.org/obo/GO_0002320	lymphoid progenitor cell differentiation
 http://purl.obolibrary.org/obo/GO_0032761	positive regulation of lymphotoxin A production	http://purl.obolibrary.org/obo/GO_0032641	lymphotoxin A production
-http://purl.obolibrary.org/obo/GO_2001196	positive regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine	http://purl.obolibrary.org/obo/GO_0009085	L-lysine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905167	positive regulation of lysosomal protein catabolic process	http://purl.obolibrary.org/obo/GO_1905146	lysosomal protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905673	positive regulation of lysosome organization	http://purl.obolibrary.org/obo/GO_0007040	lysosome organization
 http://purl.obolibrary.org/obo/GO_1903592	positive regulation of lysozyme activity	http://purl.obolibrary.org/obo/GO_0003796	lysozyme activity
@@ -2021,6 +2021,7 @@ http://purl.obolibrary.org/obo/GO_1903931	positive regulation of pyrimidine-cont
 http://purl.obolibrary.org/obo/GO_0140639	positive regulation of pyroptotic inflammatory response	http://purl.obolibrary.org/obo/GO_0070269	pyroptotic inflammatory response
 http://purl.obolibrary.org/obo/GO_0140176	positive regulation of pyruvate decarboxylation to acetyl-CoA	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
 http://purl.obolibrary.org/obo/GO_2001172	positive regulation of pyruvate fermentation to ethanol	http://purl.obolibrary.org/obo/GO_0019655	pyruvate fermentation to ethanol
+http://purl.obolibrary.org/obo/GO_1904025	positive regulation of pyruvate fermentation to lactate	http://purl.obolibrary.org/obo/GO_0019244	pyruvate fermentation to lactate
 http://purl.obolibrary.org/obo/GO_1904986	positive regulation of quinolinate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019805	quinolinate biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000749	positive regulation of rDNA heterochromatin formation	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin formation
 http://purl.obolibrary.org/obo/GO_2000234	positive regulation of rRNA processing	http://purl.obolibrary.org/obo/GO_0006364	rRNA processing
@@ -2039,7 +2040,6 @@ http://purl.obolibrary.org/obo/GO_1902736	positive regulation of receptor-mediat
 http://purl.obolibrary.org/obo/GO_0010845	positive regulation of reciprocal meiotic recombination	http://purl.obolibrary.org/obo/GO_0007131	reciprocal meiotic recombination
 http://purl.obolibrary.org/obo/GO_0090228	positive regulation of red or far-red light signaling pathway	http://purl.obolibrary.org/obo/GO_0010017	red or far-red light signaling pathway
 http://purl.obolibrary.org/obo/GO_1903307	positive regulation of regulated secretory pathway	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
-http://purl.obolibrary.org/obo/GO_0140748	positive regulation of regulation of ascospore wall (1->3)-beta-D-glucan biosynthetic process	http://purl.obolibrary.org/obo/GO_0034413	ascospore wall (1->3)-beta-D-glucan biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904199	positive regulation of regulation of vascular associated smooth muscle cell membrane depolarization	http://purl.obolibrary.org/obo/GO_1990736	regulation of vascular associated smooth muscle cell membrane depolarization
 http://purl.obolibrary.org/obo/GO_0045591	positive regulation of regulatory T cell differentiation	http://purl.obolibrary.org/obo/GO_0045066	regulatory T cell differentiation
 http://purl.obolibrary.org/obo/GO_1901899	positive regulation of relaxation of cardiac muscle	http://purl.obolibrary.org/obo/GO_0055119	relaxation of cardiac muscle
@@ -2517,7 +2517,6 @@ http://purl.obolibrary.org/obo/GO_1905701	positive regulation of xenobiotic deto
 http://purl.obolibrary.org/obo/GO_1904417	positive regulation of xenophagy	http://purl.obolibrary.org/obo/GO_0098792	xenophagy
 http://purl.obolibrary.org/obo/GO_2001002	positive regulation of xylan catabolic process	http://purl.obolibrary.org/obo/GO_0045493	xylan catabolic process
 http://purl.obolibrary.org/obo/GO_2000953	positive regulation of xyloglucan catabolic process	http://purl.obolibrary.org/obo/GO_2000899	xyloglucan catabolic process
-http://purl.obolibrary.org/obo/GO_1900517	positive regulation of xylose catabolic process to ethanol	http://purl.obolibrary.org/obo/GO_0044577	D-xylose fermentation
 http://purl.obolibrary.org/obo/GO_0075220	positive regulation of zoospore encystment on host	http://purl.obolibrary.org/obo/GO_0075218	zoospore encystment on host
 http://purl.obolibrary.org/obo/GO_0075241	positive regulation of zoospore formation	http://purl.obolibrary.org/obo/GO_0075239	zoospore formation
 http://purl.obolibrary.org/obo/GO_0075273	positive regulation of zygosporangium development	http://purl.obolibrary.org/obo/GO_0075271	zygosporangium development
