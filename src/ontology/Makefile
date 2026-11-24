@@ -102,8 +102,8 @@ travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns
 #       moved to Soufflé. Runs before the merges, so it sees only the edit file
 #       (Rhea-filtered, two imports trimmed).
 #
-#   the three merged modules    all three are GO modules, not external content --
-#       see GO MODULES vs EXTERNAL IMPORTS below. They are merged for three
+#   the two merged modules      both are GO modules, not external content --
+#       see GO MODULES vs EXTERNAL IMPORTS below. They are merged for two
 #       different reasons:
 #
 #       go-taxon-constraint-classes.ofn carries the EquivalentClasses
@@ -117,13 +117,11 @@ travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns
 #       form (GO term and in_taxon some Taxon), which expose a violation for a
 #       term that carries no offending assertion of its own.
 #
-#       go-catalytic-activities-participants.owl is not imported either. It is
-#       generated from this edit file's Rhea xrefs (see IMPORTED AND
-#       TRANSFERRED RHEA AXIOMS), and merged so that ELK and the RCHECKS see
-#       the participant axioms the release will carry. A Rhea xref whose
-#       transferred participants entail an unasserted equivalence or an
-#       unsatisfiable class fails the pull request that adds it, not the
-#       release build.
+#       go-catalytic-activities-participants.owl, which enhanced.ofn merges, is
+#       left out. Its has_participant axioms give no GO term a new parent, and
+#       the one way they can fail reasoning -- a Rhea xref on a continuant
+#       term, outside has_participant's occurrent domain -- fails the release
+#       build instead, without generating the module on every pull request.
 #
 #   reason -e asserted-only     unsatisfiability, inconsistency, and any
 #       equivalence ELK infers that an editor did not assert. Dropping the flag
@@ -140,11 +138,10 @@ travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns
 # Starting the chain on `verify --input` rather than `convert -i ... -o` keeps
 # merge off the front of the chain (https://github.com/ontodev/robot/issues/1250)
 # without serializing the whole ontology to a file that is then discarded.
-travis_build: go-edit-filtered-xrefs.ofn imports/go-catalytic-activities-participants.owl
+travis_build: go-edit-filtered-xrefs.ofn
 	$(ROBOT) verify --input go-edit-filtered-xrefs.ofn --queries $(VARGS) -O reports/ \
 	  merge --collapse-import-closure false \
 	    -i imports/go-taxon-constraint-classes.ofn \
-	    -i imports/go-catalytic-activities-participants.owl \
 	    -i ../taxon_constraints/present_in_taxon.ofn \
 	  reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural \
 	  relax \
@@ -837,8 +834,8 @@ extensions/rhea-reactions-simple.ttl: rhea.ttl
 # skos:narrowMatch, skos:broadMatch or skos:relatedMatch. The result is a build
 # intermediate: it is not checked in and not imported by go-edit.obo, and is
 # rebuilt whenever go-edit.obo or the checked-in ../resources/rhea.rdf.gz
-# changes. enhanced.ofn and travis_build merge it, and seed.txt keeps its CHEBI
-# classes in the ChEBI import (#33006).
+# changes. enhanced.ofn merges it, and seed.txt keeps its CHEBI classes in the
+# ChEBI import (#33006).
 imports/go-catalytic-activities-participants.owl: extensions/rhea-reactions-simple.ttl $(SRC)
 	$(SCALA_CLI) ../util/transfer_rhea_relations.sc -- $< $(SRC) catalog-v001.xml $@.tmp && \
 	$(ROBOT) annotate -i $@.tmp -O $(BASE)/$@ -o $@
