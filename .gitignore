@@ -61,3 +61,9 @@ src/ontology/tdb/
 src/biochebi/chebi-terms.txt
 src/biochebi/chebi-do-not-annotate-terms.txt
 src/ontology/chebi-do-not-annotate.ofn
+
+# Reaction participants, regenerated from go-edit.obo and the Rhea RDF on every build (#33006)
+src/ontology/imports/go-catalytic-activities-participants.owl
+src/ontology/rhea.ttl
+src/ontology/rhea-reactions-simple.ofn
+src/ontology/extensions/rhea-reactions-simple.ttl

@@ -34,7 +34,6 @@ import: http://purl.obolibrary.org/obo/go/imports/cl_import.owl
 import: http://purl.obolibrary.org/obo/go/imports/cob_import.owl
 import: http://purl.obolibrary.org/obo/go/imports/ddanat_import.owl
 import: http://purl.obolibrary.org/obo/go/imports/fao_import.owl
-import: http://purl.obolibrary.org/obo/go/imports/go-catalytic-activities-participants.owl
 import: http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl
 import: http://purl.obolibrary.org/obo/go/imports/go-taxon-constraint-classes.ofn
 import: http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl

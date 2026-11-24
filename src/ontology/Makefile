@@ -102,8 +102,8 @@ travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns
 #       moved to Soufflé. Runs before the merges, so it sees only the edit file
 #       (Rhea-filtered, two imports trimmed).
 #
-#   the three merged modules    all three are GO modules, not external content --
-#       see GO MODULES vs EXTERNAL IMPORTS below. They are merged for three
+#   the two merged modules      both are GO modules, not external content --
+#       see GO MODULES vs EXTERNAL IMPORTS below. They are merged for two
 #       different reasons:
 #
 #       go-taxon-constraint-classes.ofn carries the EquivalentClasses
@@ -117,9 +117,11 @@ travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns
 #       form (GO term and in_taxon some Taxon), which expose a violation for a
 #       term that carries no offending assertion of its own.
 #
-#       go-catalytic-activities-participants.owl IS still imported, and is
-#       merged only so that verify -- which does not see imports -- can check it,
-#       e.g. an obsoleted MF term whose participant axioms were not regenerated.
+#       go-catalytic-activities-participants.owl, which enhanced.ofn merges, is
+#       left out. Its has_participant axioms give no GO term a new parent, and
+#       the one way they can fail reasoning -- a Rhea xref on a continuant
+#       term, outside has_participant's occurrent domain -- fails the release
+#       build instead, without generating the module on every pull request.
 #
 #   reason -e asserted-only     unsatisfiability, inconsistency, and any
 #       equivalence ELK infers that an editor did not assert. Dropping the flag
@@ -140,7 +142,6 @@ travis_build: go-edit-filtered-xrefs.ofn
 	$(ROBOT) verify --input go-edit-filtered-xrefs.ofn --queries $(VARGS) -O reports/ \
 	  merge --collapse-import-closure false \
 	    -i imports/go-taxon-constraint-classes.ofn \
-	    -i imports/go-catalytic-activities-participants.owl \
 	    -i ../taxon_constraints/present_in_taxon.ofn \
 	  reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural \
 	  relax \
@@ -286,8 +287,7 @@ imports/reactome_xrefs_import.owl: ../resources/Pathways2GoTerms_human.txt
 #       exception -- it does `merge --collapse-import-closure true` and ships
 #       the external closure, which is much of its point.
 #
-#   GO modules -- go-taxon-constraint-classes.ofn,
-#       go-catalytic-activities-participants.owl, go-taxon-groupings.owl,
+#   GO modules -- go-taxon-constraint-classes.ofn, go-taxon-groupings.owl,
 #       go-pattern-conformance.ttl, x-disjoint.ofn, extensions/go-*.owl.
 #       GO's own content, in separate files because it is generated rather than
 #       hand-edited. A GO module sits on the import list only so go-edit.obo is
@@ -295,9 +295,11 @@ imports/reactome_xrefs_import.owl: ../resources/Pathways2GoTerms_human.txt
 #       there, `is_a: neverin:4896` dangles in Protege. That is an editing
 #       convenience, not a claim that the content is foreign.
 #
-# Being a generated GO module does not imply being imported. reactome_xrefs_import.owl
-# and ../taxon_constraints/present_in_taxon.ofn are never declared as imports;
-# targets that want them merge them directly.
+# Being a generated GO module does not imply being imported. reactome_xrefs_import.owl,
+# go-catalytic-activities-participants.owl and ../taxon_constraints/present_in_taxon.ofn
+# are never declared as imports; targets that want them merge them directly.
+# The participants module is derived from go-edit.obo itself, so importing it
+# would only show editors a stale copy of axioms the build regenerates anyway.
 #
 # The strip below is for the imported case only. ROBOT cannot promote a file out
 # of the import closure -- merging a file that is still imported leaves its
@@ -309,10 +311,6 @@ imports/reactome_xrefs_import.owl: ../resources/Pathways2GoTerms_human.txt
 # merge would pull the scaffolding straight back in.
 # The reactome grep is vestigial -- go-edit.obo carries no such import today --
 # and harmless: it keeps the merge correct if one is ever re-added.
-# A GO module whose content is discarded downstream needs no strip at all, which
-# is why go-catalytic-activities-participants.owl is merged in several targets
-# while remaining a plain import: $(ONT)-pre.ofn removes every non-GO class,
-# taking its CHEBI-facing participant restrictions with it.
 go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go-taxon-constraint-classes.ofn' >$@
@@ -326,7 +324,7 @@ go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xref
 # NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
 # https://github.com/ontodev/robot/issues/1250
 # NOTE - 'convert --add-prefixes prefixes.jsonld' is necessary until ROBOT issue https://github.com/ontodev/robot/issues/1266 is fixed
-enhanced.ofn: go-edit-filtered-xrefs.ofn imports/go-taxon-constraint-classes.ofn ../sparql/add-skos-xrefs.ru ../sparql/remove-broad-xrefs.ru ../sparql/remove-related-xrefs.ru
+enhanced.ofn: go-edit-filtered-xrefs.ofn imports/go-taxon-constraint-classes.ofn imports/go-catalytic-activities-participants.owl ../sparql/add-skos-xrefs.ru ../sparql/remove-broad-xrefs.ru ../sparql/remove-related-xrefs.ru
 	$(ROBOT) annotate -i go-edit-filtered-xrefs.ofn --annotation owl:versionInfo $(RELEASEDATE) merge --collapse-import-closure false -i imports/go-taxon-constraint-classes.ofn -i imports/reactome_xrefs_import.owl -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true query --update ../sparql/add-skos-xrefs.ru --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru remove --select 'complement' --drop-axiom-annotations 'oboInOwl:source' annotate --annotation owl:versionInfo $(RELEASEDATE) convert --add-prefixes prefixes.jsonld -o $@
 
 # reasoned.ofn is equivalent to editors source, after materialize-reason-relax-reduce pipeline
@@ -485,6 +483,9 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
+# go-edit.obo does not import the reaction participants, but the CHEBI classes
+# they name still belong in the seed: the release merges the participant axioms,
+# and chebi_import.owl must supply the classes they refer to.
 seed.txt: enhanced.ofn imports/go-taxon-constraint-classes.ofn imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn imports/go-catalytic-activities-participants.owl
 	$(ROBOT) merge --collapse-import-closure false -i enhanced.ofn -i imports/go-taxon-constraint-classes.ofn -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl query -f csv --select ../sparql/terms.sparql $@
 
@@ -828,12 +829,16 @@ extensions/rhea-reactions-simple.ttl: rhea.ttl
 	$(SCALA_CLI) ../util/construct_rhea_ontology_simplified.sc -- $< rhea-reactions-simple.ofn && \
 	$(ROBOT) annotate -i rhea-reactions-simple.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
+# Copies each Rhea reaction's has_participant restrictions onto every
+# non-obsolete GO term with a RHEA xref to it, except xrefs marked
+# skos:narrowMatch, skos:broadMatch or skos:relatedMatch. The result is a build
+# intermediate: it is not checked in and not imported by go-edit.obo, and is
+# rebuilt whenever go-edit.obo or the checked-in ../resources/rhea.rdf.gz
+# changes. enhanced.ofn merges it, and seed.txt keeps its CHEBI classes in the
+# ChEBI import (#33006).
 imports/go-catalytic-activities-participants.owl: extensions/rhea-reactions-simple.ttl $(SRC)
 	$(SCALA_CLI) ../util/transfer_rhea_relations.sc -- $< $(SRC) catalog-v001.xml $@.tmp && \
 	$(ROBOT) annotate -i $@.tmp -O $(BASE)/$@ -o $@
-
-imports/go-catalytic-activities-participants.obo: imports/go-catalytic-activities-participants.owl
-	$(ROBOT) convert -i $< -o $@
 
 # ----------------------------------------
 # MAPPINGS
