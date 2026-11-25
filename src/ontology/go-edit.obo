@@ -378985,13 +378985,16 @@ is_obsolete: true
 
 [Term]
 id: GO:0070086
-name: ubiquitin-dependent endocytosis
+name: obsolete ubiquitin-dependent endocytosis
 namespace: biological_process
-def: "Endocytosis of a protein that requires the substrate to be modified by ubiquitination. Several plasma membrane proteins, including cell surface permeases and some receptors, are targeted for internalization by endocytosis, and are thereafter delivered to the vacuole or lysosome, where they are degraded." [GOC:jp, GOC:mah, PMID:9409540]
+def: "OBSOLETE. Endocytosis of a protein that requires the substrate to be modified by ubiquitination. Several plasma membrane proteins, including cell surface permeases and some receptors, are targeted for internalization by endocytosis, and are thereafter delivered to the vacuole or lysosome, where they are degraded." [GOC:jp, GOC:mah, PMID:9409540]
+comment: The reason for obsoletion is that this term classifies endocytosis by cargo modification, which is orthogonal to the classification by endocytic machinery; the data can be accurately described using 'clathrin-dependent endocytosis' or 'endocytosis' and their regulation terms.
 synonym: "ubiquitin-mediated endocytosis" EXACT [GOC:jp]
-is_a: GO:0006810 ! transport
-is_a: GO:0006897 ! endocytosis
-relationship: has_primary_input PR:000000001 ! protein
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31955" xsd:anyURI
+is_obsolete: true
+consider: GO:0001881
+consider: GO:0006897
+consider: GO:0072583
 
 [Term]
 id: GO:0070087
@@ -610057,34 +610060,40 @@ creation_date: 2011-02-22T11:19:45Z
 
 [Term]
 id: GO:2000395
-name: regulation of ubiquitin-dependent endocytosis
+name: obsolete regulation of ubiquitin-dependent endocytosis
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+comment: The reason for obsoletion is that this term classifies endocytosis by cargo modification, which is orthogonal to the classification by endocytic machinery; the data can be accurately described using 'clathrin-dependent endocytosis' or 'endocytosis' and their regulation terms.
 synonym: "regulation of ubiquitin-mediated endocytosis" EXACT [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0070086 ! ubiquitin-dependent endocytosis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31955" xsd:anyURI
+is_obsolete: true
+consider: GO:2000369
 created_by: mah
 creation_date: 2011-02-22T11:24:52Z
 
 [Term]
 id: GO:2000396
-name: negative regulation of ubiquitin-dependent endocytosis
+name: obsolete negative regulation of ubiquitin-dependent endocytosis
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+comment: The reason for obsoletion is that this term classifies endocytosis by cargo modification, which is orthogonal to the classification by endocytic machinery; the data can be accurately described using 'clathrin-dependent endocytosis' or 'endocytosis' and their regulation terms.
 synonym: "negative regulation of ubiquitin-mediated endocytosis" EXACT [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0070086 ! ubiquitin-dependent endocytosis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31955" xsd:anyURI
+is_obsolete: true
+consider: GO:1900186
 created_by: mah
 creation_date: 2011-02-22T11:25:21Z
 
 [Term]
 id: GO:2000397
-name: positive regulation of ubiquitin-dependent endocytosis
+name: obsolete positive regulation of ubiquitin-dependent endocytosis
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+comment: The reason for obsoletion is that this term classifies endocytosis by cargo modification, which is orthogonal to the classification by endocytic machinery; the data can be accurately described using 'clathrin-dependent endocytosis' or 'endocytosis' and their regulation terms.
 synonym: "positive regulation of ubiquitin-mediated endocytosis" EXACT [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0070086 ! ubiquitin-dependent endocytosis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31955" xsd:anyURI
+is_obsolete: true
+consider: GO:2000370
 created_by: mah
 creation_date: 2011-02-22T11:25:42Z
 
