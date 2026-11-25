@@ -212177,16 +212177,18 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0034497
-name: protein localization to phagophore assembly site
+name: obsolete protein localization to phagophore assembly site
 namespace: biological_process
-def: "Any process in which a protein is transported to, or maintained at, the phagophore assembly site (PAS)." [GOC:rb]
+def: "OBSOLETE. Any process in which a protein is transported to, or maintained at, the phagophore assembly site (PAS)." [GOC:rb]
+comment: The reason for obsoletion is that this term is pre-composed and should be represented as a GO-CAM model.
 synonym: "protein localisation to phagophore assembly site" EXACT [GOC:mah]
 synonym: "protein localization to PAS" EXACT []
 synonym: "protein localization to pre-autophagosomal structure" NARROW []
-is_a: GO:0008104 ! intracellular protein localization
-intersection_of: GO:0008104 ! intracellular protein localization
-intersection_of: has_target_end_location GO:0000407 ! phagophore assembly site
-relationship: part_of GO:0000045 ! autophagosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32718" xsd:anyURI
+is_obsolete: true
+consider: GO:0000045
+consider: GO:0016236
+consider: GO:0032258
 
 [Term]
 id: GO:0034498
@@ -221592,13 +221594,16 @@ creation_date: 2010-04-16T11:10:40Z
 
 [Term]
 id: GO:0035459
-name: vesicle cargo loading
+name: obsolete vesicle cargo loading
 namespace: biological_process
-def: "The formation of a macromolecular complex between the coat proteins and proteins and/or lipoproteins that are going to be transported by a vesicle." [GOC:bf, GOC:lb]
+def: "OBSOLETE. The formation of a macromolecular complex between the coat proteins and proteins and/or lipoproteins that are going to be transported by a vesicle." [GOC:bf, GOC:lb]
+comment: The reason for obsoletion is that this term represents a molecular function.
 synonym: "cargo loading into vesicle" EXACT []
 synonym: "cargo selection" EXACT [GOC:vw]
-is_a: GO:0006810 ! transport
-relationship: part_of GO:0016192 ! vesicle-mediated transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32112" xsd:anyURI
+is_obsolete: true
+consider: GO:0038024
+consider: GO:0140312
 created_by: bf
 creation_date: 2010-04-16T01:14:06Z
 
@@ -223823,31 +223828,44 @@ creation_date: 2011-01-25T10:59:36Z
 
 [Term]
 id: GO:0035652
-name: clathrin-coated vesicle cargo loading
+name: obsolete clathrin-coated vesicle cargo loading
 namespace: biological_process
-def: "Formation of a macromolecular complex between the cytoplasmic coat proteins on clathrin-coated vesicles and proteins and/or lipoproteins that are going to be transported by a vesicle." [GOC:lb, PMID:16162817]
+def: "OBSOLETE. Formation of a macromolecular complex between the cytoplasmic coat proteins on clathrin-coated vesicles and proteins and/or lipoproteins that are going to be transported by a vesicle." [GOC:lb, PMID:16162817]
+comment: The reason for obsoletion is that this term represents a molecular function.
 synonym: "cargo loading into clathrin-coated vesicle" EXACT []
-is_a: GO:0035459 ! vesicle cargo loading
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32112" xsd:anyURI
+is_obsolete: true
+consider: GO:0006895
+consider: GO:0006896
+consider: GO:0035615
 created_by: bf
 creation_date: 2011-01-25T11:00:43Z
 
 [Term]
 id: GO:0035653
-name: clathrin-coated vesicle cargo loading, AP-1-mediated
+name: obsolete clathrin-coated vesicle cargo loading, AP-1-mediated
 namespace: biological_process
-def: "Formation of a macromolecular complex between proteins of the AP-1 adaptor complex and proteins and/or lipoproteins that are going to be transported by a clathrin-coated vesicle. The AP-1 adaptor protein complex is a component of the cytoplasmic coat found on clathrin-coated vesicles, and binds to sorting signals of cargo to facilitate their trafficking." [GOC:lb, PMID:12802059, PMID:16162817]
+def: "OBSOLETE. Formation of a macromolecular complex between proteins of the AP-1 adaptor complex and proteins and/or lipoproteins that are going to be transported by a clathrin-coated vesicle. The AP-1 adaptor protein complex is a component of the cytoplasmic coat found on clathrin-coated vesicles, and binds to sorting signals of cargo to facilitate their trafficking." [GOC:lb, PMID:12802059, PMID:16162817]
+comment: The reason for obsoletion is that this term represents a molecular function.
 synonym: "cargo loading into clathrin-coated vesicle, AP-1-mediated" EXACT []
-is_a: GO:0035652 ! clathrin-coated vesicle cargo loading
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32112" xsd:anyURI
+is_obsolete: true
+consider: GO:0006895
+consider: GO:0035615
 created_by: bf
 creation_date: 2011-01-25T11:01:38Z
 
 [Term]
 id: GO:0035654
-name: clathrin-coated vesicle cargo loading, AP-3-mediated
+name: obsolete clathrin-coated vesicle cargo loading, AP-3-mediated
 namespace: biological_process
-def: "Formation of a macromolecular complex between proteins of the AP-3 adaptor complex and proteins and/or lipoproteins that are going to be transported by a clathrin-coated vesicle. In some cases, the AP-3 complex is a heterotetrameric AP-type membrane coat adaptor complex that, in some organisms, links clathrin to the membrane surface of a vesicle." [GOC:lb, PMID:12802059, PMID:16162817]
+def: "OBSOLETE. Formation of a macromolecular complex between proteins of the AP-3 adaptor complex and proteins and/or lipoproteins that are going to be transported by a clathrin-coated vesicle. In some cases, the AP-3 complex is a heterotetrameric AP-type membrane coat adaptor complex that, in some organisms, links clathrin to the membrane surface of a vesicle." [GOC:lb, PMID:12802059, PMID:16162817]
+comment: The reason for obsoletion is that this term represents a molecular function.
 synonym: "cargo loading into clathrin-coated vesicle, AP-3-mediated" EXACT []
-is_a: GO:0035652 ! clathrin-coated vesicle cargo loading
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32112" xsd:anyURI
+is_obsolete: true
+consider: GO:0006896
+consider: GO:0035615
 created_by: bf
 creation_date: 2011-01-25T11:02:30Z
 
@@ -338141,14 +338159,16 @@ is_obsolete: true
 
 [Term]
 id: GO:0051601
-name: exocyst localization
+name: obsolete exocyst localization
 namespace: biological_process
-def: "Any process in which an exocyst is transported to, or maintained in, a specific location. An exocyst is a protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse." [GOC:ai]
+def: "OBSOLETE. Any process in which an exocyst is transported to, or maintained in, a specific location. An exocyst is a protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse." [GOC:ai]
+comment: The reason for obsoletion is that this term represents a phenotype.
 synonym: "establishment and maintenance of exocyst localization" EXACT []
 synonym: "exocyst localisation" EXACT [GOC:mah]
-is_a: GO:0031503 ! protein-containing complex localization
-intersection_of: GO:0051179 ! localization
-intersection_of: has_primary_input GO:0000145 ! exocyst
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31202" xsd:anyURI
+is_obsolete: true
+consider: GO:0006887
+consider: GO:0006893
 
 [Term]
 id: GO:0051602
@@ -355806,12 +355826,14 @@ is_a: GO:0051246 ! regulation of protein metabolic process
 
 [Term]
 id: GO:0060178
-name: regulation of exocyst localization
+name: obsolete regulation of exocyst localization
 namespace: biological_process
-def: "Any process that modulates the localization of exocysts. An exocyst is a protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse." [GOC:dph, GOC:tb]
+def: "OBSOLETE. Any process that modulates the localization of exocysts. An exocyst is a protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse." [GOC:dph, GOC:tb]
+comment: The reason for obsoletion is that this term represents a phenotype.
 synonym: "regulation of exocyst localisation" EXACT [GOC:mah]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0051601 ! exocyst localization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31202" xsd:anyURI
+is_obsolete: true
+consider: GO:0017157
 
 [Term]
 id: GO:0060179
@@ -378985,13 +379007,16 @@ is_obsolete: true
 
 [Term]
 id: GO:0070086
-name: ubiquitin-dependent endocytosis
+name: obsolete ubiquitin-dependent endocytosis
 namespace: biological_process
-def: "Endocytosis of a protein that requires the substrate to be modified by ubiquitination. Several plasma membrane proteins, including cell surface permeases and some receptors, are targeted for internalization by endocytosis, and are thereafter delivered to the vacuole or lysosome, where they are degraded." [GOC:jp, GOC:mah, PMID:9409540]
+def: "OBSOLETE. Endocytosis of a protein that requires the substrate to be modified by ubiquitination. Several plasma membrane proteins, including cell surface permeases and some receptors, are targeted for internalization by endocytosis, and are thereafter delivered to the vacuole or lysosome, where they are degraded." [GOC:jp, GOC:mah, PMID:9409540]
+comment: The reason for obsoletion is that this term classifies endocytosis by cargo modification, which is orthogonal to the classification by endocytic machinery; the data can be accurately described using 'clathrin-dependent endocytosis' or 'endocytosis' and their regulation terms.
 synonym: "ubiquitin-mediated endocytosis" EXACT [GOC:jp]
-is_a: GO:0006810 ! transport
-is_a: GO:0006897 ! endocytosis
-relationship: has_primary_input PR:000000001 ! protein
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31955" xsd:anyURI
+is_obsolete: true
+consider: GO:0001881
+consider: GO:0006897
+consider: GO:0072583
 
 [Term]
 id: GO:0070087
@@ -417325,15 +417350,20 @@ creation_date: 2009-11-25T11:00:58Z
 
 [Term]
 id: GO:0090110
-name: COPII-coated vesicle cargo loading
+name: obsolete COPII-coated vesicle cargo loading
 namespace: biological_process
-def: "The formation of a macromolecular complex between the COPII coat proteins and proteins and/or lipoproteins that are going to be transported by the COPII vesicle to the Golgi." [GOC:ascb_2009, GOC:dph, GOC:lb, GOC:tb]
+def: "OBSOLETE. The formation of a macromolecular complex between the COPII coat proteins and proteins and/or lipoproteins that are going to be transported by the COPII vesicle to the Golgi." [GOC:ascb_2009, GOC:dph, GOC:lb, GOC:tb]
+comment: The reason for obsoletion is that this term represents a molecular function.
 synonym: "cargo loading into COPII vesicle" EXACT [GOC:ascb_2009, GOC:dph, GOC:tb]
 synonym: "cargo loading into COPII-coated vesicle" EXACT []
 synonym: "cargo selection into COPII-coated vesicle" EXACT [GOC:vw]
 synonym: "COPII coat-cargo complex assembly" RELATED [GOC:ascb_2009, GOC:dph, GOC:jp, GOC:tb]
-is_a: GO:0035459 ! vesicle cargo loading
-relationship: part_of GO:0090114 ! COPII-coated vesicle budding
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32112" xsd:anyURI
+is_obsolete: true
+consider: GO:0006888
+consider: GO:0038024
+consider: GO:0090114
+consider: GO:0140312
 created_by: tb
 creation_date: 2009-12-06T08:28:34Z
 
@@ -511212,22 +511242,25 @@ creation_date: 2012-08-21T09:45:29Z
 
 [Term]
 id: GO:1901301
-name: regulation of cargo loading into COPII-coated vesicle
+name: obsolete regulation of cargo loading into COPII-coated vesicle
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of cargo loading into COPII-coated vesicle." [GOC:lb, GOC:TermGenie, PMID:15899885]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of cargo loading into COPII-coated vesicle." [GOC:lb, GOC:TermGenie, PMID:15899885]
+comment: The reason for obsoletion is that this term was added in error.
 synonym: "regulation of cargo loading into COPII vesicle" EXACT [GOC:TermGenie]
 synonym: "regulation of cargo selection into COPII-coated vesicle" EXACT [GOC:TermGenie]
 synonym: "regulation of COPII coat-cargo complex assembly" RELATED [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0090110 ! COPII-coated vesicle cargo loading
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32110" xsd:anyURI
+is_obsolete: true
+consider: GO:0060628
 created_by: bf
 creation_date: 2012-08-21T13:03:00Z
 
 [Term]
 id: GO:1901303
-name: negative regulation of cargo loading into COPII-coated vesicle
+name: obsolete negative regulation of cargo loading into COPII-coated vesicle
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of cargo loading into a COPII-coated vesicle." [GOC:lb, GOC:TermGenie, PMID:15899885]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of cargo loading into a COPII-coated vesicle." [GOC:lb, GOC:TermGenie, PMID:15899885]
+comment: The reason for obsoletion is that this term was added in error.
 synonym: "down regulation of cargo loading into COPII vesicle" EXACT [GOC:TermGenie]
 synonym: "down regulation of cargo loading into COPII-coated vesicle" EXACT [GOC:TermGenie]
 synonym: "down regulation of cargo selection into COPII-coated vesicle" EXACT [GOC:TermGenie]
@@ -511249,8 +511282,9 @@ synonym: "inhibition of protein sorting into COPII-coated vesicles" EXACT [PMID:
 synonym: "negative regulation of cargo loading into COPII vesicle" EXACT [GOC:TermGenie]
 synonym: "negative regulation of cargo selection into COPII-coated vesicle" EXACT [GOC:TermGenie]
 synonym: "negative regulation of COPII coat-cargo complex assembly" RELATED [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0090110 ! COPII-coated vesicle cargo loading
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32110" xsd:anyURI
+is_obsolete: true
+consider: GO:7770035
 created_by: bf
 creation_date: 2012-08-21T13:05:46Z
 
@@ -594906,10 +594940,9 @@ name: TRAPPII protein complex
 namespace: cellular_component
 def: "A complex that mediates intra-Golgi traffic, Golgi exit, endosome-to-Golgi traffic, and the trafficking of autophagy proteins from Golgi to the phagophore assembly site. Binds to a component of the COPI coat. In yeast it includes the following subunits: Bet3 (as homodimer), Bet5, Tca17, Trs20, Trs23, Trs31, Trs33, Trs65, Trs120, Trs130. The whole complex is thought to dimerize with itself." [GOC:bhm, PMID:20375281, PMID:22669257]
 is_a: GO:0030008 ! TRAPP complex
-intersection_of: GO:0032991 ! protein-containing complex
-intersection_of: capable_of_part_of GO:0034497 ! protein localization to phagophore assembly site
 relationship: part_of GO:0005768 ! endosome
 relationship: part_of GO:0005794 ! Golgi apparatus
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32718" xsd:anyURI
 created_by: bhm
 creation_date: 2013-03-28T14:24:08Z
 
@@ -610057,34 +610090,40 @@ creation_date: 2011-02-22T11:19:45Z
 
 [Term]
 id: GO:2000395
-name: regulation of ubiquitin-dependent endocytosis
+name: obsolete regulation of ubiquitin-dependent endocytosis
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+comment: The reason for obsoletion is that this term classifies endocytosis by cargo modification, which is orthogonal to the classification by endocytic machinery; the data can be accurately described using 'clathrin-dependent endocytosis' or 'endocytosis' and their regulation terms.
 synonym: "regulation of ubiquitin-mediated endocytosis" EXACT [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0070086 ! ubiquitin-dependent endocytosis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31955" xsd:anyURI
+is_obsolete: true
+consider: GO:2000369
 created_by: mah
 creation_date: 2011-02-22T11:24:52Z
 
 [Term]
 id: GO:2000396
-name: negative regulation of ubiquitin-dependent endocytosis
+name: obsolete negative regulation of ubiquitin-dependent endocytosis
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+comment: The reason for obsoletion is that this term classifies endocytosis by cargo modification, which is orthogonal to the classification by endocytic machinery; the data can be accurately described using 'clathrin-dependent endocytosis' or 'endocytosis' and their regulation terms.
 synonym: "negative regulation of ubiquitin-mediated endocytosis" EXACT [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0070086 ! ubiquitin-dependent endocytosis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31955" xsd:anyURI
+is_obsolete: true
+consider: GO:1900186
 created_by: mah
 creation_date: 2011-02-22T11:25:21Z
 
 [Term]
 id: GO:2000397
-name: positive regulation of ubiquitin-dependent endocytosis
+name: obsolete positive regulation of ubiquitin-dependent endocytosis
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of ubiquitin-dependent endocytosis." [GOC:mah]
+comment: The reason for obsoletion is that this term classifies endocytosis by cargo modification, which is orthogonal to the classification by endocytic machinery; the data can be accurately described using 'clathrin-dependent endocytosis' or 'endocytosis' and their regulation terms.
 synonym: "positive regulation of ubiquitin-mediated endocytosis" EXACT [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0070086 ! ubiquitin-dependent endocytosis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31955" xsd:anyURI
+is_obsolete: true
+consider: GO:2000370
 created_by: mah
 creation_date: 2011-02-22T11:25:42Z
 
