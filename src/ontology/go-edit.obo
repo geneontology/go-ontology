@@ -212177,16 +212177,18 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0034497
-name: protein localization to phagophore assembly site
+name: obsolete protein localization to phagophore assembly site
 namespace: biological_process
-def: "Any process in which a protein is transported to, or maintained at, the phagophore assembly site (PAS)." [GOC:rb]
+def: "OBSOLETE. Any process in which a protein is transported to, or maintained at, the phagophore assembly site (PAS)." [GOC:rb]
+comment: The reason for obsoletion is that this term is pre-composed and should be represented as a GO-CAM model.
 synonym: "protein localisation to phagophore assembly site" EXACT [GOC:mah]
 synonym: "protein localization to PAS" EXACT []
 synonym: "protein localization to pre-autophagosomal structure" NARROW []
-is_a: GO:0008104 ! intracellular protein localization
-intersection_of: GO:0008104 ! intracellular protein localization
-intersection_of: has_target_end_location GO:0000407 ! phagophore assembly site
-relationship: part_of GO:0000045 ! autophagosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32718" xsd:anyURI
+is_obsolete: true
+consider: GO:0000045
+consider: GO:0016236
+consider: GO:0032258
 
 [Term]
 id: GO:0034498
@@ -594938,10 +594940,9 @@ name: TRAPPII protein complex
 namespace: cellular_component
 def: "A complex that mediates intra-Golgi traffic, Golgi exit, endosome-to-Golgi traffic, and the trafficking of autophagy proteins from Golgi to the phagophore assembly site. Binds to a component of the COPI coat. In yeast it includes the following subunits: Bet3 (as homodimer), Bet5, Tca17, Trs20, Trs23, Trs31, Trs33, Trs65, Trs120, Trs130. The whole complex is thought to dimerize with itself." [GOC:bhm, PMID:20375281, PMID:22669257]
 is_a: GO:0030008 ! TRAPP complex
-intersection_of: GO:0032991 ! protein-containing complex
-intersection_of: capable_of_part_of GO:0034497 ! protein localization to phagophore assembly site
 relationship: part_of GO:0005768 ! endosome
 relationship: part_of GO:0005794 ! Golgi apparatus
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32718" xsd:anyURI
 created_by: bhm
 creation_date: 2013-03-28T14:24:08Z
 
