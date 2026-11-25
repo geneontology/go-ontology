@@ -511215,22 +511215,25 @@ creation_date: 2012-08-21T09:45:29Z
 
 [Term]
 id: GO:1901301
-name: regulation of cargo loading into COPII-coated vesicle
+name: obsolete regulation of cargo loading into COPII-coated vesicle
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of cargo loading into COPII-coated vesicle." [GOC:lb, GOC:TermGenie, PMID:15899885]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of cargo loading into COPII-coated vesicle." [GOC:lb, GOC:TermGenie, PMID:15899885]
+comment: The reason for obsoletion is that this term was added in error.
 synonym: "regulation of cargo loading into COPII vesicle" EXACT [GOC:TermGenie]
 synonym: "regulation of cargo selection into COPII-coated vesicle" EXACT [GOC:TermGenie]
 synonym: "regulation of COPII coat-cargo complex assembly" RELATED [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0090110 ! COPII-coated vesicle cargo loading
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32110" xsd:anyURI
+is_obsolete: true
+consider: GO:0060628
 created_by: bf
 creation_date: 2012-08-21T13:03:00Z
 
 [Term]
 id: GO:1901303
-name: negative regulation of cargo loading into COPII-coated vesicle
+name: obsolete negative regulation of cargo loading into COPII-coated vesicle
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of cargo loading into a COPII-coated vesicle." [GOC:lb, GOC:TermGenie, PMID:15899885]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of cargo loading into a COPII-coated vesicle." [GOC:lb, GOC:TermGenie, PMID:15899885]
+comment: The reason for obsoletion is that this term was added in error.
 synonym: "down regulation of cargo loading into COPII vesicle" EXACT [GOC:TermGenie]
 synonym: "down regulation of cargo loading into COPII-coated vesicle" EXACT [GOC:TermGenie]
 synonym: "down regulation of cargo selection into COPII-coated vesicle" EXACT [GOC:TermGenie]
@@ -511252,8 +511255,9 @@ synonym: "inhibition of protein sorting into COPII-coated vesicles" EXACT [PMID:
 synonym: "negative regulation of cargo loading into COPII vesicle" EXACT [GOC:TermGenie]
 synonym: "negative regulation of cargo selection into COPII-coated vesicle" EXACT [GOC:TermGenie]
 synonym: "negative regulation of COPII coat-cargo complex assembly" RELATED [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0090110 ! COPII-coated vesicle cargo loading
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32110" xsd:anyURI
+is_obsolete: true
+consider: GO:7770035
 created_by: bf
 creation_date: 2012-08-21T13:05:46Z
 
