@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-24/extensions/go-plus.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-25/extensions/go-plus.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-24" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-25" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -1468,7 +1468,17 @@
 - [(2E)-but-2-ene-1,2,3-tricarboxylic acid](http://purl.obolibrary.org/obo/CHEBI_55353) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### (2E)-butenoyl-CoA hydratase activity `http://purl.obolibrary.org/obo/GO_0120092`
+#### Removed
+- [(2E)-butenoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0120092) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+
+
 ### (2E)-enoyl-CoA hydratase activity `http://purl.obolibrary.org/obo/GO_0080023`
+#### Removed
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2,3-trans-enoyl CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_58856) 
 
 #### Added
 - [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87091" 
@@ -1927,9 +1937,21 @@
 - [(2R)-2-hydroxy monocarboxylic acid](http://purl.obolibrary.org/obo/CHEBI_17893) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### (2R)-2-hydroxyacid dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0050578`
+#### Removed
+- [(2R)-2-hydroxyacid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050578) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxo monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35179) 
+
+- [(2R)-2-hydroxyacid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050578) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(2R)-2-hydroxy monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_58314) 
+
+
+
 ### (2R)-2-hydroxycarboxylate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0140174`
 #### Removed
 - [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) [label](http://www.w3.org/2000/01/rdf-schema#label) "(2R)-2-hydroxycarboxylate dehydrogenase activity" 
+
+- [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxo monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35179) 
+
+- [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(2R)-2-hydroxy monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_58314) 
 
 #### Added
 - [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "(2R)-2-hydroxycarboxylate dehydrogenase activity" 
@@ -2019,6 +2041,14 @@
 
 #### Added
 - [(2R)-hydroperoxy fatty acid](http://purl.obolibrary.org/obo/CHEBI_147344) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### (2R)-hydroxyacid dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_1990464`
+#### Removed
+- [(2R)-hydroxyacid dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_1990464) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxo monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35179) 
+
+- [(2R)-hydroxyacid dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_1990464) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(2R)-2-hydroxy monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_58314) 
+
 
 
 ### (2R)-phycocyanobilin `http://purl.obolibrary.org/obo/CHEBI_47955`
@@ -2187,6 +2217,14 @@
 
 #### Added
 - [(2S)-2-hydroxy-3-oxobutyl phosphate](http://purl.obolibrary.org/obo/CHEBI_50608) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### (2S)-2-hydroxyphytanate oxidase activity `http://purl.obolibrary.org/obo/GO_0047996`
+#### Removed
+- [(2S)-2-hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [(2S)-2-hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
 
 
 ### (2S)-2-hydroxyphytanic acid `http://purl.obolibrary.org/obo/CHEBI_18164`
@@ -5069,6 +5107,14 @@
 - [(R)-2-hydroxybutyric acid](http://purl.obolibrary.org/obo/CHEBI_50612) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### (R)-2-hydroxyglutarate (NAD+) dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0120568`
+#### Removed
+- [(R)-2-hydroxyglutarate (NAD+) dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0120568) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(R)-2-hydroxyglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_15801) 
+
+- [(R)-2-hydroxyglutarate (NAD+) dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0120568) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxoglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16810) 
+
+
+
 ### (R)-2-hydroxyglutarate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0051990`
 #### Removed
 - [(R)-2-hydroxyglutarate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0051990) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-880007" 
@@ -5076,6 +5122,14 @@
 
 - [(R)-2-hydroxyglutarate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0051990) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-880053" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "2-oxoglutarate + NADPH + H+ =&gt; (R)-2-hydroxyglutarate + NADP+ [mutant IDH1]" 
+
+
+
+### (R)-2-hydroxyglutarate-pyruvate transhydrogenase activity `http://purl.obolibrary.org/obo/GO_0099615`
+#### Removed
+- [(R)-2-hydroxyglutarate-pyruvate transhydrogenase activity](http://purl.obolibrary.org/obo/GO_0099615) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(R)-2-hydroxyglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_15801) 
+
+- [(R)-2-hydroxyglutarate-pyruvate transhydrogenase activity](http://purl.obolibrary.org/obo/GO_0099615) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxoglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16810) 
 
 
 
@@ -5580,6 +5634,18 @@
 - [(R)-coclaurine](http://purl.obolibrary.org/obo/CHEBI_27482) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### (R)-dehydropantoate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0047509`
+#### Removed
+- [(R)-dehydropantoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [(R)-dehydropantoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [(R)-dehydropantoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [(R)-dehydropantoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### (R)-demethyl-4-deoxygadusol `http://purl.obolibrary.org/obo/CHEBI_132137`
 
 #### Added
@@ -5695,6 +5761,12 @@
 - [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) [label](http://www.w3.org/2000/01/rdf-schema#label) "(R)-mandelate dehydrogenase activity" 
 
 - [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 #### Added
 - [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -6041,6 +6113,14 @@
 
 #### Added
 - [(S)-2-hydroxybutyric acid](http://purl.obolibrary.org/obo/CHEBI_50613) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### (S)-2-hydroxyglutarate dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0140696`
+#### Removed
+- [(S)-2-hydroxyglutarate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0140696) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(S)-2-hydroxyglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16782) 
+
+- [(S)-2-hydroxyglutarate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0140696) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxoglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16810) 
+
 
 
 ### (S)-2-hydroxyglutarate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0047545`
@@ -6624,6 +6704,16 @@
 - [(S)-methylmalonyl-CoA](http://purl.obolibrary.org/obo/CHEBI_15466) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### (S)-methylmalonyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0047511`
+#### Removed
+- [(S)-methylmalonyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047511) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [(S)-methylmalonyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047511) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [(S)-methylmalonyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047511) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### (S)-mevalonic acid `http://purl.obolibrary.org/obo/CHEBI_28880`
 
 #### Added
@@ -6816,6 +6906,14 @@
 - [(Z)-3-aminoacrylic acid](http://purl.obolibrary.org/obo/CHEBI_59893) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### (Z)-3-hexen-1-ol acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0102165`
+#### Removed
+- [(Z)-3-hexen-1-ol acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0102165) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [(Z)-3-hexen-1-ol acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0102165) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
+
+
 ### (Z)-5-oxohex-2-enedioic acid `http://purl.obolibrary.org/obo/CHEBI_32808`
 
 #### Added
@@ -7006,6 +7104,14 @@
 
 #### Added
 - [1,2,4-triazole-3-carboxamide](http://purl.obolibrary.org/obo/CHEBI_180482) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 1,2-alpha-L-fucosidase activity `http://purl.obolibrary.org/obo/GO_0047513`
+#### Removed
+- [1,2-alpha-L-fucosidase activity](http://purl.obolibrary.org/obo/GO_0047513) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [1,2-alpha-L-fucosidase activity](http://purl.obolibrary.org/obo/GO_0047513) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-fucopyranose](http://purl.obolibrary.org/obo/CHEBI_2181) 
+
 
 
 ### 1,2-benzisothiazole `http://purl.obolibrary.org/obo/CHEBI_55505`
@@ -7574,6 +7680,16 @@
 
 #### Added
 - [1,4-dihydroxy-2-naphthoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_52668) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 1,4-dihydroxy-2-naphthoyl-CoA thioesterase activity `http://purl.obolibrary.org/obo/GO_0061522`
+#### Removed
+- [1,4-dihydroxy-2-naphthoyl-CoA thioesterase activity](http://purl.obolibrary.org/obo/GO_0061522) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [1,4-dihydroxy-2-naphthoyl-CoA thioesterase activity](http://purl.obolibrary.org/obo/GO_0061522) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [1,4-dihydroxy-2-naphthoyl-CoA thioesterase activity](http://purl.obolibrary.org/obo/GO_0061522) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### 1,4-dihydroxy-6-naphthoic acid `http://purl.obolibrary.org/obo/CHEBI_64284`
@@ -11266,6 +11382,14 @@
 - [16-oxoresolvin D2](http://purl.obolibrary.org/obo/CHEBI_138281) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 16S rRNA pseudouridine(516) synthase activity `http://purl.obolibrary.org/obo/GO_0160136`
+#### Removed
+- [16S rRNA pseudouridine(516) synthase activity](http://purl.obolibrary.org/obo/GO_0160136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [16S rRNA pseudouridine(516) synthase activity](http://purl.obolibrary.org/obo/GO_0160136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
 ### 16alpha-hydroxydehydroepiandrosterone 3-sulfate `http://purl.obolibrary.org/obo/CHEBI_87774`
 
 #### Added
@@ -11384,6 +11508,20 @@
 
 #### Added
 - [17-hydroxylupanine](http://purl.obolibrary.org/obo/CHEBI_64287) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 17-hydroxyprogesterone 21-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0103069`
+#### Removed
+- [17-hydroxyprogesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103069) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [17-hydroxyprogesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103069) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [17-hydroxyprogesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103069) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [17-hydroxyprogesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103069) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMNH2(2-)](http://purl.obolibrary.org/obo/CHEBI_57618) 
+
+- [17-hydroxyprogesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103069) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMN(3-)](http://purl.obolibrary.org/obo/CHEBI_58210) 
+
 
 
 ### 17-oxoresolvin D1 `http://purl.obolibrary.org/obo/CHEBI_132800`
@@ -12632,6 +12770,30 @@
 
 #### Added
 - [2,5-dioxopentanoic acid](http://purl.obolibrary.org/obo/CHEBI_17415) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 2,5-dioxovalerate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0044104`
+#### Removed
+- [2,5-dioxovalerate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0044104) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [2,5-dioxovalerate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0044104) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [2,5-dioxovalerate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0044104) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [2,5-dioxovalerate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0044104) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### 2,5-dioxovalerate dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047533`
+#### Removed
+- [2,5-dioxovalerate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047533) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [2,5-dioxovalerate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047533) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [2,5-dioxovalerate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047533) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [2,5-dioxovalerate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047533) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
 
 
 ### 2,6,8-trihydroxypurin-7-ide `http://purl.obolibrary.org/obo/CHEBI_46820`
@@ -13977,6 +14139,18 @@
 - [2-formamido-N(1)-(5-phospho-D-ribosyl)acetamidine](http://purl.obolibrary.org/obo/CHEBI_18413) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 2-formylbenzoate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0018474`
+#### Removed
+- [2-formylbenzoate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018474) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [2-formylbenzoate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018474) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [2-formylbenzoate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018474) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [2-formylbenzoate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018474) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### 2-formylbenzoic acid `http://purl.obolibrary.org/obo/CHEBI_17605`
 
 #### Added
@@ -14841,6 +15015,18 @@
 - [2-methylbut-2-enoyl-coenzyme A](http://purl.obolibrary.org/obo/CHEBI_11614) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 2-methylbutanoate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0043759`
+#### Removed
+- [2-methylbutanoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0043759) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [2-methylbutanoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0043759) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [2-methylbutanoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0043759) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [2-methylbutanoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0043759) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### 2-methylbutanoyl-CoA `http://purl.obolibrary.org/obo/CHEBI_15477`
 
 #### Added
@@ -15074,10 +15260,42 @@
 - [2-oxoadipic acid](http://purl.obolibrary.org/obo/CHEBI_15753) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 2-oxoaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0047551`
+#### Removed
+- [2-oxoaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047551) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [2-oxoaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047551) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [2-oxoaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047551) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [2-oxoaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047551) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### 2-oxoaldehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047552`
+#### Removed
+- [2-oxoaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047552) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [2-oxoaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047552) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [2-oxoaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047552) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [2-oxoaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047552) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
 ### 2-oxobutanoic acid `http://purl.obolibrary.org/obo/CHEBI_30831`
 
 #### Added
 - [2-oxobutanoic acid](http://purl.obolibrary.org/obo/CHEBI_30831) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 2-oxoglutaramate amidase activity `http://purl.obolibrary.org/obo/GO_0106008`
+#### Removed
+- [2-oxoglutaramate amidase activity](http://purl.obolibrary.org/obo/GO_0106008) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [2-oxoglutaramate amidase activity](http://purl.obolibrary.org/obo/GO_0106008) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### 2-oxoglutaramic acid `http://purl.obolibrary.org/obo/CHEBI_30882`
@@ -15501,6 +15719,14 @@
 - [21-phosphorifampicin](http://purl.obolibrary.org/obo/CHEBI_140276) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 21S rRNA pseudouridine(2819) synthase activity `http://purl.obolibrary.org/obo/GO_0160143`
+#### Removed
+- [21S rRNA pseudouridine(2819) synthase activity](http://purl.obolibrary.org/obo/GO_0160143) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [21S rRNA pseudouridine(2819) synthase activity](http://purl.obolibrary.org/obo/GO_0160143) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
 ### 22-hydroxy steroid `http://purl.obolibrary.org/obo/CHEBI_36863`
 
 #### Added
@@ -15535,6 +15761,104 @@
 
 #### Added
 - [23-hydroxy steroid](http://purl.obolibrary.org/obo/CHEBI_36866) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 23S rRNA (adenine(1618)-N(6))-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0052907`
+#### Removed
+- [23S rRNA (adenine(1618)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0052907) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [23S rRNA (adenine(1618)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0052907) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [23S rRNA (adenine(1618)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0052907) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+- [23S rRNA (adenine(1618)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0052907) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_74411) 
+
+- [23S rRNA (adenine(1618)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0052907) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(6)-methyladenosine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_74449) 
+
+
+
+### 23S rRNA (adenine(2030)-N(6))-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0036307`
+#### Removed
+- [23S rRNA (adenine(2030)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0036307) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [23S rRNA (adenine(2030)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0036307) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [23S rRNA (adenine(2030)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0036307) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+- [23S rRNA (adenine(2030)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0036307) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_74411) 
+
+- [23S rRNA (adenine(2030)-N(6))-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0036307) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(6)-methyladenosine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_74449) 
+
+
+
+### 23S rRNA (adenine(2085)-N(6))-dimethyltransferase activity `http://purl.obolibrary.org/obo/GO_0052910`
+#### Removed
+- [23S rRNA (adenine(2085)-N(6))-dimethyltransferase activity](http://purl.obolibrary.org/obo/GO_0052910) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [23S rRNA (adenine(2085)-N(6))-dimethyltransferase activity](http://purl.obolibrary.org/obo/GO_0052910) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [23S rRNA (adenine(2085)-N(6))-dimethyltransferase activity](http://purl.obolibrary.org/obo/GO_0052910) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+- [23S rRNA (adenine(2085)-N(6))-dimethyltransferase activity](http://purl.obolibrary.org/obo/GO_0052910) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_74411) 
+
+
+
+### 23S rRNA (adenosine(1067)-2'-O-ribose)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0030743`
+#### Removed
+- [23S rRNA (adenosine(1067)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030743) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [23S rRNA (adenosine(1067)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030743) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [23S rRNA (adenosine(1067)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030743) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+
+
+### 23S rRNA pseudouridine(1911/1915/1917) synthase activity `http://purl.obolibrary.org/obo/GO_0160140`
+#### Removed
+- [23S rRNA pseudouridine(1911/1915/1917) synthase activity](http://purl.obolibrary.org/obo/GO_0160140) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [23S rRNA pseudouridine(1911/1915/1917) synthase activity](http://purl.obolibrary.org/obo/GO_0160140) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### 23S rRNA pseudouridine(2457) synthase activity `http://purl.obolibrary.org/obo/GO_0160137`
+#### Removed
+- [23S rRNA pseudouridine(2457) synthase activity](http://purl.obolibrary.org/obo/GO_0160137) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [23S rRNA pseudouridine(2457) synthase activity](http://purl.obolibrary.org/obo/GO_0160137) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### 23S rRNA pseudouridine(2604) synthase activity `http://purl.obolibrary.org/obo/GO_0160138`
+#### Removed
+- [23S rRNA pseudouridine(2604) synthase activity](http://purl.obolibrary.org/obo/GO_0160138) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [23S rRNA pseudouridine(2604) synthase activity](http://purl.obolibrary.org/obo/GO_0160138) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### 23S rRNA pseudouridine(2605) synthase activity `http://purl.obolibrary.org/obo/GO_0160139`
+#### Removed
+- [23S rRNA pseudouridine(2605) synthase activity](http://purl.obolibrary.org/obo/GO_0160139) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [23S rRNA pseudouridine(2605) synthase activity](http://purl.obolibrary.org/obo/GO_0160139) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### 23S rRNA pseudouridine(746) synthase activity `http://purl.obolibrary.org/obo/GO_0160142`
+#### Removed
+- [23S rRNA pseudouridine(746) synthase activity](http://purl.obolibrary.org/obo/GO_0160142) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [23S rRNA pseudouridine(746) synthase activity](http://purl.obolibrary.org/obo/GO_0160142) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### 23S rRNA pseudouridine(955/2504/2580) synthase activity `http://purl.obolibrary.org/obo/GO_0160141`
+#### Removed
+- [23S rRNA pseudouridine(955/2504/2580) synthase activity](http://purl.obolibrary.org/obo/GO_0160141) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [23S rRNA pseudouridine(955/2504/2580) synthase activity](http://purl.obolibrary.org/obo/GO_0160141) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
 
 
 ### 24-hydroxy steroid `http://purl.obolibrary.org/obo/CHEBI_36865`
@@ -15732,6 +16056,10 @@
 - [3',5'-cyclic-AMP phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0004115) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9644869" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "p-S54-PDE4B hydrolyses cAMP" 
 
+- [3',5'-cyclic-AMP phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0004115) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [3',5'-cyclic-AMP phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0004115) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
 
 
 ### 3',5'-cyclic-GMP phosphodiesterase activity `http://purl.obolibrary.org/obo/GO_0047555`
@@ -15744,6 +16072,10 @@
 
 - [3',5'-cyclic-GMP phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0047555) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-418456" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "cGMP is degraded by PDEs" 
+
+- [3',5'-cyclic-GMP phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0047555) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [3',5'-cyclic-GMP phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0047555) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
 
 
 
@@ -15808,6 +16140,12 @@
 #### Removed
 - [3'-5' RNA helicase activity](http://purl.obolibrary.org/obo/GO_0034458) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9836927" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SUPV3L1 unwinds double-stranded mitochondiral RNA" 
+
+
+
+### 3'-5' RNA polymerase activity `http://purl.obolibrary.org/obo/GO_0097748`
+#### Removed
+- [3'-5' RNA polymerase activity](http://purl.obolibrary.org/obo/GO_0097748) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nucleoside 5'-triphoshate(4-)](http://purl.obolibrary.org/obo/CHEBI_61557) 
 
 
 
@@ -16901,6 +17239,18 @@
 - [3-aminopropanal](http://purl.obolibrary.org/obo/CHEBI_18090) SubClassOf [aldehyde](http://purl.obolibrary.org/obo/CHEBI_17478) 
 
 
+### 3-aminopropanal dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0102244`
+#### Removed
+- [3-aminopropanal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102244) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [3-aminopropanal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102244) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [3-aminopropanal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102244) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [3-aminopropanal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102244) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### 3-aminopropane-1-thiol `http://purl.obolibrary.org/obo/CHEBI_38933`
 
 #### Added
@@ -16917,6 +17267,16 @@
 
 #### Added
 - [3-ammonio-L-alanine(1+)](http://purl.obolibrary.org/obo/CHEBI_84374) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0033703`
+#### Removed
+- [3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033703) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033703) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033703) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
 
 
 ### 3-beta-hydroxy-Delta5-steroid dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003854`
@@ -17194,6 +17554,12 @@
 
 
 
+### 3-demethylubiquinone 3-O-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0120537`
+#### Removed
+- [3-demethylubiquinone 3-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120537) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ubiquinones](http://purl.obolibrary.org/obo/CHEBI_16389) 
+
+
+
 ### 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity `http://purl.obolibrary.org/obo/GO_0052791`
 #### Removed
 - [3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (2-keto-3-deoxynononic acid)n + H2O = (2-keto-3-deoxynononic acid)n-1 + 2-keto-3-deoxynononic acid. This reaction is the hydrolysis of a 2-keto-3-deoxynononic acid residue from a poly-2-keto-3-deoxynononic acid chain." 
@@ -17268,6 +17634,18 @@
 
 #### Added
 - [3-deoxy-alpha-D-manno-oct-2-ulopyranosonic acid](http://purl.obolibrary.org/obo/CHEBI_43577) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 3-deoxyglucosone dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0106373`
+#### Removed
+- [3-deoxyglucosone dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106373) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [3-deoxyglucosone dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106373) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [3-deoxyglucosone dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106373) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [3-deoxyglucosone dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106373) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### 3-dimethylallyl-4-hydroxybenzoic acid `http://purl.obolibrary.org/obo/CHEBI_31111`
@@ -17791,6 +18169,12 @@
 - [3-hydroxyisobutyryl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0003860) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70881" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-hydroxyisobutyryl-CoA + H2O =&gt; beta-hydroxyisobutyrate + CoA" 
 
+- [3-hydroxyisobutyryl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0003860) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [3-hydroxyisobutyryl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0003860) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [3-hydroxyisobutyryl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0003860) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### 3-hydroxyisoheptadecanoyl-CoA `http://purl.obolibrary.org/obo/CHEBI_72003`
@@ -18061,6 +18445,12 @@
 - [3-methylbutanoyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008470) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70745" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "isovaleryl-CoA + FAD =&gt; beta-methylcrotonyl-CoA + FADH2" 
 
+- [3-methylbutanoyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008470) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [3-methylbutanoyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008470) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FAD(3-)](http://purl.obolibrary.org/obo/CHEBI_57692) 
+
+- [3-methylbutanoyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008470) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FADH2(2-)](http://purl.obolibrary.org/obo/CHEBI_58307) 
+
 
 
 ### 3-methyldodecanoyl-CoA `http://purl.obolibrary.org/obo/CHEBI_139392`
@@ -18237,6 +18627,14 @@
 - [3-oxo-5,6-dehydrosuberyl-CoA](http://purl.obolibrary.org/obo/CHEBI_63253) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 3-oxo-5-alpha-steroid 4-dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047751`
+#### Removed
+- [3-oxo-5-alpha-steroid 4-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047751) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [3-oxo-5alpha-steroid](http://purl.obolibrary.org/obo/CHEBI_13601) 
+
+- [3-oxo-5-alpha-steroid 4-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047751) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [3-oxo-Delta(4) steroid](http://purl.obolibrary.org/obo/CHEBI_47909) 
+
+
+
 ### 3-oxo-5-alpha-steroid 4-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0003865`
 #### Removed
 - [3-oxo-5-alpha-steroid 4-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003865) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-469659" 
@@ -18285,6 +18683,14 @@
 
 #### Added
 - [3-oxoadipyl-CoA](http://purl.obolibrary.org/obo/CHEBI_15490) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 3-oxoadipyl-CoA thiolase activity `http://purl.obolibrary.org/obo/GO_0033812`
+#### Removed
+- [3-oxoadipyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0033812) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [3-oxoadipyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0033812) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
 
 
 ### 3-oxoalanine `http://purl.obolibrary.org/obo/CHEBI_17740`
@@ -18537,6 +18943,12 @@
 
 #### Added
 - [3-oxopropanoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_28673) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 3-oxosteroid 1-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0047571`
+#### Removed
+- [3-oxosteroid 1-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047571) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [3-oxo steroid](http://purl.obolibrary.org/obo/CHEBI_47788) 
+
 
 
 ### 3-oxotetracosanoic acid `http://purl.obolibrary.org/obo/CHEBI_52352`
@@ -20021,6 +20433,14 @@
 - [4-hydroxybenzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018484) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9856794" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown dehydrogenase oxidizes 4-HBz" 
 
+- [4-hydroxybenzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018484) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [4-hydroxybenzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018484) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [4-hydroxybenzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018484) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [4-hydroxybenzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018484) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### 4-hydroxybenzoate polyprenyltransferase activity `http://purl.obolibrary.org/obo/GO_0008412`
@@ -20046,6 +20466,16 @@
 
 #### Added
 - [4-hydroxybenzoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_15500) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 4-hydroxybenzoyl-CoA thioesterase activity `http://purl.obolibrary.org/obo/GO_0018739`
+#### Removed
+- [4-hydroxybenzoyl-CoA thioesterase activity](http://purl.obolibrary.org/obo/GO_0018739) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [4-hydroxybenzoyl-CoA thioesterase activity](http://purl.obolibrary.org/obo/GO_0018739) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [4-hydroxybenzoyl-CoA thioesterase activity](http://purl.obolibrary.org/obo/GO_0018739) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### 4-hydroxybutyric acid `http://purl.obolibrary.org/obo/CHEBI_30830`
@@ -20107,6 +20537,30 @@
 
 #### Added
 - [4-hydroxymandelic acid](http://purl.obolibrary.org/obo/CHEBI_16388) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 4-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0018481`
+#### Removed
+- [4-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018481) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [4-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018481) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [4-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018481) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [4-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018481) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### 4-hydroxyphenylacetaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0047106`
+#### Removed
+- [4-hydroxyphenylacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047106) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [4-hydroxyphenylacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047106) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [4-hydroxyphenylacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047106) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [4-hydroxyphenylacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047106) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### 4-hydroxyphenylacetic acid `http://purl.obolibrary.org/obo/CHEBI_18101`
@@ -20445,6 +20899,14 @@
 - [4-trimethylammoniobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047105) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-71260" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ALDH9A1 tetramer dehydrogenates TEABL to form TEABT" 
 
+- [4-trimethylammoniobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047105) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [4-trimethylammoniobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047105) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [4-trimethylammoniobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047105) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [4-trimethylammoniobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047105) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### 4H-pyrazol-4-ide `http://purl.obolibrary.org/obo/CHEBI_38600`
@@ -20570,6 +21032,14 @@
 ### 5'-adenylyl sulfate transmembrane transport `http://purl.obolibrary.org/obo/GO_1902558`
 #### Removed
 - [5'-adenylyl sulfate transmembrane transport](http://purl.obolibrary.org/obo/GO_1902558) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+
+
+### 5'-deoxynucleotidase activity `http://purl.obolibrary.org/obo/GO_0002953`
+#### Removed
+- [5'-deoxynucleotidase activity](http://purl.obolibrary.org/obo/GO_0002953) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [5'-deoxynucleotidase activity](http://purl.obolibrary.org/obo/GO_0002953) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
 
 
 
@@ -21071,6 +21541,16 @@
 - [5-acetamidopentanoic acid](http://purl.obolibrary.org/obo/CHEBI_2024) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 5-alpha-androstane-3-beta,17-beta-diol dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047024`
+#### Removed
+- [5-alpha-androstane-3-beta,17-beta-diol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047024) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [5-alpha-androstane-3-beta,17-beta-diol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047024) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [5-alpha-androstane-3-beta,17-beta-diol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047024) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
 ### 5-amino-1-(5-phospho-D-ribosyl)imidazole `http://purl.obolibrary.org/obo/CHEBI_28843`
 
 #### Added
@@ -21210,6 +21690,18 @@
 
 #### Added
 - [5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole](http://purl.obolibrary.org/obo/CHEBI_48000) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0018480`
+#### Removed
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018480) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018480) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018480) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018480) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### 5-carboxymethylaminomethyl-2'-O-methyluridine 5'-monophosphate `http://purl.obolibrary.org/obo/CHEBI_74785`
@@ -22462,6 +22954,18 @@
 - [6-oxocyclohex-1-ene-1-carbonyl-CoA](http://purl.obolibrary.org/obo/CHEBI_28168) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 6-oxohexanoate dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0018483`
+#### Removed
+- [6-oxohexanoate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0018483) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [6-oxohexanoate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0018483) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [6-oxohexanoate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0018483) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [6-oxohexanoate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0018483) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
 ### 6-oxohexanoic acid `http://purl.obolibrary.org/obo/CHEBI_2490`
 
 #### Added
@@ -23523,6 +24027,12 @@
 - [8-oxo-GDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0044716) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2395873" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NUDT18 hydrolyses 8-oxo-GDP to 8-oxo-GMP" 
 
+- [8-oxo-GDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0044716) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [8-oxo-GDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0044716) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [8-oxo-GDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0044716) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### 8-oxo-GMP `http://purl.obolibrary.org/obo/CHEBI_65135`
@@ -23556,6 +24066,12 @@
 
 - [8-oxo-dGDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0044715) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2395879" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NUDT18 hydrolyses 8-oxo-dGDP to 8-oxo-dGMP" 
+
+- [8-oxo-dGDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0044715) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [8-oxo-dGDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0044715) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [8-oxo-dGDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0044715) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
 
 
 
@@ -23988,6 +24504,20 @@
 - [ABC-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0015434) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that RHEA:12132 represents both the ABC and the P-type cadmium transporters." 
 
 
+### ABC-type glycine betaine transporter activity `http://purl.obolibrary.org/obo/GO_0031459`
+#### Removed
+- [ABC-type glycine betaine transporter activity](http://purl.obolibrary.org/obo/GO_0031459) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ABC-type glycine betaine transporter activity](http://purl.obolibrary.org/obo/GO_0031459) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ABC-type glycine betaine transporter activity](http://purl.obolibrary.org/obo/GO_0031459) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [ABC-type glycine betaine transporter activity](http://purl.obolibrary.org/obo/GO_0031459) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [ABC-type glycine betaine transporter activity](http://purl.obolibrary.org/obo/GO_0031459) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+
+
 ### ABC-type heme transporter activity `http://purl.obolibrary.org/obo/GO_0015439`
 #### Removed
 - [ABC-type heme transporter activity](http://purl.obolibrary.org/obo/GO_0015439) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382560" 
@@ -24119,6 +24649,26 @@
 
 #### Added
 - [ADP alpha-D-glucoside](http://purl.obolibrary.org/obo/CHEBI_15751) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### ADP phosphatase activity `http://purl.obolibrary.org/obo/GO_0043262`
+#### Removed
+- [ADP phosphatase activity](http://purl.obolibrary.org/obo/GO_0043262) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ADP phosphatase activity](http://purl.obolibrary.org/obo/GO_0043262) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ADP phosphatase activity](http://purl.obolibrary.org/obo/GO_0043262) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+
+
+### ADP reductase activity `http://purl.obolibrary.org/obo/GO_0051061`
+#### Removed
+- [ADP reductase activity](http://purl.obolibrary.org/obo/GO_0051061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ADP reductase activity](http://purl.obolibrary.org/obo/GO_0051061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [ADP reductase activity](http://purl.obolibrary.org/obo/GO_0051061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cystine residue](http://purl.obolibrary.org/obo/CHEBI_50058) 
+
 
 
 ### ADP(2-) `http://purl.obolibrary.org/obo/CHEBI_87518`
@@ -24413,6 +24963,10 @@
 - [AMP kinase activity](http://purl.obolibrary.org/obo/GO_0004017) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-110145" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "AMP + ATP &lt;=&gt; ADP + ADP [AK2]" 
 
+- [AMP kinase activity](http://purl.obolibrary.org/obo/GO_0004017) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [AMP kinase activity](http://purl.obolibrary.org/obo/GO_0004017) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 
 
 ### AMP salvage `http://purl.obolibrary.org/obo/GO_0044209`
@@ -24573,6 +25127,12 @@
 - [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9668415" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "VPS4 mediates disassembly of ESCRTIII subunits to promote sealing of holes in the nuclear envelope" 
 
+- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### ATP transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005347`
@@ -24609,6 +25169,20 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41022322" 
 
 - [ATP-activated inward rectifier potassium channel activity](http://purl.obolibrary.org/obo/GO_0015272) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP-sensitive inward rectifier potassium channel activity" 
+
+
+### ATP-dependent DNA (cytosine-5-)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0120328`
+#### Removed
+- [ATP-dependent DNA (cytosine-5-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120328) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ATP-dependent DNA (cytosine-5-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120328) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [ATP-dependent DNA (cytosine-5-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120328) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+- [ATP-dependent DNA (cytosine-5-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120328) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2'-deoxycytidine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_85452) 
+
+- [ATP-dependent DNA (cytosine-5-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120328) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [5-methyl dCMP(1-) residue](http://purl.obolibrary.org/obo/CHEBI_85454) 
+
 
 
 ### ATP-dependent NAD(P)H-hydrate dehydratase activity `http://purl.obolibrary.org/obo/GO_0047453`
@@ -24824,8 +25398,32 @@
 #### Removed
 - [ATPase-coupled L-glutamate tranmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0102013) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATPase-coupled L-glutamate tranmembrane transporter activity" 
 
+- [ATPase-coupled L-glutamate tranmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0102013) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ATPase-coupled L-glutamate tranmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0102013) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ATPase-coupled L-glutamate tranmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0102013) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [ATPase-coupled L-glutamate tranmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0102013) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [ATPase-coupled L-glutamate tranmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0102013) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 #### Added
 - [ATPase-coupled L-glutamate tranmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0102013) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATPase-coupled L-glutamate transmembrane transporter activity" 
+
+
+### ATPase-coupled L-glutamine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015599`
+#### Removed
+- [ATPase-coupled L-glutamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015599) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ATPase-coupled L-glutamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015599) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ATPase-coupled L-glutamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015599) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [ATPase-coupled L-glutamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015599) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [ATPase-coupled L-glutamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015599) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 
 
 ### ATPase-coupled intramembrane lipid carrier activity `http://purl.obolibrary.org/obo/GO_0140326`
@@ -25498,6 +26096,16 @@
 - [CDP](http://purl.obolibrary.org/obo/CHEBI_17239) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### CDP phosphatase activity `http://purl.obolibrary.org/obo/GO_0036384`
+#### Removed
+- [CDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0036384) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [CDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0036384) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [CDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0036384) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+
+
 ### CDP-1,2-diarachidonoyl-sn-glycerol `http://purl.obolibrary.org/obo/CHEBI_85835`
 
 #### Added
@@ -25728,6 +26336,14 @@
 - Class: [CHEBI_747270](http://purl.obolibrary.org/obo/CHEBI_747270) 
 
 
+### CMP kinase activity `http://purl.obolibrary.org/obo/GO_0036430`
+#### Removed
+- [CMP kinase activity](http://purl.obolibrary.org/obo/GO_0036430) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [CMP kinase activity](http://purl.obolibrary.org/obo/GO_0036430) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+
+
 ### CMP-3-deoxy-D-glycero-beta-D-galacto-nonulosonic acid `http://purl.obolibrary.org/obo/CHEBI_131596`
 
 #### Added
@@ -25824,6 +26440,16 @@
 
 #### Added
 - [CTP(3-)](http://purl.obolibrary.org/obo/CHEBI_58231) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### CTPase activity `http://purl.obolibrary.org/obo/GO_0043273`
+#### Removed
+- [CTPase activity](http://purl.obolibrary.org/obo/GO_0043273) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [CTPase activity](http://purl.obolibrary.org/obo/GO_0043273) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [CTPase activity](http://purl.obolibrary.org/obo/GO_0043273) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### Caenorhabditis elegans metabolite `http://purl.obolibrary.org/obo/CHEBI_78804`
@@ -26078,6 +26704,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-44" 
 
 
+### D-allose kinase activity `http://purl.obolibrary.org/obo/GO_0008787`
+#### Removed
+- [D-allose kinase activity](http://purl.obolibrary.org/obo/GO_0008787) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [D-allose kinase activity](http://purl.obolibrary.org/obo/GO_0008787) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [D-allose kinase activity](http://purl.obolibrary.org/obo/GO_0008787) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+
+
 ### D-allothreonine `http://purl.obolibrary.org/obo/CHEBI_32826`
 
 #### Added
@@ -26179,6 +26815,14 @@
 - [D-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0003884) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-389821" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "glycine + O2 =&gt; glyoxylate + H2O2 + NH4+" 
 
+- [D-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0003884) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [D-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0003884) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [D-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0003884) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [D-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0003884) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### D-arabinitol 1-phosphate `http://purl.obolibrary.org/obo/CHEBI_28455`
@@ -26275,6 +26919,14 @@
 #### Removed
 - [D-aspartate oxidase activity](http://purl.obolibrary.org/obo/GO_0008445) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6810076" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "DDO oxidizes D-Asp to OA" 
+
+- [D-aspartate oxidase activity](http://purl.obolibrary.org/obo/GO_0008445) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [D-aspartate oxidase activity](http://purl.obolibrary.org/obo/GO_0008445) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [D-aspartate oxidase activity](http://purl.obolibrary.org/obo/GO_0008445) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [D-aspartate oxidase activity](http://purl.obolibrary.org/obo/GO_0008445) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
 
 
 
@@ -27011,6 +27663,18 @@
 - [D-glucuronic acid 1-phosphate](http://purl.obolibrary.org/obo/CHEBI_35145) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### D-glutamate oxidase activity `http://purl.obolibrary.org/obo/GO_0047821`
+#### Removed
+- [D-glutamate oxidase activity](http://purl.obolibrary.org/obo/GO_0047821) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [D-glutamate oxidase activity](http://purl.obolibrary.org/obo/GO_0047821) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [D-glutamate oxidase activity](http://purl.obolibrary.org/obo/GO_0047821) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [D-glutamate oxidase activity](http://purl.obolibrary.org/obo/GO_0047821) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
 ### D-glutamate residue `http://purl.obolibrary.org/obo/CHEBI_29974`
 
 #### Added
@@ -27264,11 +27928,63 @@
 
 
 ### D-lactate dehydrogenase (FAD) activity `http://purl.obolibrary.org/obo/GO_0140170`
+#### Removed
+- [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(R)-lactate](http://purl.obolibrary.org/obo/CHEBI_16004) 
+
+- [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FAD(3-)](http://purl.obolibrary.org/obo/CHEBI_57692) 
+
+- [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FADH2(2-)](http://purl.obolibrary.org/obo/CHEBI_58307) 
 
 #### Added
 - [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) SubClassOf [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) 
+
+
+### D-lactate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0008720`
+#### Removed
+- [D-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008720) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [D-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008720) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [D-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008720) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(R)-lactate](http://purl.obolibrary.org/obo/CHEBI_16004) 
+
+- [D-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008720) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [D-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008720) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### D-lactate dehydrogenase (cytochrome) activity `http://purl.obolibrary.org/obo/GO_0004458`
+#### Removed
+- [D-lactate dehydrogenase (cytochrome) activity](http://purl.obolibrary.org/obo/GO_0004458) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [D-lactate dehydrogenase (cytochrome) activity](http://purl.obolibrary.org/obo/GO_0004458) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(R)-lactate](http://purl.obolibrary.org/obo/CHEBI_16004) 
+
+
+
+### D-lactate dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0102029`
+#### Removed
+- [D-lactate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0102029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1,4-benzoquinones](http://purl.obolibrary.org/obo/CHEBI_132124) 
+
+- [D-lactate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0102029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [D-lactate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0102029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(R)-lactate](http://purl.obolibrary.org/obo/CHEBI_16004) 
+
+- [D-lactate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0102029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydroquinones](http://purl.obolibrary.org/obo/CHEBI_24646) 
+
+
+
+### D-lactate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0047809`
+#### Removed
+- [D-lactate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047809) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen acceptor](http://purl.obolibrary.org/obo/CHEBI_13193) 
+
+- [D-lactate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047809) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen donor](http://purl.obolibrary.org/obo/CHEBI_17499) 
+
 
 
 ### D-leucinate `http://purl.obolibrary.org/obo/CHEBI_32623`
@@ -27913,6 +28629,16 @@
 - [D-tryptophan](http://purl.obolibrary.org/obo/CHEBI_16296) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### D-tryptophan N-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0047835`
+#### Removed
+- [D-tryptophan N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0047835) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [D-tryptophan N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0047835) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [D-tryptophan N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0047835) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
+
+
 ### D-tryptophan derivative `http://purl.obolibrary.org/obo/CHEBI_47997`
 
 #### Added
@@ -27984,6 +28710,14 @@
 
 #### Added
 - [D-tyrosyl group](http://purl.obolibrary.org/obo/CHEBI_32778) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### D-tyrosyl-tRNA(Tyr) deacylase activity `http://purl.obolibrary.org/obo/GO_0051500`
+#### Removed
+- [D-tyrosyl-tRNA(Tyr) deacylase activity](http://purl.obolibrary.org/obo/GO_0051500) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [D-tyrosyl-tRNA(Tyr) deacylase activity](http://purl.obolibrary.org/obo/GO_0051500) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [AMP 3'-end(1-) residue](http://purl.obolibrary.org/obo/CHEBI_78442) 
+
 
 
 ### D-valinate `http://purl.obolibrary.org/obo/CHEBI_32855`
@@ -31201,6 +31935,12 @@
 - [GDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0004382) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9947887" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GBP1 hydrolyzes GDP" 
 
+- [GDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0004382) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [GDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0004382) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [GDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0004382) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### GDP(2-) `http://purl.obolibrary.org/obo/CHEBI_65180`
@@ -31498,6 +32238,10 @@
 
 - [GMP kinase activity](http://purl.obolibrary.org/obo/GO_0004385) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9748963" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GUK1 phosphorylates 6TdGMP to 6TdGDP" 
+
+- [GMP kinase activity](http://purl.obolibrary.org/obo/GO_0004385) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [GMP kinase activity](http://purl.obolibrary.org/obo/GO_0004385) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
 
 
 
@@ -31903,6 +32647,12 @@
 - [GTPase activity](http://purl.obolibrary.org/obo/GO_0003924) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-421835" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Golgi Network Vesicle Scission" 
 
+- [GTPase activity](http://purl.obolibrary.org/obo/GO_0003924) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [GTPase activity](http://purl.obolibrary.org/obo/GO_0003924) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [GTPase activity](http://purl.obolibrary.org/obo/GO_0003924) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### GTPase inhibitor activity `http://purl.obolibrary.org/obo/GO_0005095`
@@ -32001,6 +32751,12 @@
 
 #### Added
 - [Gly-Pro](http://purl.obolibrary.org/obo/CHEBI_70744) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### Gly-tRNA(Ala) deacylase activity `http://purl.obolibrary.org/obo/GO_0106026`
+#### Removed
+- [Gly-tRNA(Ala) deacylase activity](http://purl.obolibrary.org/obo/GO_0106026) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [AMP 3'-end(1-) residue](http://purl.obolibrary.org/obo/CHEBI_78442) 
+
 
 
 ### Gly-tRNA(Gly) `http://purl.obolibrary.org/obo/CHEBI_29156`
@@ -32206,6 +32962,12 @@
 - [IDP phosphatase activity](http://purl.obolibrary.org/obo/GO_1990003) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2509816" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NUDT16 hydrolyses IDP to IMP" 
 
+- [IDP phosphatase activity](http://purl.obolibrary.org/obo/GO_1990003) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [IDP phosphatase activity](http://purl.obolibrary.org/obo/GO_1990003) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [IDP phosphatase activity](http://purl.obolibrary.org/obo/GO_1990003) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### IMP `http://purl.obolibrary.org/obo/CHEBI_17202`
@@ -32335,6 +33097,16 @@
 
 #### Added
 - [ITP(3-)](http://purl.obolibrary.org/obo/CHEBI_57614) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### ITPase activity `http://purl.obolibrary.org/obo/GO_0103023`
+#### Removed
+- [ITPase activity](http://purl.obolibrary.org/obo/GO_0103023) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ITPase activity](http://purl.obolibrary.org/obo/GO_0103023) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ITPase activity](http://purl.obolibrary.org/obo/GO_0103023) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### IkappaB kinase activity `http://purl.obolibrary.org/obo/GO_0008384`
@@ -32835,6 +33607,14 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Alanine metabolism" 
 
 
+### L-alanine conjugated cholate hydrolase activity `http://purl.obolibrary.org/obo/GO_7770005`
+#### Removed
+- [L-alanine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770005) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-alanine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770005) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholate](http://purl.obolibrary.org/obo/CHEBI_29747) 
+
+
+
 ### L-alanine derivative `http://purl.obolibrary.org/obo/CHEBI_83943`
 
 #### Added
@@ -32855,6 +33635,10 @@
 - [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-507749" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PXLP-K341-GPT2 transaminates PYR to form L-Ala" 
 
+- [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-alanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57972) 
+
 
 
 ### L-alanine:glyoxylate transaminase activity `http://purl.obolibrary.org/obo/GO_0008453`
@@ -32864,6 +33648,16 @@
 
 - [L-alanine:glyoxylate transaminase activity](http://purl.obolibrary.org/obo/GO_0008453) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-389684" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "glyoxylate + alanine =&gt; glycine + pyruvate [peroxisome]" 
+
+- [L-alanine:glyoxylate transaminase activity](http://purl.obolibrary.org/obo/GO_0008453) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [L-alanine:glyoxylate transaminase activity](http://purl.obolibrary.org/obo/GO_0008453) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-alanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57972) 
+
+
+
+### L-alanine:oxo-acid transaminase activity `http://purl.obolibrary.org/obo/GO_0047635`
+#### Removed
+- [L-alanine:oxo-acid transaminase activity](http://purl.obolibrary.org/obo/GO_0047635) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxo monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35179) 
 
 
 
@@ -32889,6 +33683,14 @@
 
 #### Added
 - [L-alanyl-gamma-D-glutamyl-meso-diaminopimelic acid](http://purl.obolibrary.org/obo/CHEBI_61564) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-allo-threonine aldolase activity `http://purl.obolibrary.org/obo/GO_0008732`
+#### Removed
+- [L-allo-threonine aldolase activity](http://purl.obolibrary.org/obo/GO_0008732) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetaldehyde](http://purl.obolibrary.org/obo/CHEBI_15343) 
+
+- [L-allo-threonine aldolase activity](http://purl.obolibrary.org/obo/GO_0008732) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57305) 
+
 
 
 ### L-alloisoleucine `http://purl.obolibrary.org/obo/CHEBI_43433`
@@ -32989,6 +33791,14 @@
 #### Removed
 - [L-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0001716) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2160492" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "IL4I1:FAD oxidises L-Phe to kPPV" 
+
+- [L-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0001716) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0001716) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [L-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0001716) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [L-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0001716) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
 
 
 
@@ -33107,6 +33917,14 @@
 
 
 
+### L-arginine conjugated cholate hydrolase activity `http://purl.obolibrary.org/obo/GO_7770007`
+#### Removed
+- [L-arginine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770007) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-arginine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770007) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholate](http://purl.obolibrary.org/obo/CHEBI_29747) 
+
+
+
 ### L-arginine derivative `http://purl.obolibrary.org/obo/CHEBI_83965`
 
 #### Added
@@ -33166,6 +33984,26 @@
 
 #### Added
 - [L-asparagine derivative](http://purl.obolibrary.org/obo/CHEBI_52987) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-asparagine, sodium:proton antiporter activity `http://purl.obolibrary.org/obo/GO_0140831`
+#### Removed
+- [L-asparagine, sodium:proton antiporter activity](http://purl.obolibrary.org/obo/GO_0140831) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [L-asparagine, sodium:proton antiporter activity](http://purl.obolibrary.org/obo/GO_0140831) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sodium(1+)](http://purl.obolibrary.org/obo/CHEBI_29101) 
+
+
+
+### L-asparagine:oxo-acid transaminase activity `http://purl.obolibrary.org/obo/GO_0047297`
+#### Removed
+- [L-asparagine:oxo-acid transaminase activity](http://purl.obolibrary.org/obo/GO_0047297) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxo monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35179) 
+
+
+
+### L-asparagine:sodium symporter activity `http://purl.obolibrary.org/obo/GO_0140901`
+#### Removed
+- [L-asparagine:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0140901) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sodium(1+)](http://purl.obolibrary.org/obo/CHEBI_29101) 
+
 
 
 ### L-asparaginium `http://purl.obolibrary.org/obo/CHEBI_32651`
@@ -33704,6 +34542,26 @@
 - [L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9929439" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ALDH4A1 oxidizes 1PYR-3OH-5COOH" 
 
+- [L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003842) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003842) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003842) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003842) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### L-glutamate oxidase activity `http://purl.obolibrary.org/obo/GO_0050025`
+#### Removed
+- [L-glutamate oxidase activity](http://purl.obolibrary.org/obo/GO_0050025) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-glutamate oxidase activity](http://purl.obolibrary.org/obo/GO_0050025) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [L-glutamate oxidase activity](http://purl.obolibrary.org/obo/GO_0050025) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [L-glutamate oxidase activity](http://purl.obolibrary.org/obo/GO_0050025) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### L-glutamate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005313`
@@ -33767,6 +34625,14 @@
 - [L-glutamine derivative](http://purl.obolibrary.org/obo/CHEBI_24317) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-glutamine, sodium:proton antiporter activity `http://purl.obolibrary.org/obo/GO_0140830`
+#### Removed
+- [L-glutamine, sodium:proton antiporter activity](http://purl.obolibrary.org/obo/GO_0140830) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [L-glutamine, sodium:proton antiporter activity](http://purl.obolibrary.org/obo/GO_0140830) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sodium(1+)](http://purl.obolibrary.org/obo/CHEBI_29101) 
+
+
+
 ### L-glutamine:D-fructose-6-phosphate transaminase (isomerizing) activity `http://purl.obolibrary.org/obo/GO_0004360`
 #### Removed
 - [L-glutamine:D-fructose-6-phosphate transaminase (isomerizing) activity](http://purl.obolibrary.org/obo/GO_0004360) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-4085027" 
@@ -33781,6 +34647,10 @@
 #### Removed
 - [L-glutamine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047945) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-893616" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamine + pyruvate =&gt; 2-oxoglutaramate + alanine" 
+
+- [L-glutamine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047945) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [L-glutamine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047945) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-alanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57972) 
 
 
 
@@ -33851,10 +34721,26 @@
 - [L-histidine](http://purl.obolibrary.org/obo/CHEBI_15971) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-histidine conjugated cholate hydrolase activity `http://purl.obolibrary.org/obo/GO_7770008`
+#### Removed
+- [L-histidine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770008) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-histidine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770008) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholate](http://purl.obolibrary.org/obo/CHEBI_29747) 
+
+
+
 ### L-histidine derivative `http://purl.obolibrary.org/obo/CHEBI_84076`
 
 #### Added
 - [L-histidine derivative](http://purl.obolibrary.org/obo/CHEBI_84076) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-histidine, sodium:proton antiporter activity `http://purl.obolibrary.org/obo/GO_0140832`
+#### Removed
+- [L-histidine, sodium:proton antiporter activity](http://purl.obolibrary.org/obo/GO_0140832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [L-histidine, sodium:proton antiporter activity](http://purl.obolibrary.org/obo/GO_0140832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sodium(1+)](http://purl.obolibrary.org/obo/CHEBI_29101) 
+
 
 
 ### L-histidinium residue `http://purl.obolibrary.org/obo/CHEBI_29982`
@@ -34087,12 +34973,26 @@
 - [L-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004459) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6807826" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "LDHAL6B reduces PYR to LACT" 
 
+- [L-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004459) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [L-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004459) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [L-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004459) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### L-lactate dehydrogenase inhibitor activity `http://purl.obolibrary.org/obo/GO_0160193`
 
 #### Added
 - [L-lactate dehydrogenase inhibitor activity](http://purl.obolibrary.org/obo/GO_0160193) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage." 
+
+
+### L-lactate oxidase activity `http://purl.obolibrary.org/obo/GO_0120572`
+#### Removed
+- [L-lactate oxidase activity](http://purl.obolibrary.org/obo/GO_0120572) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [L-lactate oxidase activity](http://purl.obolibrary.org/obo/GO_0120572) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
 
 
 ### L-lactyl-2-diphospho-5'-guanosine `http://purl.obolibrary.org/obo/CHEBI_59436`
@@ -34139,6 +35039,8 @@
 
 ### L-leucine metabolic process `http://purl.obolibrary.org/obo/GO_0006551`
 #### Removed
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving L-leucine, 2-amino-4-methylpentanoic acid." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
@@ -34215,6 +35117,18 @@
 - [L-lysine](http://purl.obolibrary.org/obo/CHEBI_18019) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-lysine 6-oxidase activity `http://purl.obolibrary.org/obo/GO_0033736`
+#### Removed
+- [L-lysine 6-oxidase activity](http://purl.obolibrary.org/obo/GO_0033736) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-lysine 6-oxidase activity](http://purl.obolibrary.org/obo/GO_0033736) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [L-lysine 6-oxidase activity](http://purl.obolibrary.org/obo/GO_0033736) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [L-lysine 6-oxidase activity](http://purl.obolibrary.org/obo/GO_0033736) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
 ### L-lysine N6-acetyltransferase activity, acting on acetyl phosphate as donor `http://purl.obolibrary.org/obo/GO_0004468`
 #### Removed
 - [L-lysine N6-acetyltransferase activity, acting on acetyl phosphate as donor](http://purl.obolibrary.org/obo/GO_0004468) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5618328" 
@@ -34236,6 +35150,18 @@
 
 #### Added
 - [L-lysine derivative](http://purl.obolibrary.org/obo/CHEBI_25095) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-lysine oxidase activity `http://purl.obolibrary.org/obo/GO_0050029`
+#### Removed
+- [L-lysine oxidase activity](http://purl.obolibrary.org/obo/GO_0050029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-lysine oxidase activity](http://purl.obolibrary.org/obo/GO_0050029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [L-lysine oxidase activity](http://purl.obolibrary.org/obo/GO_0050029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [L-lysine oxidase activity](http://purl.obolibrary.org/obo/GO_0050029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### L-lysine residue `http://purl.obolibrary.org/obo/CHEBI_29967`
@@ -34297,6 +35223,12 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "MDH2 dimer dehydrogenates MAL" 
 
 - [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+- [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 #### Added
 - [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -34398,6 +35330,8 @@
 
 ### L-methionine metabolic process `http://purl.obolibrary.org/obo/GO_0006555`
 #### Removed
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving L-methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
@@ -34454,11 +35388,29 @@
 
 
 ### L-methionine:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0080099`
+#### Removed
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [4-methylthio-2-oxobutanoate](http://purl.obolibrary.org/obo/CHEBI_16723) 
+
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57844) 
 
 #### Added
 - [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [25796](http://rdf.rhea-db.org/25796) 
+
+
+### L-methionine:glyoxylate transaminase activity `http://purl.obolibrary.org/obo/GO_0050094`
+#### Removed
+- [L-methionine:glyoxylate transaminase activity](http://purl.obolibrary.org/obo/GO_0050094) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [4-methylthio-2-oxobutanoate](http://purl.obolibrary.org/obo/CHEBI_16723) 
+
+- [L-methionine:glyoxylate transaminase activity](http://purl.obolibrary.org/obo/GO_0050094) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57844) 
+
+
+
+### L-methionine:oxo-acid transaminase activity `http://purl.obolibrary.org/obo/GO_0010326`
+#### Removed
+- [L-methionine:oxo-acid transaminase activity](http://purl.obolibrary.org/obo/GO_0010326) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxo monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35179) 
+
 
 
 ### L-methioninium `http://purl.obolibrary.org/obo/CHEBI_32632`
@@ -34559,6 +35511,14 @@
 #### Removed
 - [L-phenylalaine oxidase activity](http://purl.obolibrary.org/obo/GO_0106329) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-phenylalaine oxidase activity" 
 
+- [L-phenylalaine oxidase activity](http://purl.obolibrary.org/obo/GO_0106329) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-phenylalaine oxidase activity](http://purl.obolibrary.org/obo/GO_0106329) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [L-phenylalaine oxidase activity](http://purl.obolibrary.org/obo/GO_0106329) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [L-phenylalaine oxidase activity](http://purl.obolibrary.org/obo/GO_0106329) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 #### Added
 - [L-phenylalaine oxidase activity](http://purl.obolibrary.org/obo/GO_0106329) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-phenylalanine oxidase activity" 
 
@@ -34575,10 +35535,30 @@
 - [L-phenylalanine](http://purl.obolibrary.org/obo/CHEBI_17295) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-phenylalanine conjugated cholate hydrolase activity `http://purl.obolibrary.org/obo/GO_7770006`
+#### Removed
+- [L-phenylalanine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770006) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-phenylalanine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770006) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholate](http://purl.obolibrary.org/obo/CHEBI_29747) 
+
+
+
+### L-phenylalanine:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0080130`
+#### Removed
+- [L-phenylalanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080130) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxoglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16810) 
+
+- [L-phenylalanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080130) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-glutamate(1-)](http://purl.obolibrary.org/obo/CHEBI_29985) 
+
+
+
 ### L-phenylalanine:pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0047312`
 #### Removed
 - [L-phenylalanine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047312) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-893593" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "phenylalanine + pyruvate =&gt; keto-phenylpyruvate + alanine" 
+
+- [L-phenylalanine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047312) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [L-phenylalanine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047312) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-alanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57972) 
 
 
 
@@ -34658,6 +35638,8 @@
 
 ### L-proline metabolic process `http://purl.obolibrary.org/obo/GO_0006560`
 #### Removed
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving proline (pyrrolidine-2-carboxylic acid), a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
@@ -34842,6 +35824,12 @@
 - [L-serine](http://purl.obolibrary.org/obo/CHEBI_17115) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-serine O-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0009001`
+#### Removed
+- [L-serine O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0009001) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### L-serine O-sulfate `http://purl.obolibrary.org/obo/CHEBI_15829`
 
 #### Added
@@ -34867,6 +35855,14 @@
 
 
 
+### L-serine conjugated cholate hydrolase activity `http://purl.obolibrary.org/obo/GO_7770004`
+#### Removed
+- [L-serine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770004) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-serine conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770004) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholate](http://purl.obolibrary.org/obo/CHEBI_29747) 
+
+
+
 ### L-serine derivative `http://purl.obolibrary.org/obo/CHEBI_84135`
 
 #### Added
@@ -34875,6 +35871,8 @@
 
 ### L-serine metabolic process `http://purl.obolibrary.org/obo/GO_0006563`
 #### Removed
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving L-serine, the L-enantiomer of serine, i.e. (2S)-2-amino-3-hydroxypropanoic acid." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
 
@@ -34914,6 +35912,14 @@
 
 #### Added
 - [L-serine phosphoethanolamine](http://purl.obolibrary.org/obo/CHEBI_16542) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-serine:pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0004760`
+#### Removed
+- [L-serine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0004760) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [L-serine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0004760) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-alanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57972) 
+
 
 
 ### L-serinium `http://purl.obolibrary.org/obo/CHEBI_32837`
@@ -35145,6 +36151,14 @@
 
 
 
+### L-tryptophan conjugated cholate hydrolase activity `http://purl.obolibrary.org/obo/GO_7770009`
+#### Removed
+- [L-tryptophan conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770009) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [L-tryptophan conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770009) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholate](http://purl.obolibrary.org/obo/CHEBI_29747) 
+
+
+
 ### L-tryptophan derivative `http://purl.obolibrary.org/obo/CHEBI_47994`
 
 #### Added
@@ -35155,6 +36169,22 @@
 #### Removed
 - [L-tryptophan transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015196) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8870352" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC36A4 transports L-Trp from extracellular region to cytosol" 
+
+
+
+### L-tryptophan:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0050362`
+#### Removed
+- [L-tryptophan:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0050362) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxoglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16810) 
+
+- [L-tryptophan:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0050362) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-glutamate(1-)](http://purl.obolibrary.org/obo/CHEBI_29985) 
+
+
+
+### L-tryptophan:pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0080097`
+#### Removed
+- [L-tryptophan:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0080097) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [L-tryptophan:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0080097) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-alanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57972) 
 
 
 
@@ -35226,6 +36256,10 @@
 - [L-tyrosine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004838) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-71155" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TAT deaminates tyrosine" 
 
+- [L-tyrosine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004838) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxoglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16810) 
+
+- [L-tyrosine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004838) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-glutamate(1-)](http://purl.obolibrary.org/obo/CHEBI_29985) 
+
 
 
 ### L-tyrosinium `http://purl.obolibrary.org/obo/CHEBI_32762`
@@ -35262,6 +36296,14 @@
 
 #### Added
 - [L-valine derivative](http://purl.obolibrary.org/obo/CHEBI_84129) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### L-valine:pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0009042`
+#### Removed
+- [L-valine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0009042) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyruvate](http://purl.obolibrary.org/obo/CHEBI_15361) 
+
+- [L-valine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0009042) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-alanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57972) 
+
 
 
 ### L-valinium `http://purl.obolibrary.org/obo/CHEBI_32852`
@@ -35332,6 +36374,12 @@
 
 #### Added
 - [Lacto-series glycosphingolipid](http://purl.obolibrary.org/obo/CHEBI_183224) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### Latia-luciferin monooxygenase (demethylating) activity `http://purl.obolibrary.org/obo/GO_0047098`
+#### Removed
+- [Latia-luciferin monooxygenase (demethylating) activity](http://purl.obolibrary.org/obo/GO_0047098) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Latia luciferin](http://purl.obolibrary.org/obo/CHEBI_17269) 
+
 
 
 ### Leu-enkephalin `http://purl.obolibrary.org/obo/CHEBI_89656`
@@ -37981,6 +39029,12 @@
 - [N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2076392" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "EXT1:EXT2 transfers GlcA to heparan" 
 
+- [N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-alpha-D-glucuronate(3-)](http://purl.obolibrary.org/obo/CHEBI_58052) 
+
+- [N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP(3-)](http://purl.obolibrary.org/obo/CHEBI_58223) 
+
 
 
 ### N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase activity `http://purl.obolibrary.org/obo/GO_0004577`
@@ -38245,6 +39299,18 @@
 - [N-acyl-D-amino acid](http://purl.obolibrary.org/obo/CHEBI_15778) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### N-acyl-D-amino-acid deacylase activity `http://purl.obolibrary.org/obo/GO_0047420`
+#### Removed
+- [N-acyl-D-amino-acid deacylase activity](http://purl.obolibrary.org/obo/GO_0047420) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
+
+
+### N-acyl-D-aspartate deacylase activity `http://purl.obolibrary.org/obo/GO_0047422`
+#### Removed
+- [N-acyl-D-aspartate deacylase activity](http://purl.obolibrary.org/obo/GO_0047422) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
+
+
 ### N-acyl-D-aspartic acid `http://purl.obolibrary.org/obo/CHEBI_15779`
 
 #### Added
@@ -38267,6 +39333,12 @@
 
 #### Added
 - [N-acyl-D-glucosamine phosphate](http://purl.obolibrary.org/obo/CHEBI_21637) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### N-acyl-D-glutamate deacylase activity `http://purl.obolibrary.org/obo/GO_0047421`
+#### Removed
+- [N-acyl-D-glutamate deacylase activity](http://purl.obolibrary.org/obo/GO_0047421) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
 
 
 ### N-acyl-D-glutamates(1-) `http://purl.obolibrary.org/obo/CHEBI_49084`
@@ -40092,6 +41164,38 @@
 - [NAD-dependent protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0034979) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5685953" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SIRT6 deacetylates RBBP8" 
 
+- [NAD-dependent protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0034979) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [NAD-dependent protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0034979) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nicotinamide](http://purl.obolibrary.org/obo/CHEBI_17154) 
+
+- [NAD-dependent protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0034979) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [NAD-dependent protein lysine deacetylase activity](http://purl.obolibrary.org/obo/GO_0034979) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+
+
+### NAD-dependent protein lysine delactylase activity `http://purl.obolibrary.org/obo/GO_0141208`
+#### Removed
+- [NAD-dependent protein lysine delactylase activity](http://purl.obolibrary.org/obo/GO_0141208) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [NAD-dependent protein lysine delactylase activity](http://purl.obolibrary.org/obo/GO_0141208) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nicotinamide](http://purl.obolibrary.org/obo/CHEBI_17154) 
+
+- [NAD-dependent protein lysine delactylase activity](http://purl.obolibrary.org/obo/GO_0141208) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [NAD-dependent protein lysine delactylase activity](http://purl.obolibrary.org/obo/GO_0141208) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+
+
+### NAD-dependent protein-lysine depropionylase activity `http://purl.obolibrary.org/obo/GO_0106231`
+#### Removed
+- [NAD-dependent protein-lysine depropionylase activity](http://purl.obolibrary.org/obo/GO_0106231) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [NAD-dependent protein-lysine depropionylase activity](http://purl.obolibrary.org/obo/GO_0106231) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nicotinamide](http://purl.obolibrary.org/obo/CHEBI_17154) 
+
+- [NAD-dependent protein-lysine depropionylase activity](http://purl.obolibrary.org/obo/GO_0106231) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [NAD-dependent protein-lysine depropionylase activity](http://purl.obolibrary.org/obo/GO_0106231) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
 
 
 ### NADH `http://purl.obolibrary.org/obo/CHEBI_16908`
@@ -40100,10 +41204,54 @@
 - [NADH](http://purl.obolibrary.org/obo/CHEBI_16908) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### NADH dehydrogenase (menaquinone) (non-electrogenic) activity `http://purl.obolibrary.org/obo/GO_0103036`
+#### Removed
+- [NADH dehydrogenase (menaquinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0103036) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [NADH dehydrogenase (menaquinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0103036) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [NADH dehydrogenase (menaquinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0103036) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### NADH dehydrogenase (quinone) (non-electrogenic) activity `http://purl.obolibrary.org/obo/GO_0050136`
+#### Removed
+- [NADH dehydrogenase (quinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0050136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [NADH dehydrogenase (quinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0050136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [NADH dehydrogenase (quinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0050136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### NADH dehydrogenase (ubiquinone) (non-electrogenic) activity `http://purl.obolibrary.org/obo/GO_0120555`
+#### Removed
+- [NADH dehydrogenase (ubiquinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0120555) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [NADH dehydrogenase (ubiquinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0120555) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [NADH dehydrogenase (ubiquinone) (non-electrogenic) activity](http://purl.obolibrary.org/obo/GO_0120555) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### NADH dehydrogenase (ubiquinone) activity `http://purl.obolibrary.org/obo/GO_0008137`
 #### Removed
 - [NADH dehydrogenase (ubiquinone) activity](http://purl.obolibrary.org/obo/GO_0008137) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-163217" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Complex I oxidises NADH to NAD+, reduces CoQ to CoQH2" 
+
+- [NADH dehydrogenase (ubiquinone) activity](http://purl.obolibrary.org/obo/GO_0008137) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [NADH dehydrogenase (ubiquinone) activity](http://purl.obolibrary.org/obo/GO_0008137) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [NADH dehydrogenase (ubiquinone) activity](http://purl.obolibrary.org/obo/GO_0008137) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### NADH dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0003954`
+#### Removed
+- [NADH dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003954) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen acceptor](http://purl.obolibrary.org/obo/CHEBI_13193) 
+
+- [NADH dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003954) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen donor](http://purl.obolibrary.org/obo/CHEBI_17499) 
 
 
 
@@ -40187,6 +41335,16 @@
 - [NADPH](http://purl.obolibrary.org/obo/CHEBI_16474) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### NADPH dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0008753`
+#### Removed
+- [NADPH dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0008753) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [NADPH dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0008753) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [NADPH dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0008753) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
 ### NADPH dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0003959`
 #### Removed
 - [NADPH dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003959) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9018901" 
@@ -40194,6 +41352,10 @@
 
 - [NADPH dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003959) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9018867" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "5-HEDH dehydrogenates 5(S)-Hp-18(S)-HpEPE to 18(S)-RvE2" 
+
+- [NADPH dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003959) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen acceptor](http://purl.obolibrary.org/obo/CHEBI_13193) 
+
+- [NADPH dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003959) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen donor](http://purl.obolibrary.org/obo/CHEBI_17499) 
 
 
 
@@ -41103,12 +42265,36 @@
 - [P-type potassium:proton transporter activity](http://purl.obolibrary.org/obo/GO_0008900) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9727198" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP4A:ATP4B exchanges K+ for H+" 
 
+- [P-type potassium:proton transporter activity](http://purl.obolibrary.org/obo/GO_0008900) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [P-type potassium:proton transporter activity](http://purl.obolibrary.org/obo/GO_0008900) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [P-type potassium:proton transporter activity](http://purl.obolibrary.org/obo/GO_0008900) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [potassium(1+)](http://purl.obolibrary.org/obo/CHEBI_29103) 
+
+- [P-type potassium:proton transporter activity](http://purl.obolibrary.org/obo/GO_0008900) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [P-type potassium:proton transporter activity](http://purl.obolibrary.org/obo/GO_0008900) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [P-type potassium:proton transporter activity](http://purl.obolibrary.org/obo/GO_0008900) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 
 
 ### P-type sodium:potassium-exchanging transporter activity `http://purl.obolibrary.org/obo/GO_0005391`
 #### Removed
 - [P-type sodium:potassium-exchanging transporter activity](http://purl.obolibrary.org/obo/GO_0005391) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-936897" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP1A:ATP1B:FXYD exchanges 3Na+ for 2K+" 
+
+- [P-type sodium:potassium-exchanging transporter activity](http://purl.obolibrary.org/obo/GO_0005391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [P-type sodium:potassium-exchanging transporter activity](http://purl.obolibrary.org/obo/GO_0005391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [P-type sodium:potassium-exchanging transporter activity](http://purl.obolibrary.org/obo/GO_0005391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [potassium(1+)](http://purl.obolibrary.org/obo/CHEBI_29103) 
+
+- [P-type sodium:potassium-exchanging transporter activity](http://purl.obolibrary.org/obo/GO_0005391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [P-type sodium:potassium-exchanging transporter activity](http://purl.obolibrary.org/obo/GO_0005391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [P-type sodium:potassium-exchanging transporter activity](http://purl.obolibrary.org/obo/GO_0005391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
 
 
 
@@ -41351,6 +42537,12 @@
 - [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
 
 - [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [RNA methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008173) 
+
+
+### RNA NAD+-cap (NAD+-forming) hydrolase activity `http://purl.obolibrary.org/obo/GO_0110152`
+#### Removed
+- [RNA NAD+-cap (NAD+-forming) hydrolase activity](http://purl.obolibrary.org/obo/GO_0110152) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [5'-end ribonucleotide(2-) residue](http://purl.obolibrary.org/obo/CHEBI_138282) 
+
 
 
 ### RNA binding `http://purl.obolibrary.org/obo/GO_0003723`
@@ -42250,6 +43442,8 @@
 #### Removed
 - [S-methyl-5-thioadenosine phosphorylase activity](http://purl.obolibrary.org/obo/GO_0017061) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1237160" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "MTA is cleaved and phosphorylated" 
+
+- [S-methyl-5-thioadenosine phosphorylase activity](http://purl.obolibrary.org/obo/GO_0017061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
 
 
 
@@ -43421,6 +44615,16 @@
 - [TTP](http://purl.obolibrary.org/obo/CHEBI_63550) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### TTPase activity `http://purl.obolibrary.org/obo/GO_0050339`
+#### Removed
+- [TTPase activity](http://purl.obolibrary.org/obo/GO_0050339) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [TTPase activity](http://purl.obolibrary.org/obo/GO_0050339) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [TTPase activity](http://purl.obolibrary.org/obo/GO_0050339) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+
+
 ### Tea1 cell-end complex `http://purl.obolibrary.org/obo/GO_0031500`
 #### Removed
 - [Tea1 cell-end complex](http://purl.obolibrary.org/obo/GO_0031500) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A high molecular weight complex characterized in S. pombe containing the cell-end anchoring protein Tea1. This complex is transported to the cell ends by microtubules and is involved in bipolar growth and the maintennce of normal cell polarity." 
@@ -43544,6 +44748,20 @@
 - [U6 snRNA (adenine(43)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120048) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
 
 
+### U6 snRNA 2'-O-ribose methyltransferase activity `http://purl.obolibrary.org/obo/GO_0180021`
+#### Removed
+- [U6 snRNA 2'-O-ribose methyltransferase activity](http://purl.obolibrary.org/obo/GO_0180021) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [U6 snRNA 2'-O-ribose methyltransferase activity](http://purl.obolibrary.org/obo/GO_0180021) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [U6 snRNA 2'-O-ribose methyltransferase activity](http://purl.obolibrary.org/obo/GO_0180021) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+- [U6 snRNA 2'-O-ribose methyltransferase activity](http://purl.obolibrary.org/obo/GO_0180021) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ribonucleotide residue(1-)](http://purl.obolibrary.org/obo/CHEBI_90675) 
+
+- [U6 snRNA 2'-O-ribose methyltransferase activity](http://purl.obolibrary.org/obo/GO_0180021) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2'-O-methylribonucleotide(1-) residue](http://purl.obolibrary.org/obo/CHEBI_90676) 
+
+
+
 ### UBERON_0001241 `http://purl.obolibrary.org/obo/UBERON_0001241`
 
 #### Added
@@ -43566,6 +44784,26 @@
 
 #### Added
 - [UDP](http://purl.obolibrary.org/obo/CHEBI_17659) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### UDP phosphatase activity `http://purl.obolibrary.org/obo/GO_0045134`
+#### Removed
+- [UDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0045134) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [UDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0045134) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [UDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0045134) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+
+
+### UDP reductase activity `http://purl.obolibrary.org/obo/GO_0051062`
+#### Removed
+- [UDP reductase activity](http://purl.obolibrary.org/obo/GO_0051062) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [UDP reductase activity](http://purl.obolibrary.org/obo/GO_0051062) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [UDP reductase activity](http://purl.obolibrary.org/obo/GO_0051062) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cystine residue](http://purl.obolibrary.org/obo/CHEBI_50058) 
+
 
 
 ### UDP-2,3-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-glucosamine `http://purl.obolibrary.org/obo/CHEBI_82845`
@@ -44415,6 +45653,14 @@
 
 
 
+### UMP kinase activity `http://purl.obolibrary.org/obo/GO_0033862`
+#### Removed
+- [UMP kinase activity](http://purl.obolibrary.org/obo/GO_0033862) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [UMP kinase activity](http://purl.obolibrary.org/obo/GO_0033862) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+
+
 ### UTP `http://purl.obolibrary.org/obo/CHEBI_15713`
 
 #### Added
@@ -44427,10 +45673,26 @@
 - [UTP(3-)](http://purl.obolibrary.org/obo/CHEBI_57481) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### UTP:galactose-1-phosphate uridylyltransferase activity `http://purl.obolibrary.org/obo/GO_0017103`
+#### Removed
+- [UTP:galactose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0017103) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [UTP:galactose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0017103) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [UTP:galactose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0017103) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UTP(4-)](http://purl.obolibrary.org/obo/CHEBI_46398) 
+
+
+
 ### UTP:glucose-1-phosphate uridylyltransferase activity `http://purl.obolibrary.org/obo/GO_0003983`
 #### Removed
 - [UTP:glucose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0003983) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70286" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "UTP + D-glucose 1-phosphate =&gt; pyrophosphate + UDP-glucose" 
+
+- [UTP:glucose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0003983) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [UTP:glucose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0003983) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [UTP:glucose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0003983) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UTP(4-)](http://purl.obolibrary.org/obo/CHEBI_46398) 
 
 
 
@@ -44438,6 +45700,16 @@
 
 #### Added
 - [UTP:glucose-1-phosphate uridylyltransferase regulator activity](http://purl.obolibrary.org/obo/GO_0043763) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage." 
+
+
+### UTP:xylose-1-phosphate uridylyltransferase activity `http://purl.obolibrary.org/obo/GO_0047338`
+#### Removed
+- [UTP:xylose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0047338) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [UTP:xylose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0047338) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [UTP:xylose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/GO_0047338) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UTP(4-)](http://purl.obolibrary.org/obo/CHEBI_46398) 
+
 
 
 ### Val-tRNA(Val) `http://purl.obolibrary.org/obo/CHEBI_29164`
@@ -44696,6 +45968,20 @@
 
 
 
+### [isocitrate dehydrogenase (NADP+)] kinase activity `http://purl.obolibrary.org/obo/GO_0008772`
+#### Removed
+- [[isocitrate dehydrogenase (NADP+)] kinase activity](http://purl.obolibrary.org/obo/GO_0008772) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [[isocitrate dehydrogenase (NADP+)] kinase activity](http://purl.obolibrary.org/obo/GO_0008772) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-serine residue](http://purl.obolibrary.org/obo/CHEBI_29999) 
+
+- [[isocitrate dehydrogenase (NADP+)] kinase activity](http://purl.obolibrary.org/obo/GO_0008772) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [[isocitrate dehydrogenase (NADP+)] kinase activity](http://purl.obolibrary.org/obo/GO_0008772) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+- [[isocitrate dehydrogenase (NADP+)] kinase activity](http://purl.obolibrary.org/obo/GO_0008772) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [O-phospho-L-serine(2-) residue](http://purl.obolibrary.org/obo/CHEBI_83421) 
+
+
+
 ### [methionine synthase] reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0030586`
 #### Removed
 - [[methionine synthase] reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0030586) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3149518" 
@@ -44707,6 +45993,18 @@
 #### Removed
 - [[pyruvate dehydrogenase (acetyl-transferring)]-phosphatase activity](http://purl.obolibrary.org/obo/GO_0004741) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-204169" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PDP1,2 dephosphorylate p-lipo-PDH" 
+
+
+
+### abieta-7,13-dien-18-al (NAD+) dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0036188`
+#### Removed
+- [abieta-7,13-dien-18-al (NAD+) dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0036188) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [abieta-7,13-dien-18-al (NAD+) dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0036188) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [abieta-7,13-dien-18-al (NAD+) dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0036188) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [abieta-7,13-dien-18-al (NAD+) dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0036188) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 
 
@@ -44744,6 +46042,18 @@
 
 #### Added
 - [abscisic acids](http://purl.obolibrary.org/obo/CHEBI_62431) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### abscisic aldehyde oxidase activity `http://purl.obolibrary.org/obo/GO_0010293`
+#### Removed
+- [abscisic aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0010293) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [abscisic aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0010293) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [abscisic aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0010293) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [abscisic aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0010293) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
 
 
 ### acarbose `http://purl.obolibrary.org/obo/CHEBI_2376`
@@ -44806,6 +46116,30 @@
 - [acetal](http://purl.obolibrary.org/obo/CHEBI_59769) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### acetaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0140087`
+#### Removed
+- [acetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0140087) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [acetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0140087) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [acetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0140087) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [acetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0140087) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### acetaldehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0140088`
+#### Removed
+- [acetaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0140088) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [acetaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0140088) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [acetaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0140088) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [acetaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0140088) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
 ### acetamides `http://purl.obolibrary.org/obo/CHEBI_22160`
 
 #### Added
@@ -44822,6 +46156,10 @@
 #### Removed
 - [acetate CoA-transferase activity](http://purl.obolibrary.org/obo/GO_0008775) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2066788" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Formation of DHA-CoA catalysed by 3-ketoacyl-CoA thiolase" 
+
+- [acetate CoA-transferase activity](http://purl.obolibrary.org/obo/GO_0008775) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
+- [acetate CoA-transferase activity](http://purl.obolibrary.org/obo/GO_0008775) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_58342) 
 
 
 
@@ -44860,6 +46198,16 @@
 
 #### Added
 - [acetoacetyl-CoA](http://purl.obolibrary.org/obo/CHEBI_15345) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### acetoacetyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0047603`
+#### Removed
+- [acetoacetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047603) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [acetoacetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047603) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [acetoacetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047603) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### acetoacetyl-CoA reductase activity `http://purl.obolibrary.org/obo/GO_0018454`
@@ -44989,6 +46337,10 @@
 - [acetyl-CoA C-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0003985) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70844" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "alpha-methylacetoacetyl-CoA + CoA =&gt; propionyl-CoA + acetyl-CoA" 
 
+- [acetyl-CoA C-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0003985) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [acetyl-CoA C-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0003985) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
 
 
 ### acetyl-CoA C-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0003988`
@@ -45017,6 +46369,8 @@
 - [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8874745" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ACAA2 tetramer transfers acyl group from Ac-CoA to acyl-CoA forming 3OA-CoA and CoA-SH" 
 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_58342) 
+
 
 
 ### acetyl-CoA C-myristoyltransferase activity `http://purl.obolibrary.org/obo/GO_0050633`
@@ -45025,6 +46379,10 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:2.3.1.155-RXN" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.155" 
+
+- [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
 
 #### Added
 - [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -45061,6 +46419,12 @@
 
 - [acetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0003986) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-390304" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "acetyl-CoA + H2O =&gt; acetate + CoASH + H+" 
+
+- [acetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0003986) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [acetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0003986) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [acetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0003986) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
 
 
 
@@ -45170,6 +46534,12 @@
 #### Removed
 - [acetylcholinesterase activity](http://purl.obolibrary.org/obo/GO_0003990) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-372519" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "AcCho is hydrolyzed to Cho and acetate by ACHE" 
+
+- [acetylcholinesterase activity](http://purl.obolibrary.org/obo/GO_0003990) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [choline](http://purl.obolibrary.org/obo/CHEBI_15354) 
+
+- [acetylcholinesterase activity](http://purl.obolibrary.org/obo/GO_0003990) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [acetylcholinesterase activity](http://purl.obolibrary.org/obo/GO_0003990) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
 
 
 
@@ -46168,6 +47538,12 @@
 - [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87223](http://rdf.rhea-db.org/87223) 
 
 
+### acylpyruvate hydrolase activity `http://purl.obolibrary.org/obo/GO_0047621`
+#### Removed
+- [acylpyruvate hydrolase activity](http://purl.obolibrary.org/obo/GO_0047621) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
+
+
 ### acyltransferase activity `http://purl.obolibrary.org/obo/GO_0016746`
 #### Removed
 - [acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016746) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-193491" 
@@ -46407,6 +47783,14 @@
 
 - [adenosine kinase activity](http://purl.obolibrary.org/obo/GO_0004001) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9754974" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADK phosphorylates RBV" 
+
+
+
+### adenosine nucleosidase activity `http://purl.obolibrary.org/obo/GO_0047622`
+#### Removed
+- [adenosine nucleosidase activity](http://purl.obolibrary.org/obo/GO_0047622) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [adenosine nucleosidase activity](http://purl.obolibrary.org/obo/GO_0047622) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-ribofuranose](http://purl.obolibrary.org/obo/CHEBI_47013) 
 
 
 
@@ -47143,6 +48527,14 @@
 - [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-71723" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "acetaldehyde + NAD+ =&gt; acetate + NADH + H+ [mitochondrial]" 
 
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [aldehyde](http://purl.obolibrary.org/obo/CHEBI_17478) 
+
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
 #### Added
 - [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87183" 
 
@@ -47164,6 +48556,14 @@
 
 
 ### aldehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0033721`
+#### Removed
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [aldehyde](http://purl.obolibrary.org/obo/CHEBI_17478) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
 
 #### Added
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87475" 
@@ -47178,6 +48578,14 @@
 ### aldehyde dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0047113`
 #### Removed
 - [aldehyde dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0047113) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors](http://purl.obolibrary.org/obo/GO_0016903) 
+
+- [aldehyde dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0047113) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aldehyde dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0047113) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aldehyde dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0047113) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [aldehyde](http://purl.obolibrary.org/obo/CHEBI_17478) 
+
+- [aldehyde dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0047113) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
 
 #### Added
 - [aldehyde dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0047113) SubClassOf [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) 
@@ -47199,6 +48607,14 @@
 
 
 ### aldehyde ferredoxin oxidoreductase activity `http://purl.obolibrary.org/obo/GO_0033726`
+#### Removed
+- [aldehyde ferredoxin oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0033726) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aldehyde ferredoxin oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0033726) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aldehyde ferredoxin oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0033726) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [aldehyde](http://purl.obolibrary.org/obo/CHEBI_17478) 
+
+- [aldehyde ferredoxin oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0033726) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
 
 #### Added
 - [aldehyde ferredoxin oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0033726) SubClassOf [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) 
@@ -47208,6 +48624,14 @@
 #### Removed
 - [aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0004031) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3204311" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "AOX1 oxidises PXL to PDXate" 
+
+- [aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0004031) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0004031) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0004031) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [aldehyde](http://purl.obolibrary.org/obo/CHEBI_17478) 
+
+- [aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0004031) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
 
 #### Added
 - [aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0004031) SubClassOf [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) 
@@ -47598,6 +49022,16 @@
 
 #### Added
 - [aliphatic compound](http://purl.obolibrary.org/obo/CHEBI_33653) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### aliphatic nitrilase activity `http://purl.obolibrary.org/obo/GO_0018762`
+#### Removed
+- [aliphatic nitrilase activity](http://purl.obolibrary.org/obo/GO_0018762) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aliphatic nitrilase activity](http://purl.obolibrary.org/obo/GO_0018762) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+- [aliphatic nitrilase activity](http://purl.obolibrary.org/obo/GO_0018762) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
 
 
 ### aliphatic sulfide `http://purl.obolibrary.org/obo/CHEBI_22327`
@@ -48215,6 +49649,14 @@
 - [all-trans-retinyl-palmitate hydrolase, 11-cis retinol forming activity](http://purl.obolibrary.org/obo/GO_0052884) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2453833" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "RPE65 isomero-hydrolyses atREs to 11cROL" 
 
+- [all-trans-retinyl-palmitate hydrolase, 11-cis retinol forming activity](http://purl.obolibrary.org/obo/GO_0052884) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [all-trans-retinyl-palmitate hydrolase, 11-cis retinol forming activity](http://purl.obolibrary.org/obo/GO_0052884) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [all-trans-retinyl-palmitate hydrolase, 11-cis retinol forming activity](http://purl.obolibrary.org/obo/GO_0052884) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [all-trans-retinyl palmitate](http://purl.obolibrary.org/obo/CHEBI_17616) 
+
+- [all-trans-retinyl-palmitate hydrolase, 11-cis retinol forming activity](http://purl.obolibrary.org/obo/GO_0052884) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hexadecanoate](http://purl.obolibrary.org/obo/CHEBI_7896) 
+
 
 
 ### all-trans-retinyl-palmitate hydrolase, all-trans-retinol forming activity `http://purl.obolibrary.org/obo/GO_0047376`
@@ -48224,6 +49666,14 @@
 
 - [all-trans-retinyl-palmitate hydrolase, all-trans-retinol forming activity](http://purl.obolibrary.org/obo/GO_0047376) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2404140" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NREH hydrolyses atREs to atROL and FAs" 
+
+- [all-trans-retinyl-palmitate hydrolase, all-trans-retinol forming activity](http://purl.obolibrary.org/obo/GO_0047376) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [all-trans-retinyl-palmitate hydrolase, all-trans-retinol forming activity](http://purl.obolibrary.org/obo/GO_0047376) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [all-trans-retinyl-palmitate hydrolase, all-trans-retinol forming activity](http://purl.obolibrary.org/obo/GO_0047376) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [all-trans-retinyl palmitate](http://purl.obolibrary.org/obo/CHEBI_17616) 
+
+- [all-trans-retinyl-palmitate hydrolase, all-trans-retinol forming activity](http://purl.obolibrary.org/obo/GO_0047376) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hexadecanoate](http://purl.obolibrary.org/obo/CHEBI_7896) 
 
 
 
@@ -48366,6 +49816,12 @@
 - [alpha,alpha-trehalose 6-phosphate](http://purl.obolibrary.org/obo/CHEBI_18283) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### alpha,alpha-trehalose phosphorylase activity `http://purl.obolibrary.org/obo/GO_0047656`
+#### Removed
+- [alpha,alpha-trehalose phosphorylase activity](http://purl.obolibrary.org/obo/GO_0047656) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+
+
 ### alpha,alpha-trehalose-2-sulfate `http://purl.obolibrary.org/obo/CHEBI_60114`
 
 #### Added
@@ -48491,6 +49947,14 @@
 
 
 
+### alpha-1,4-glucan glucosyltransferase (ADP-glucose donor) activity `http://purl.obolibrary.org/obo/GO_0009011`
+#### Removed
+- [alpha-1,4-glucan glucosyltransferase (ADP-glucose donor) activity](http://purl.obolibrary.org/obo/GO_0009011) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [alpha-1,4-glucan glucosyltransferase (ADP-glucose donor) activity](http://purl.obolibrary.org/obo/GO_0009011) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(1->4)-alpha-D-glucan](http://purl.obolibrary.org/obo/CHEBI_15444) 
+
+
+
 ### alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity `http://purl.obolibrary.org/obo/GO_0004373`
 #### Removed
 - [alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity](http://purl.obolibrary.org/obo/GO_0004373) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3828061" 
@@ -48507,6 +49971,10 @@
 
 - [alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity](http://purl.obolibrary.org/obo/GO_0004373) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3322041" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Phosphorylated GYS1 catalyzes the polyglucosylation of oligoGlc-GYG1" 
+
+- [alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity](http://purl.obolibrary.org/obo/GO_0004373) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity](http://purl.obolibrary.org/obo/GO_0004373) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(1->4)-alpha-D-glucan](http://purl.obolibrary.org/obo/CHEBI_15444) 
 
 
 
@@ -50226,6 +51694,8 @@
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5579081" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Defective ACY1 does not hydrolyse mercapturic acids" 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
 #### Added
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86763" 
 
@@ -50292,6 +51762,18 @@
 - [aminobutanoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_22500) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### aminobutyraldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0019145`
+#### Removed
+- [aminobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019145) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aminobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019145) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aminobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019145) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [aminobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019145) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### aminodeoxyfutalosine `http://purl.obolibrary.org/obo/CHEBI_64260`
 
 #### Added
@@ -50339,6 +51821,14 @@
 #### Removed
 - [aminomuconate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047102) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-71239" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "2-aminomuconate semialdehyde + NAD+ + H2O =&gt; aminomuconate + NADH + H+" 
+
+- [aminomuconate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047102) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aminomuconate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047102) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aminomuconate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047102) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [aminomuconate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047102) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 
 
@@ -50654,6 +52144,14 @@
 
 #### Added
 - [androgen antagonist](http://purl.obolibrary.org/obo/CHEBI_35497) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### androst-4-ene-3,17-dione monooxygenase activity `http://purl.obolibrary.org/obo/GO_0047096`
+#### Removed
+- [androst-4-ene-3,17-dione monooxygenase activity](http://purl.obolibrary.org/obo/GO_0047096) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [androst-4-ene-3,17-dione monooxygenase activity](http://purl.obolibrary.org/obo/GO_0047096) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
 
 
 ### androstane conjugate `http://purl.obolibrary.org/obo/CHEBI_167106`
@@ -51933,6 +53431,18 @@
 - [arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete arachidonate omega-hydroxylase activity" 
 
 
+### arachidonate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0047676`
+#### Removed
+- [arachidonate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0047676) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [arachidonate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0047676) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [arachidonate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0047676) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [arachidonate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0047676) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### arachidonic acid `http://purl.obolibrary.org/obo/CHEBI_15843`
 
 #### Added
@@ -52076,6 +53586,8 @@
 
 ### arginine metabolic process `http://purl.obolibrary.org/obo/GO_0006525`
 #### Removed
+- [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [arginine metabolic process](http://purl.obolibrary.org/obo/GO_0006525) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving arginine, 2-amino-5-(carbamimidamido)pentanoic acid." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
@@ -52523,11 +54035,49 @@
 
 
 ### aryl-aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0019108`
+#### Removed
+- [aryl-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019108) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aryl-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019108) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aryl-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019108) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [aryl-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019108) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 #### Added
 - [aryl-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019108) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88123" 
 
 - [aryl-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019108) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88123](http://rdf.rhea-db.org/88123) 
+
+
+### aryl-aldehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047683`
+#### Removed
+- [aryl-aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047683) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aryl-aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047683) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [aryl-aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047683) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
+### aryl-aldehyde oxidase activity `http://purl.obolibrary.org/obo/GO_0018488`
+#### Removed
+- [aryl-aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0018488) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [aryl-aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0018488) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [aryl-aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0018488) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [aryl-aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0018488) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+
+
+### arylacetonitrilase activity `http://purl.obolibrary.org/obo/GO_0047428`
+#### Removed
+- [arylacetonitrilase activity](http://purl.obolibrary.org/obo/GO_0047428) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [arylacetonitrilase activity](http://purl.obolibrary.org/obo/GO_0047428) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### arylalkylamine `http://purl.obolibrary.org/obo/CHEBI_22644`
@@ -52608,6 +54158,10 @@
 #### Removed
 - [asparaginase activity](http://purl.obolibrary.org/obo/GO_0004067) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797627" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ASPG hydrolyses L-Asn to L-Asp" 
+
+- [asparaginase activity](http://purl.obolibrary.org/obo/GO_0004067) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [asparaginase activity](http://purl.obolibrary.org/obo/GO_0004067) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
 
 
 
@@ -52697,6 +54251,8 @@
 
 ### aspartate metabolic process `http://purl.obolibrary.org/obo/GO_0006531`
 #### Removed
+- [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving aspartate, the anion derived from aspartic acid, 2-aminobutanedioic acid." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
@@ -52825,6 +54381,8 @@
 #### Removed
 - [aspartoacylase activity](http://purl.obolibrary.org/obo/GO_0019807) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5691507" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ASPA deacetylates NAASP to acetate and L-aspartate" 
+
+- [aspartoacylase activity](http://purl.obolibrary.org/obo/GO_0019807) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
 
 
 
@@ -53478,6 +55036,30 @@
 ### basophil mediated immunity `http://purl.obolibrary.org/obo/GO_0002560`
 #### Removed
 - [basophil mediated immunity](http://purl.obolibrary.org/obo/GO_0002560) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [basophil](http://purl.obolibrary.org/obo/CL_0000767)) 
+
+
+
+### benzaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0018479`
+#### Removed
+- [benzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018479) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [benzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018479) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [benzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018479) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [benzaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018479) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### benzaldehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0018477`
+#### Removed
+- [benzaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0018477) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [benzaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0018477) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [benzaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0018477) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [benzaldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0018477) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
 
 
 
@@ -54867,6 +56449,14 @@
 - [betaine-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008802) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797955" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ALDH7A1 oxidises BETALD to BET" 
 
+- [betaine-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008802) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [betaine-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008802) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [betaine-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008802) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [betaine-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008802) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### betaine-homocysteine S-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0047150`
@@ -56018,6 +57608,14 @@
 - [bromosuccinic acid](http://purl.obolibrary.org/obo/CHEBI_73712) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### bromoxynil nitrilase activity `http://purl.obolibrary.org/obo/GO_0018761`
+#### Removed
+- [bromoxynil nitrilase activity](http://purl.obolibrary.org/obo/GO_0018761) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [bromoxynil nitrilase activity](http://purl.obolibrary.org/obo/GO_0018761) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
 ### bronchoconstrictor agent `http://purl.obolibrary.org/obo/CHEBI_50141`
 
 #### Added
@@ -56655,6 +58253,10 @@
 
 - [calcium, potassium:sodium antiporter activity](http://purl.obolibrary.org/obo/GO_0008273) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5626316" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC24A5 exchanges cytosolic 4Na+ for Golgi luminal Ca2+, K+" 
+
+- [calcium, potassium:sodium antiporter activity](http://purl.obolibrary.org/obo/GO_0008273) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sodium(1+)](http://purl.obolibrary.org/obo/CHEBI_29101) 
+
+- [calcium, potassium:sodium antiporter activity](http://purl.obolibrary.org/obo/GO_0008273) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [calcium(2+)](http://purl.obolibrary.org/obo/CHEBI_29108) 
 
 
 
@@ -58230,6 +59832,8 @@
 
 ### carnosine metabolic process `http://purl.obolibrary.org/obo/GO_0035498`
 #### Removed
+- [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [carnosine metabolic process](http://purl.obolibrary.org/obo/GO_0035498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving the dipeptide beta-alanyl-L-histidine (carnosine)." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20097752" 
 
@@ -58706,6 +60310,20 @@
 
 #### Added
 - [cellobionic acid](http://purl.obolibrary.org/obo/CHEBI_77021) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### cellobiose glucosidase activity `http://purl.obolibrary.org/obo/GO_0080079`
+#### Removed
+- [cellobiose glucosidase activity](http://purl.obolibrary.org/obo/GO_0080079) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167) 
+
+
+
+### cellobiose phosphorylase activity `http://purl.obolibrary.org/obo/GO_0047738`
+#### Removed
+- [cellobiose phosphorylase activity](http://purl.obolibrary.org/obo/GO_0047738) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [cellobiose phosphorylase activity](http://purl.obolibrary.org/obo/GO_0047738) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alpha-D-glucose 1-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_58601) 
+
 
 
 ### cellular response to interleukin-5 `http://purl.obolibrary.org/obo/GO_7770103`
@@ -59892,6 +61510,10 @@
 - [cholesterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0034736) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8876696" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SOAT1,2 transfer acyl group to CHOL forming CHEST" 
 
+- [cholesterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0034736) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [cholesterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0034736) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_58342) 
+
 
 
 ### cholesterol monooxygenase (side-chain-cleaving) activity `http://purl.obolibrary.org/obo/GO_0008386`
@@ -59911,6 +61533,16 @@
 
 #### Added
 - [cholesterol sulfate](http://purl.obolibrary.org/obo/CHEBI_41321) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### cholesterol sulfotransferase activity `http://purl.obolibrary.org/obo/GO_0051922`
+#### Removed
+- [cholesterol sulfotransferase activity](http://purl.obolibrary.org/obo/GO_0051922) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [cholesterol sulfotransferase activity](http://purl.obolibrary.org/obo/GO_0051922) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [3'-phosphonato-5'-adenylyl sulfate(4-)](http://purl.obolibrary.org/obo/CHEBI_58339) 
+
+- [cholesterol sulfotransferase activity](http://purl.obolibrary.org/obo/GO_0051922) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 3',5'-bismonophosphate(4-)](http://purl.obolibrary.org/obo/CHEBI_58343) 
+
 
 
 ### cholesterol transfer activity `http://purl.obolibrary.org/obo/GO_0120020`
@@ -60074,6 +61706,16 @@
 
 #### Added
 - [choloyl-CoA](http://purl.obolibrary.org/obo/CHEBI_15519) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### choloyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0033882`
+#### Removed
+- [choloyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0033882) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [choloyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0033882) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [choloyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0033882) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### choloyl-CoAs `http://purl.obolibrary.org/obo/CHEBI_23218`
@@ -60697,6 +62339,8 @@
 #### Removed
 - [cis-stilbene-oxide hydrolase activity](http://purl.obolibrary.org/obo/GO_0033961) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5694077" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "EPHX1 hydrates BaP4,5O to BaP4,5-DHD" 
+
+- [cis-stilbene-oxide hydrolase activity](http://purl.obolibrary.org/obo/GO_0033961) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
 
 
 
@@ -62082,6 +63726,16 @@
 - [cortisol 21-sulfate](http://purl.obolibrary.org/obo/CHEBI_16473) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### cortisol dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0102196`
+#### Removed
+- [cortisol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102196) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [cortisol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102196) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [cortisol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102196) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
 ### cortisol ester `http://purl.obolibrary.org/obo/CHEBI_23396`
 
 #### Added
@@ -62431,6 +64085,14 @@
 
 #### Added
 - [cyanin](http://purl.obolibrary.org/obo/CHEBI_3978) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### cyanoalanine nitrilase activity `http://purl.obolibrary.org/obo/GO_0047427`
+#### Removed
+- [cyanoalanine nitrilase activity](http://purl.obolibrary.org/obo/GO_0047427) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [cyanoalanine nitrilase activity](http://purl.obolibrary.org/obo/GO_0047427) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### cyanoamino acid `http://purl.obolibrary.org/obo/CHEBI_60974`
@@ -63090,6 +64752,18 @@
 
 #### Added
 - [cyclohexylamine](http://purl.obolibrary.org/obo/CHEBI_15773) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### cyclohexylamine oxidase activity `http://purl.obolibrary.org/obo/GO_0018527`
+#### Removed
+- [cyclohexylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0018527) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [cyclohexylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0018527) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [cyclohexylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0018527) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [cyclohexylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0018527) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### cyclohexylsulfamic acid `http://purl.obolibrary.org/obo/CHEBI_15964`
@@ -64095,6 +65769,12 @@
 - [cytokinin](http://purl.obolibrary.org/obo/CHEBI_23530) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### cytokinin 7-beta-glucosyltransferase activity `http://purl.obolibrary.org/obo/GO_0047807`
+#### Removed
+- [cytokinin 7-beta-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0047807) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [6-alkylaminopurine](http://purl.obolibrary.org/obo/CHEBI_17524) 
+
+
+
 ### cytoplasm protein quality control `http://purl.obolibrary.org/obo/GO_0140455`
 #### Removed
 - [cytoplasm protein quality control](http://purl.obolibrary.org/obo/GO_0140455) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of misfolded proteins in the cytoplasm, which are either targeted to cytoplasmic proteasomes for degradation or protected by chaperones to shield thermosensitive proteins from degradation until conditions allow disaggregation and refolding." 
@@ -64343,6 +66023,14 @@
 - [dADP](http://purl.obolibrary.org/obo/CHEBI_16174) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### dAMP kinase activity `http://purl.obolibrary.org/obo/GO_0047506`
+#### Removed
+- [dAMP kinase activity](http://purl.obolibrary.org/obo/GO_0047506) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [dAMP kinase activity](http://purl.obolibrary.org/obo/GO_0047506) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+
+
 ### dAMP salvage `http://purl.obolibrary.org/obo/GO_0106383`
 
 #### Added
@@ -64373,6 +66061,14 @@
 #### Removed
 - [dCMP deaminase activity](http://purl.obolibrary.org/obo/GO_0004132) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73596" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "dCMP + H2O =&gt; dUMP + NH4+" 
+
+
+
+### dCMP kinase activity `http://purl.obolibrary.org/obo/GO_0036431`
+#### Removed
+- [dCMP kinase activity](http://purl.obolibrary.org/obo/GO_0036431) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [dCMP kinase activity](http://purl.obolibrary.org/obo/GO_0036431) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
 
 
 
@@ -64408,6 +66104,14 @@
 - [dGDP](http://purl.obolibrary.org/obo/CHEBI_28862) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### dGMP kinase activity `http://purl.obolibrary.org/obo/GO_0050316`
+#### Removed
+- [dGMP kinase activity](http://purl.obolibrary.org/obo/GO_0050316) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [dGMP kinase activity](http://purl.obolibrary.org/obo/GO_0050316) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+
+
 ### dGMP salvage `http://purl.obolibrary.org/obo/GO_0106384`
 
 #### Added
@@ -64432,6 +66136,12 @@
 #### Removed
 - [dIDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0097383) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2509793" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NUDT16 hydrolyses dIDP to dIMP" 
+
+- [dIDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0097383) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [dIDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0097383) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [dIDP phosphatase activity](http://purl.obolibrary.org/obo/GO_0097383) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
 
 
 
@@ -64820,6 +66530,14 @@
 - [dTMP](http://purl.obolibrary.org/obo/CHEBI_17013) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### dTMP kinase activity `http://purl.obolibrary.org/obo/GO_0004798`
+#### Removed
+- [dTMP kinase activity](http://purl.obolibrary.org/obo/GO_0004798) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [dTMP kinase activity](http://purl.obolibrary.org/obo/GO_0004798) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+
+
 ### dTMP(-) `http://purl.obolibrary.org/obo/CHEBI_46960`
 
 #### Added
@@ -64848,6 +66566,14 @@
 
 #### Added
 - [dUMP](http://purl.obolibrary.org/obo/CHEBI_17622) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### dUMP kinase activity `http://purl.obolibrary.org/obo/GO_0120136`
+#### Removed
+- [dUMP kinase activity](http://purl.obolibrary.org/obo/GO_0120136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [dUMP kinase activity](http://purl.obolibrary.org/obo/GO_0120136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 
 
 ### dUMP residue `http://purl.obolibrary.org/obo/CHEBI_75714`
@@ -65177,6 +66903,18 @@
 
 #### Added
 - [decanedioyl-CoA](http://purl.obolibrary.org/obo/CHEBI_76345) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### decanoate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0102391`
+#### Removed
+- [decanoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0102391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [decanoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0102391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [decanoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0102391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [decanoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0102391) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### decanoic acid `http://purl.obolibrary.org/obo/CHEBI_30813`
@@ -65529,6 +67267,16 @@
 - [deoxy sugar derivative](http://purl.obolibrary.org/obo/CHEBI_63338) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### deoxyadenosine kinase activity `http://purl.obolibrary.org/obo/GO_0004136`
+#### Removed
+- [deoxyadenosine kinase activity](http://purl.obolibrary.org/obo/GO_0004136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [deoxyadenosine kinase activity](http://purl.obolibrary.org/obo/GO_0004136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [deoxyadenosine kinase activity](http://purl.obolibrary.org/obo/GO_0004136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+
+
 ### deoxyadenosine phosphate `http://purl.obolibrary.org/obo/CHEBI_23612`
 
 #### Added
@@ -65589,6 +67337,16 @@
 - [deoxycortisol](http://purl.obolibrary.org/obo/CHEBI_23618) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### deoxycytidine kinase activity `http://purl.obolibrary.org/obo/GO_0004137`
+#### Removed
+- [deoxycytidine kinase activity](http://purl.obolibrary.org/obo/GO_0004137) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [deoxycytidine kinase activity](http://purl.obolibrary.org/obo/GO_0004137) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nucleoside 5'-diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_57930) 
+
+- [deoxycytidine kinase activity](http://purl.obolibrary.org/obo/GO_0004137) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nucleoside 5'-triphoshate(4-)](http://purl.obolibrary.org/obo/CHEBI_61557) 
+
+
+
 ### deoxycytidine phosphate `http://purl.obolibrary.org/obo/CHEBI_23621`
 
 #### Added
@@ -65612,6 +67370,16 @@
 
 #### Added
 - [deoxyglucose](http://purl.obolibrary.org/obo/CHEBI_23623) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### deoxyguanosine kinase activity `http://purl.obolibrary.org/obo/GO_0004138`
+#### Removed
+- [deoxyguanosine kinase activity](http://purl.obolibrary.org/obo/GO_0004138) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [deoxyguanosine kinase activity](http://purl.obolibrary.org/obo/GO_0004138) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [deoxyguanosine kinase activity](http://purl.obolibrary.org/obo/GO_0004138) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 
 
 ### deoxyguanosine phosphate `http://purl.obolibrary.org/obo/CHEBI_23625`
@@ -65781,6 +67549,12 @@
 #### Removed
 - [deoxynucleoside kinase activity](http://purl.obolibrary.org/obo/GO_0019136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-74207" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "dA, dG, or dI + ATP =&gt; dAMP, dGMP, or dIMP + ADP (DGUOK)" 
+
+
+
+### deoxynucleoside phosphate kinase activity, dGTP as phosphate donor `http://purl.obolibrary.org/obo/GO_0106367`
+#### Removed
+- [deoxynucleoside phosphate kinase activity, dGTP as phosphate donor](http://purl.obolibrary.org/obo/GO_0106367) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2'-deoxyribonucleoside 5'-diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_73316) 
 
 
 
@@ -67094,7 +68868,35 @@
 
 
 
+### dihydroorotate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004589`
+#### Removed
+- [dihydroorotate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004589) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [orotate](http://purl.obolibrary.org/obo/CHEBI_30839) 
+
+- [dihydroorotate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004589) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(S)-dihydroorotate](http://purl.obolibrary.org/obo/CHEBI_30864) 
+
+
+
+### dihydroorotate dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0050158`
+#### Removed
+- [dihydroorotate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050158) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [orotate](http://purl.obolibrary.org/obo/CHEBI_30839) 
+
+- [dihydroorotate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050158) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(S)-dihydroorotate](http://purl.obolibrary.org/obo/CHEBI_30864) 
+
+
+
+### dihydroorotate dehydrogenase (fumarate) activity `http://purl.obolibrary.org/obo/GO_1990663`
+#### Removed
+- [dihydroorotate dehydrogenase (fumarate) activity](http://purl.obolibrary.org/obo/GO_1990663) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [orotate](http://purl.obolibrary.org/obo/CHEBI_30839) 
+
+- [dihydroorotate dehydrogenase (fumarate) activity](http://purl.obolibrary.org/obo/GO_1990663) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(S)-dihydroorotate](http://purl.obolibrary.org/obo/CHEBI_30864) 
+
+
+
 ### dihydroorotate dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0106430`
+#### Removed
+- [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [orotate](http://purl.obolibrary.org/obo/CHEBI_30839) 
+
+- [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(S)-dihydroorotate](http://purl.obolibrary.org/obo/CHEBI_30864) 
 
 #### Added
 - [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87215" 
@@ -67985,6 +69787,16 @@
 
 #### Added
 - [ditrans,polycis-undecaprenyl phosphate](http://purl.obolibrary.org/obo/CHEBI_60468) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### ditrans,polycis-undecaprenyl-diphosphate synthase [(2E,6E)-farnesyl-diphosphate specific] activity `http://purl.obolibrary.org/obo/GO_0008834`
+#### Removed
+- [ditrans,polycis-undecaprenyl-diphosphate synthase [(2E,6E)-farnesyl-diphosphate specific] activity](http://purl.obolibrary.org/obo/GO_0008834) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [isopentenyl diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_128769) 
+
+- [ditrans,polycis-undecaprenyl-diphosphate synthase [(2E,6E)-farnesyl-diphosphate specific] activity](http://purl.obolibrary.org/obo/GO_0008834) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-trans,6-trans-farnesyl diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_175763) 
+
+- [ditrans,polycis-undecaprenyl-diphosphate synthase [(2E,6E)-farnesyl-diphosphate specific] activity](http://purl.obolibrary.org/obo/GO_0008834) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
 
 
 ### diuretic `http://purl.obolibrary.org/obo/CHEBI_35498`
@@ -71196,6 +73008,18 @@ TA: Transit Amplifying Cells"
 
 
 
+### ethanolamine oxidase activity `http://purl.obolibrary.org/obo/GO_0047883`
+#### Removed
+- [ethanolamine oxidase activity](http://purl.obolibrary.org/obo/GO_0047883) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ethanolamine oxidase activity](http://purl.obolibrary.org/obo/GO_0047883) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [ethanolamine oxidase activity](http://purl.obolibrary.org/obo/GO_0047883) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [ethanolamine oxidase activity](http://purl.obolibrary.org/obo/GO_0047883) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
 ### ethanolamine-phosphate cytidylyltransferase activity `http://purl.obolibrary.org/obo/GO_0004306`
 #### Removed
 - [ethanolamine-phosphate cytidylyltransferase activity](http://purl.obolibrary.org/obo/GO_0004306) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1483190" 
@@ -71716,6 +73540,18 @@ TA: Transit Amplifying Cells"
 - [fallopian tube epithelium](http://purl.obolibrary.org/obo/UBERON_8600124) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [added_by_HRA](http://purl.obolibrary.org/obo/uberon/core#added_by_HRA) 
 
 
+### farnesal dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0120553`
+#### Removed
+- [farnesal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0120553) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [farnesal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0120553) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [farnesal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0120553) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [farnesal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0120553) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### farnesane sesquiterpenoid `http://purl.obolibrary.org/obo/CHEBI_36757`
 
 #### Added
@@ -71750,6 +73586,18 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [farnesyl triphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_58331) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### farnesylcysteine lyase activity `http://purl.obolibrary.org/obo/GO_0102149`
+#### Removed
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_35235) 
+
 
 
 ### fat-soluble vitamin (role) `http://purl.obolibrary.org/obo/CHEBI_24020`
@@ -71921,6 +73769,8 @@ TA: Transit Amplifying Cells"
 - [fatty acid elongase activity](http://purl.obolibrary.org/obo/GO_0009922) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2046088" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Elongation of stearidonoyl-CoA to eicosatetraenoyl-CoA" 
 
+- [fatty acid elongase activity](http://purl.obolibrary.org/obo/GO_0009922) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [very long-chain acyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_90736) 
+
 #### Added
 - [fatty acid elongase activity](http://purl.obolibrary.org/obo/GO_0009922) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43852" 
 
@@ -71988,12 +73838,30 @@ TA: Transit Amplifying Cells"
 - [fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047617) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5690042" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Peroxisomal ACOT4,6,8 hydrolyse MCFA-CoA, LCFA-CoA" 
 
+- [fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047617) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047617) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047617) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### fatty acyl-[ACP] hydrolase activity `http://purl.obolibrary.org/obo/GO_0016297`
 #### Removed
 - [fatty acyl-[ACP] hydrolase activity](http://purl.obolibrary.org/obo/GO_0016297) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5655955" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "OLAH hydrolyzes decanoyl-FASN dimer to DECA and FASN dimer" 
+
+
+
+### fatty aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0102673`
+#### Removed
+- [fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102673) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102673) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102673) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102673) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 
 
@@ -72091,6 +73959,26 @@ TA: Transit Amplifying Cells"
 
 
 
+### ferredoxin-nitrate reductase activity `http://purl.obolibrary.org/obo/GO_0047889`
+#### Removed
+- [ferredoxin-nitrate reductase activity](http://purl.obolibrary.org/obo/GO_0047889) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ferredoxin-nitrate reductase activity](http://purl.obolibrary.org/obo/GO_0047889) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrite](http://purl.obolibrary.org/obo/CHEBI_16301) 
+
+- [ferredoxin-nitrate reductase activity](http://purl.obolibrary.org/obo/GO_0047889) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrate](http://purl.obolibrary.org/obo/CHEBI_17632) 
+
+
+
+### ferric-chelate reductase (NADH) activity `http://purl.obolibrary.org/obo/GO_0140618`
+#### Removed
+- [ferric-chelate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0140618) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ferric-chelate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0140618) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [iron(2+)](http://purl.obolibrary.org/obo/CHEBI_29033) 
+
+- [ferric-chelate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0140618) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [iron(3+)](http://purl.obolibrary.org/obo/CHEBI_29034) 
+
+
+
 ### ferric-chelate reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0052851`
 #### Removed
 - [ferric-chelate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0052851) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-917811" 
@@ -72098,6 +73986,16 @@ TA: Transit Amplifying Cells"
 
 - [ferric-chelate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0052851) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9927945" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "YqjH reduces FeEnt" 
+
+- [ferric-chelate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0052851) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ferric-chelate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0052851) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [iron(2+)](http://purl.obolibrary.org/obo/CHEBI_29033) 
+
+- [ferric-chelate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0052851) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [iron(3+)](http://purl.obolibrary.org/obo/CHEBI_29034) 
+
+- [ferric-chelate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0052851) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [ferric-chelate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0052851) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
 
 
 
@@ -72336,6 +74234,12 @@ TA: Transit Amplifying Cells"
 - [flame retardant](http://purl.obolibrary.org/obo/CHEBI_79314) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### flavanone 2-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0033771`
+#### Removed
+- [flavanone 2-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0033771) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [flavanones](http://purl.obolibrary.org/obo/CHEBI_28863) 
+
+
+
 ### flavanone 7-O-beta-D-glucoside `http://purl.obolibrary.org/obo/CHEBI_13637`
 
 #### Added
@@ -72384,6 +74288,14 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [flavin nucleotide](http://purl.obolibrary.org/obo/CHEBI_36981) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### flavin-dependent sulfhydryl oxidase activity `http://purl.obolibrary.org/obo/GO_0016971`
+#### Removed
+- [flavin-dependent sulfhydryl oxidase activity](http://purl.obolibrary.org/obo/GO_0016971) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [flavin-dependent sulfhydryl oxidase activity](http://purl.obolibrary.org/obo/GO_0016971) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
 
 
 ### flaviolin `http://purl.obolibrary.org/obo/CHEBI_42646`
@@ -72514,6 +74426,18 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [fluorine molecular entity](http://purl.obolibrary.org/obo/CHEBI_24062) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### fluoroacetaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0033723`
+#### Removed
+- [fluoroacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0033723) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [fluoroacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0033723) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [fluoroacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0033723) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [fluoroacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0033723) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### fluoroacetic acid `http://purl.obolibrary.org/obo/CHEBI_30775`
@@ -72921,6 +74845,26 @@ TA: Transit Amplifying Cells"
 - [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
 
 
+### formaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0018467`
+#### Removed
+- [formaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018467) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [formaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018467) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [formaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018467) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [formaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018467) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### formamidase activity `http://purl.obolibrary.org/obo/GO_0004328`
+#### Removed
+- [formamidase activity](http://purl.obolibrary.org/obo/GO_0004328) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [formamidase activity](http://purl.obolibrary.org/obo/GO_0004328) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
 ### formamides `http://purl.obolibrary.org/obo/CHEBI_24079`
 
 #### Added
@@ -73071,6 +75015,16 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [fructofuranose](http://purl.obolibrary.org/obo/CHEBI_37722) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### fructokinase activity `http://purl.obolibrary.org/obo/GO_0008865`
+#### Removed
+- [fructokinase activity](http://purl.obolibrary.org/obo/GO_0008865) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [fructokinase activity](http://purl.obolibrary.org/obo/GO_0008865) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [fructokinase activity](http://purl.obolibrary.org/obo/GO_0008865) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 
 
 ### fructosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0030391`
@@ -73396,6 +75350,14 @@ TA: Transit Amplifying Cells"
 #### Removed
 - [fumarate hydratase activity](http://purl.obolibrary.org/obo/GO_0004333) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70982" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FH tetramer hydrates fumarate to L-malate" 
+
+
+
+### fumarate reductase (NADH) activity `http://purl.obolibrary.org/obo/GO_0016156`
+#### Removed
+- [fumarate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0016156) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [fumarate(2-)](http://purl.obolibrary.org/obo/CHEBI_29806) 
+
+- [fumarate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0016156) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [succinate(2-)](http://purl.obolibrary.org/obo/CHEBI_30031) 
 
 
 
@@ -73822,6 +75784,12 @@ TA: Transit Amplifying Cells"
 
 
 
+### galactoside O-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0008870`
+#### Removed
+- [galactoside O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008870) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [beta-D-galactoside](http://purl.obolibrary.org/obo/CHEBI_28034) 
+
+
+
 ### galactosyl group `http://purl.obolibrary.org/obo/CHEBI_24164`
 
 #### Added
@@ -73880,6 +75848,12 @@ TA: Transit Amplifying Cells"
 
 - [galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0015018) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3560802" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Defective B3GAT3 does not transfer GlcA to tetrasaccharide linker" 
+
+- [galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0015018) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0015018) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-alpha-D-glucuronate(3-)](http://purl.obolibrary.org/obo/CHEBI_58052) 
+
+- [galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0015018) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP(3-)](http://purl.obolibrary.org/obo/CHEBI_58223) 
 
 
 
@@ -74150,6 +76124,18 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [gamma-glutamyltyramine](http://purl.obolibrary.org/obo/CHEBI_84215) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### gamma-guanidinobutyraldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0047107`
+#### Removed
+- [gamma-guanidinobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047107) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [gamma-guanidinobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047107) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [gamma-guanidinobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047107) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [gamma-guanidinobutyraldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047107) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### gamma-hexachlorocyclohexane `http://purl.obolibrary.org/obo/CHEBI_32888`
@@ -74443,6 +76429,18 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [geosmin](http://purl.obolibrary.org/obo/CHEBI_46703) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### geranial dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0034832`
+#### Removed
+- [geranial dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0034832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [geranial dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0034832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [geranial dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0034832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [geranial dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0034832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### geranic acid `http://purl.obolibrary.org/obo/CHEBI_67264`
@@ -74773,6 +76771,12 @@ TA: Transit Amplifying Cells"
 - [glucokinase activity](http://purl.obolibrary.org/obo/GO_0004340) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70420" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "HK1,2,3,GCK,HKDC1 phosphorylate Glc to form G6P" 
 
+- [glucokinase activity](http://purl.obolibrary.org/obo/GO_0004340) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [glucokinase activity](http://purl.obolibrary.org/obo/GO_0004340) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [glucokinase activity](http://purl.obolibrary.org/obo/GO_0004340) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 
 
 ### gluconapin `http://purl.obolibrary.org/obo/CHEBI_79319`
@@ -74901,6 +76905,22 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [glucose](http://purl.obolibrary.org/obo/CHEBI_17234) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### glucose 1-dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0047934`
+#### Removed
+- [glucose 1-dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047934) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucono-1,5-lactone](http://purl.obolibrary.org/obo/CHEBI_16217) 
+
+- [glucose 1-dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047934) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167) 
+
+
+
+### glucose 1-dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047935`
+#### Removed
+- [glucose 1-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047935) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucono-1,5-lactone](http://purl.obolibrary.org/obo/CHEBI_16217) 
+
+- [glucose 1-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047935) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167) 
+
 
 
 ### glucose 1-phosphate metabolic process `http://purl.obolibrary.org/obo/GO_0019255`
@@ -75172,6 +77192,14 @@ TA: Transit Amplifying Cells"
 
 
 
+### glucosylglycerate phosphorylase activity `http://purl.obolibrary.org/obo/GO_0110068`
+#### Removed
+- [glucosylglycerate phosphorylase activity](http://purl.obolibrary.org/obo/GO_0110068) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [glucosylglycerate phosphorylase activity](http://purl.obolibrary.org/obo/GO_0110068) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alpha-D-glucose 1-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_58601) 
+
+
+
 ### glucosylglycerol derivative `http://purl.obolibrary.org/obo/CHEBI_63426`
 
 #### Added
@@ -75387,6 +77415,8 @@ TA: Transit Amplifying Cells"
 
 ### glutamate metabolic process `http://purl.obolibrary.org/obo/GO_0006536`
 #### Removed
+- [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [glutamate metabolic process](http://purl.obolibrary.org/obo/GO_0006536) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving glutamate, the anion of 2-aminopentanedioic acid." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
@@ -75685,6 +77715,18 @@ TA: Transit Amplifying Cells"
 - [glutarate(1-)](http://purl.obolibrary.org/obo/CHEBI_35907) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### glutarate-semialdehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0102810`
+#### Removed
+- [glutarate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102810) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [glutarate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102810) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [glutarate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102810) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [glutarate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102810) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
 ### glutaredoxin-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_7770099`
 
 #### Added
@@ -75723,16 +77765,6 @@ TA: Transit Amplifying Cells"
 
 - [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0051920) 
 
-- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
-
-- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
-
-- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alcohol](http://purl.obolibrary.org/obo/CHEBI_30879) 
-
-- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [peroxol](http://purl.obolibrary.org/obo/CHEBI_35924) 
-
-- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cystine residue](http://purl.obolibrary.org/obo/CHEBI_50058) 
-
 
 ### glutaric acid `http://purl.obolibrary.org/obo/CHEBI_17859`
 
@@ -75751,6 +77783,12 @@ TA: Transit Amplifying Cells"
 - [glutaryl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004361) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-71046" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "glutaryl-CoA + FAD =&gt; crotonyl-CoA + FADH2 + CO2" 
 
+- [glutaryl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004361) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [glutaryl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004361) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FAD(3-)](http://purl.obolibrary.org/obo/CHEBI_57692) 
+
+- [glutaryl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004361) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FADH2(2-)](http://purl.obolibrary.org/obo/CHEBI_58307) 
+
 
 
 ### glutaryl-CoAs `http://purl.obolibrary.org/obo/CHEBI_24333`
@@ -75763,6 +77801,14 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [glutathione](http://purl.obolibrary.org/obo/CHEBI_16856) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### glutathione S-conjugate carboxypeptidase activity `http://purl.obolibrary.org/obo/GO_0102274`
+#### Removed
+- [glutathione S-conjugate carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0102274) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [glutathione S-conjugate carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0102274) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57305) 
+
 
 
 ### glutathione S-sulfinate `http://purl.obolibrary.org/obo/CHEBI_85904`
@@ -75857,6 +77903,14 @@ TA: Transit Amplifying Cells"
 
 
 
+### glutathione oxidase activity `http://purl.obolibrary.org/obo/GO_0047950`
+#### Removed
+- [glutathione oxidase activity](http://purl.obolibrary.org/obo/GO_0047950) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [glutathione oxidase activity](http://purl.obolibrary.org/obo/GO_0047950) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+
+
 ### glutathione peroxidase activity `http://purl.obolibrary.org/obo/GO_0004602`
 #### Removed
 - [glutathione peroxidase activity](http://purl.obolibrary.org/obo/GO_0004602) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2161959" 
@@ -75905,6 +77959,12 @@ TA: Transit Amplifying Cells"
 
 - [glutathione synthase activity](http://purl.obolibrary.org/obo/GO_0004363) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-174394" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GSS:Mg2+ dimer synthesizes GSH" 
+
+
+
+### glutathione thiolesterase activity `http://purl.obolibrary.org/obo/GO_0047951`
+#### Removed
+- [glutathione thiolesterase activity](http://purl.obolibrary.org/obo/GO_0047951) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
 
 
 
@@ -76056,12 +78116,36 @@ TA: Transit Amplifying Cells"
 - [glyceraldehyde 3-phosphate](http://purl.obolibrary.org/obo/CHEBI_17138) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### glyceraldehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0043796`
+#### Removed
+- [glyceraldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0043796) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [glyceraldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0043796) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [glyceraldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0043796) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [glyceraldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0043796) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
+
+
 ### glyceraldehyde oxidoreductase activity `http://purl.obolibrary.org/obo/GO_0043795`
 
 #### Added
 - [glyceraldehyde oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0043795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:30783" 
 
 - [glyceraldehyde oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0043795) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [30783](http://rdf.rhea-db.org/30783) 
+
+
+### glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0043878`
+#### Removed
+- [glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0043878) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0043878) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0043878) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0043878) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0004365`
@@ -76071,6 +78155,18 @@ TA: Transit Amplifying Cells"
 
 - [glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0004365) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70482" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GAPDH tetramers reduce 1,3BPG to GA3P" 
+
+
+
+### glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0008886`
+#### Removed
+- [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
 
 
 
@@ -76548,6 +78644,8 @@ TA: Transit Amplifying Cells"
 
 ### glycine metabolic process `http://purl.obolibrary.org/obo/GO_0006544`
 #### Removed
+- [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [glycine metabolic process](http://purl.obolibrary.org/obo/GO_0006544) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving glycine, aminoethanoic acid." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
@@ -76607,6 +78705,8 @@ TA: Transit Amplifying Cells"
 
 - [glycine-tRNA ligase activity](http://purl.obolibrary.org/obo/GO_0004820) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-380240" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "glycine + tRNA(Gly) + ATP =&gt; Gly-tRNA(Gly) + AMP + pyrophosphate" 
+
+- [glycine-tRNA ligase activity](http://purl.obolibrary.org/obo/GO_0004820) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [AMP 3'-end(1-) residue](http://purl.obolibrary.org/obo/CHEBI_78442) 
 
 
 
@@ -76758,6 +78858,18 @@ TA: Transit Amplifying Cells"
 - [glycohexaosylceramide](http://purl.obolibrary.org/obo/CHEBI_36642) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycohexaosylceramide" 
 
 - [glycohexaosylceramide](http://purl.obolibrary.org/obo/CHEBI_36642) SubClassOf [oligoglycosylceramide](http://purl.obolibrary.org/obo/CHEBI_36520) 
+
+
+
+### glycolaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0050569`
+#### Removed
+- [glycolaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050569) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [glycolaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050569) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [glycolaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050569) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [glycolaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050569) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 
 
@@ -78042,6 +80154,14 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [guanosine phosphate](http://purl.obolibrary.org/obo/CHEBI_24455) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### guanosine phosphorylase activity `http://purl.obolibrary.org/obo/GO_0047975`
+#### Removed
+- [guanosine phosphorylase activity](http://purl.obolibrary.org/obo/GO_0047975) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [guanosine phosphorylase activity](http://purl.obolibrary.org/obo/GO_0047975) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alpha-D-ribose 1-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_57720) 
+
 
 
 ### guanosine salvage `http://purl.obolibrary.org/obo/GO_0006179`
@@ -79346,6 +81466,8 @@ TA: Transit Amplifying Cells"
 - [hepoxilin-epoxide hydrolase activity](http://purl.obolibrary.org/obo/GO_0047977) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2161949" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "HXA3/B3 is hydrolysed to TrXA3/B3 by HXEH" 
 
+- [hepoxilin-epoxide hydrolase activity](http://purl.obolibrary.org/obo/GO_0047977) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
 
 
 ### hept-2-enedioic acid `http://purl.obolibrary.org/obo/CHEBI_37260`
@@ -79699,6 +81821,16 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [hexadecadienoic acid](http://purl.obolibrary.org/obo/CHEBI_77524) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### hexadecanal dehydrogenase (acylating) activity `http://purl.obolibrary.org/obo/GO_0047104`
+#### Removed
+- [hexadecanal dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047104) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [hexadecanal dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047104) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [hexadecanal dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047104) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### hexadecanedioic acid `http://purl.obolibrary.org/obo/CHEBI_73722`
@@ -80468,6 +82600,20 @@ TA: Transit Amplifying Cells"
 - [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) SubClassOf [histone H2A reader activity](http://purl.obolibrary.org/obo/GO_0140054) 
 
 
+### histone H2AQ104 methyltransferase activity `http://purl.obolibrary.org/obo/GO_1990259`
+#### Removed
+- [histone H2AQ104 methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990259) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [histone H2AQ104 methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990259) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-glutamine residue](http://purl.obolibrary.org/obo/CHEBI_30011) 
+
+- [histone H2AQ104 methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990259) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [histone H2AQ104 methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990259) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+- [histone H2AQ104 methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990259) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(5)-methyl-L-glutamine residue](http://purl.obolibrary.org/obo/CHEBI_61891) 
+
+
+
 ### histone H3 methyltransferase activity `http://purl.obolibrary.org/obo/GO_0140938`
 #### Removed
 - [histone H3 methyltransferase activity](http://purl.obolibrary.org/obo/GO_0140938) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5205799" 
@@ -80764,6 +82910,16 @@ TA: Transit Amplifying Cells"
 - [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3662318" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Type B histone acetlytransferase complex acetylates histone H4" 
 
+- [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
+- [histone acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004402) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(6)-acetyl-L-lysine residue](http://purl.obolibrary.org/obo/CHEBI_61930) 
+
 
 
 ### histone acetyltransferase regulator activity `http://purl.obolibrary.org/obo/GO_0035034`
@@ -80809,6 +82965,18 @@ TA: Transit Amplifying Cells"
 
 - [histone deacetylase activity](http://purl.obolibrary.org/obo/GO_0004407) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-427514" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "eNoSC deacetylates histone H3" 
+
+
+
+### histone deacetylase activity, hydrolytic mechanism `http://purl.obolibrary.org/obo/GO_0141221`
+#### Removed
+- [histone deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0141221) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [histone deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0141221) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [histone deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0141221) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetate](http://purl.obolibrary.org/obo/CHEBI_30089) 
+
+- [histone deacetylase activity, hydrolytic mechanism](http://purl.obolibrary.org/obo/GO_0141221) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(6)-acetyl-L-lysine residue](http://purl.obolibrary.org/obo/CHEBI_61930) 
 
 
 
@@ -80974,6 +83142,8 @@ TA: Transit Amplifying Cells"
 
 ### homocysteine metabolic process `http://purl.obolibrary.org/obo/GO_0050667`
 #### Removed
+- [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [homocysteine metabolic process](http://purl.obolibrary.org/obo/GO_0050667) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving homocysteine, the amino acid alpha-amino-gamma-mercaptobutanoic acid. Homocysteine is an important intermediate in the metabolic reactions of its S-methyl derivative, methionine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
@@ -82353,6 +84523,16 @@ TA: Transit Amplifying Cells"
 
 
 
+### hydroxymethylglutaryl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0047994`
+#### Removed
+- [hydroxymethylglutaryl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047994) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [hydroxymethylglutaryl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047994) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [hydroxymethylglutaryl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0047994) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### hydroxymethylglutaryl-CoA lyase activity `http://purl.obolibrary.org/obo/GO_0004419`
 #### Removed
 - [hydroxymethylglutaryl-CoA lyase activity](http://purl.obolibrary.org/obo/GO_0004419) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-74180" 
@@ -82786,6 +84966,22 @@ TA: Transit Amplifying Cells"
 - [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
 
 - [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete hypoxanthine salvage" 
+
+
+### hypoxia-inducible factor-proline dioxygenase activity `http://purl.obolibrary.org/obo/GO_0160082`
+#### Removed
+- [hypoxia-inducible factor-proline dioxygenase activity](http://purl.obolibrary.org/obo/GO_0160082) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [hypoxia-inducible factor-proline dioxygenase activity](http://purl.obolibrary.org/obo/GO_0160082) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carbon dioxide](http://purl.obolibrary.org/obo/CHEBI_16526) 
+
+- [hypoxia-inducible factor-proline dioxygenase activity](http://purl.obolibrary.org/obo/GO_0160082) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxoglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16810) 
+
+- [hypoxia-inducible factor-proline dioxygenase activity](http://purl.obolibrary.org/obo/GO_0160082) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [succinate(2-)](http://purl.obolibrary.org/obo/CHEBI_30031) 
+
+- [hypoxia-inducible factor-proline dioxygenase activity](http://purl.obolibrary.org/obo/GO_0160082) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-proline residue](http://purl.obolibrary.org/obo/CHEBI_50342) 
+
+- [hypoxia-inducible factor-proline dioxygenase activity](http://purl.obolibrary.org/obo/GO_0160082) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [trans-4-hydroxy-L-proline residue](http://purl.obolibrary.org/obo/CHEBI_61965) 
+
 
 
 ### hypusinate `http://purl.obolibrary.org/obo/CHEBI_67001`
@@ -83459,6 +85655,18 @@ TA: Transit Amplifying Cells"
 - [indole alkaloid fundamental parent](http://purl.obolibrary.org/obo/CHEBI_38482) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### indole-3-acetaldehyde oxidase activity `http://purl.obolibrary.org/obo/GO_0050302`
+#### Removed
+- [indole-3-acetaldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0050302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [indole-3-acetaldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0050302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [indole-3-acetaldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0050302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [indole-3-acetaldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0050302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+
+
 ### indole-3-acetic acid `http://purl.obolibrary.org/obo/CHEBI_16411`
 
 #### Added
@@ -83469,6 +85677,14 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [indole-3-acetic acids](http://purl.obolibrary.org/obo/CHEBI_24803) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### indole-3-acetonitrile nitrilase activity `http://purl.obolibrary.org/obo/GO_0080061`
+#### Removed
+- [indole-3-acetonitrile nitrilase activity](http://purl.obolibrary.org/obo/GO_0080061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [indole-3-acetonitrile nitrilase activity](http://purl.obolibrary.org/obo/GO_0080061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### indole-3-butyric acid `http://purl.obolibrary.org/obo/CHEBI_33070`
@@ -83499,6 +85715,14 @@ TA: Transit Amplifying Cells"
 
 #### Added
 - [indoleacetaldehyde](http://purl.obolibrary.org/obo/CHEBI_24823) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### indoleacetamide hydrolase activity `http://purl.obolibrary.org/obo/GO_0043864`
+#### Removed
+- [indoleacetamide hydrolase activity](http://purl.obolibrary.org/obo/GO_0043864) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [indoleacetamide hydrolase activity](http://purl.obolibrary.org/obo/GO_0043864) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
 
 
 ### indolecarboxylate `http://purl.obolibrary.org/obo/CHEBI_38609`
@@ -83763,6 +85987,14 @@ TA: Transit Amplifying Cells"
 - [inorganic sodium salt](http://purl.obolibrary.org/obo/CHEBI_38702) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### inosine nucleosidase activity `http://purl.obolibrary.org/obo/GO_0047724`
+#### Removed
+- [inosine nucleosidase activity](http://purl.obolibrary.org/obo/GO_0047724) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [inosine nucleosidase activity](http://purl.obolibrary.org/obo/GO_0047724) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-ribofuranose](http://purl.obolibrary.org/obo/CHEBI_47013) 
+
+
+
 ### inosine phosphate `http://purl.obolibrary.org/obo/CHEBI_24843`
 
 #### Added
@@ -83877,6 +86109,12 @@ TA: Transit Amplifying Cells"
 - [inositol monophosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0008934) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855154" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I1P is dephosphorylated to Ins by IMPA1/2 in the cytosol" 
 
+- [inositol monophosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0008934) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [inositol monophosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0008934) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [myo-inositol](http://purl.obolibrary.org/obo/CHEBI_17268) 
+
+- [inositol monophosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0008934) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### inositol monophosphate 3-phosphatase activity `http://purl.obolibrary.org/obo/GO_0052832`
@@ -83884,12 +86122,24 @@ TA: Transit Amplifying Cells"
 - [inositol monophosphate 3-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052832) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855210" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I3P is dephosphorylated to Ins by IMPA1/2 in the cytosol" 
 
+- [inositol monophosphate 3-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [inositol monophosphate 3-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [myo-inositol](http://purl.obolibrary.org/obo/CHEBI_17268) 
+
+- [inositol monophosphate 3-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052832) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### inositol monophosphate 4-phosphatase activity `http://purl.obolibrary.org/obo/GO_0052833`
 #### Removed
 - [inositol monophosphate 4-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052833) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855211" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I4P is dephosphorylated to Ins by IMPA1/2 in the cytosol" 
+
+- [inositol monophosphate 4-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052833) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [inositol monophosphate 4-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052833) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [myo-inositol](http://purl.obolibrary.org/obo/CHEBI_17268) 
+
+- [inositol monophosphate 4-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052833) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
 
 
 
@@ -84104,6 +86354,10 @@ TA: Transit Amplifying Cells"
 - [inositol-1,4-bisphosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0004441) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855208" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I(1,4)P2 is dephosphorylated to I4P by INPP1 in the cytosol" 
 
+- [inositol-1,4-bisphosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0004441) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [inositol-1,4-bisphosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0004441) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### inositol-3,4,5,6-tetrakisphosphate 1-kinase activity `http://purl.obolibrary.org/obo/GO_0047325`
@@ -84127,6 +86381,10 @@ TA: Transit Amplifying Cells"
 #### Removed
 - [inositol-3,4-bisphosphate 4-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052828) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855202" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I(3,4)P2 is dephosphorylated to I3P by INPP4A/B in the cytosol" 
+
+- [inositol-3,4-bisphosphate 4-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052828) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [inositol-3,4-bisphosphate 4-phosphatase activity](http://purl.obolibrary.org/obo/GO_0052828) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
 
 
 
@@ -85208,6 +87466,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [isocaproic acid](http://purl.obolibrary.org/obo/CHEBI_74903) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### isochorismatase activity `http://purl.obolibrary.org/obo/GO_0008908`
+#### Removed
+- [isochorismatase activity](http://purl.obolibrary.org/obo/GO_0008908) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
 
 
 ### isochorismic acid `http://purl.obolibrary.org/obo/CHEBI_17582`
@@ -86351,6 +88615,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [label](http://purl.obolibrary.org/obo/CHEBI_35209) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### lactaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0008911`
+#### Removed
+- [lactaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008911) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [lactaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008911) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [lactaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008911) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [lactaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008911) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### lactase activity `http://purl.obolibrary.org/obo/GO_0000016`
 #### Removed
 - [lactase activity](http://purl.obolibrary.org/obo/GO_0000016) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5658001" 
@@ -87012,6 +89288,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [limonene monoterpenoid](http://purl.obolibrary.org/obo/CHEBI_25040) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### limonene-1,2-epoxide hydrolase activity `http://purl.obolibrary.org/obo/GO_0018744`
+#### Removed
+- [limonene-1,2-epoxide hydrolase activity](http://purl.obolibrary.org/obo/GO_0018744) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
 
 
 ### limonin 17-beta-D-glucoside `http://purl.obolibrary.org/obo/CHEBI_16063`
@@ -87778,6 +90060,16 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [lombricine](http://purl.obolibrary.org/obo/CHEBI_25072) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0016509`
+#### Removed
+- [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### long-chain (3S)-hydroxy fatty acyl-CoA `http://purl.obolibrary.org/obo/CHEBI_137639`
 
 #### Added
@@ -87796,7 +90088,33 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [long-chain fatty acid](http://purl.obolibrary.org/obo/CHEBI_15904) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### long-chain fatty acid omega-1 hydroxylase activity `http://purl.obolibrary.org/obo/GO_0120319`
+#### Removed
+- [long-chain fatty acid omega-1 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120319) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [long-chain fatty acid omega-1 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120319) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [long-chain fatty acid omega-1 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120319) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [long-chain fatty acid omega-1 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120319) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMNH2(2-)](http://purl.obolibrary.org/obo/CHEBI_57618) 
+
+- [long-chain fatty acid omega-1 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120319) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMN(3-)](http://purl.obolibrary.org/obo/CHEBI_58210) 
+
+- [long-chain fatty acid omega-1 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120319) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(omega-1)-ethyl fatty acid anion](http://purl.obolibrary.org/obo/CHEBI_84493) 
+
+
+
 ### long-chain fatty acid omega-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102033`
+#### Removed
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMNH2(2-)](http://purl.obolibrary.org/obo/CHEBI_57618) 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMN(3-)](http://purl.obolibrary.org/obo/CHEBI_58210) 
 
 #### Added
 - [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32503"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -87883,6 +90201,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-193766" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TetraHCA is conjugated with Coenzyme A (SLC27A5 BACS)" 
 
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 #### Added
 - [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32876"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -87927,7 +90253,31 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [long-chain fatty acyl-CoA](http://purl.obolibrary.org/obo/CHEBI_33184) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### long-chain fatty acyl-CoA dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0004466`
+#### Removed
+- [long-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004466) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [long-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004466) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FAD(3-)](http://purl.obolibrary.org/obo/CHEBI_57692) 
+
+- [long-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004466) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FADH2(2-)](http://purl.obolibrary.org/obo/CHEBI_58307) 
+
+
+
+### long-chain fatty acyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0052816`
+#### Removed
+- [long-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052816) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [long-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052816) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [long-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052816) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### long-chain fatty acyl-CoA oxidase activity `http://purl.obolibrary.org/obo/GO_0120524`
+#### Removed
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
 
 #### Added
 - [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87099" 
@@ -87948,6 +90298,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 
 ### long-chain fatty aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0050061`
+#### Removed
+- [long-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [long-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [long-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [long-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050061) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 #### Added
 - [long-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050061) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88103" 
@@ -88174,6 +90532,16 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [luteolin 7-O-beta-D-glucosiduronic acid](http://purl.obolibrary.org/obo/CHEBI_18128) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### luteolin 7-O-glucuronosyltransferase activity `http://purl.obolibrary.org/obo/GO_0050064`
+#### Removed
+- [luteolin 7-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050064) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [luteolin 7-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050064) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-alpha-D-glucuronate(3-)](http://purl.obolibrary.org/obo/CHEBI_58052) 
+
+- [luteolin 7-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050064) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP(3-)](http://purl.obolibrary.org/obo/CHEBI_58223) 
+
+
+
 ### luteolin O-glucuronoside `http://purl.obolibrary.org/obo/CHEBI_25091`
 
 #### Added
@@ -88184,6 +90552,26 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [luteolin-7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]](http://purl.obolibrary.org/obo/CHEBI_60077) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### luteolin-7-O-diglucuronide 4'-O-glucuronosyltransferase activity `http://purl.obolibrary.org/obo/GO_0047247`
+#### Removed
+- [luteolin-7-O-diglucuronide 4'-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0047247) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [luteolin-7-O-diglucuronide 4'-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0047247) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-alpha-D-glucuronate(3-)](http://purl.obolibrary.org/obo/CHEBI_58052) 
+
+- [luteolin-7-O-diglucuronide 4'-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0047247) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP(3-)](http://purl.obolibrary.org/obo/CHEBI_58223) 
+
+
+
+### luteolin-7-O-glucuronide 7-O-glucuronosyltransferase activity `http://purl.obolibrary.org/obo/GO_0047246`
+#### Removed
+- [luteolin-7-O-glucuronide 7-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0047246) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [luteolin-7-O-glucuronide 7-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0047246) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-alpha-D-glucuronate(3-)](http://purl.obolibrary.org/obo/CHEBI_58052) 
+
+- [luteolin-7-O-glucuronide 7-O-glucuronosyltransferase activity](http://purl.obolibrary.org/obo/GO_0047246) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP(3-)](http://purl.obolibrary.org/obo/CHEBI_58223) 
+
 
 
 ### lyase activity `http://purl.obolibrary.org/obo/GO_0016829`
@@ -89173,6 +91561,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [maltodextrin](http://purl.obolibrary.org/obo/CHEBI_25140) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [anti-inflammatory agent](http://purl.obolibrary.org/obo/CHEBI_67079) 
 
 
+### maltodextrin phosphorylase activity `http://purl.obolibrary.org/obo/GO_0031220`
+#### Removed
+- [maltodextrin phosphorylase activity](http://purl.obolibrary.org/obo/GO_0031220) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [maltodextrin phosphorylase activity](http://purl.obolibrary.org/obo/GO_0031220) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alpha-D-glucose 1-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_58601) 
+
+
+
 ### maltoheptaose heptasaccharide `http://purl.obolibrary.org/obo/CHEBI_62009`
 
 #### Added
@@ -89213,6 +91609,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [maltose phosphate](http://purl.obolibrary.org/obo/CHEBI_25143) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### maltose phosphorylase activity `http://purl.obolibrary.org/obo/GO_0050082`
+#### Removed
+- [maltose phosphorylase activity](http://purl.obolibrary.org/obo/GO_0050082) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
 
 
 ### maltotetraose tetrasaccharide `http://purl.obolibrary.org/obo/CHEBI_61986`
@@ -89444,6 +91846,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 - [mannokinase activity](http://purl.obolibrary.org/obo/GO_0019158) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8931653" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "POMK 6-phosphorylates mannose in GalNAc-GlcNAc-Man-DAG1" 
+
+- [mannokinase activity](http://purl.obolibrary.org/obo/GO_0019158) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [mannokinase activity](http://purl.obolibrary.org/obo/GO_0019158) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [mannokinase activity](http://purl.obolibrary.org/obo/GO_0019158) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
 
 
 
@@ -89938,10 +92346,60 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [medium-chain fatty acid](http://purl.obolibrary.org/obo/CHEBI_59554) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### medium-chain fatty acid omega-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0140981`
+#### Removed
+- [medium-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140981) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [medium-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140981) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [medium-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140981) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [medium-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140981) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMNH2(2-)](http://purl.obolibrary.org/obo/CHEBI_57618) 
+
+- [medium-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140981) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMN(3-)](http://purl.obolibrary.org/obo/CHEBI_58210) 
+
+
+
 ### medium-chain fatty acid-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0031956`
 #### Removed
 - [medium-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031956) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8875013" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ACSM3,ACSM6 ligate CoA to BUT" 
+
+- [medium-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031956) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [medium-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031956) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [medium-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031956) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [medium-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031956) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
+### medium-chain fatty acyl-CoA dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0070991`
+#### Removed
+- [medium-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0070991) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [medium-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0070991) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FAD(3-)](http://purl.obolibrary.org/obo/CHEBI_57692) 
+
+- [medium-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0070991) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FADH2(2-)](http://purl.obolibrary.org/obo/CHEBI_58307) 
+
+
+
+### medium-chain fatty acyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0052815`
+#### Removed
+- [medium-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052815) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [medium-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052815) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [medium-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052815) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
+### medium-chain fatty acyl-CoA oxidase activity `http://purl.obolibrary.org/obo/GO_0120523`
+#### Removed
+- [medium-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120523) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [medium-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120523) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
 
 
 
@@ -89952,6 +92410,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 
 ### medium-chain fatty aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0052814`
+#### Removed
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 #### Added
 - [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88099" 
@@ -91853,6 +94319,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [methyltetrahydrofolate](http://purl.obolibrary.org/obo/CHEBI_25345) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### methylthioadenosine nucleosidase activity `http://purl.obolibrary.org/obo/GO_0008930`
+#### Removed
+- [methylthioadenosine nucleosidase activity](http://purl.obolibrary.org/obo/GO_0008930) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+
+
 ### methylthioribulose 1-phosphate dehydratase activity `http://purl.obolibrary.org/obo/GO_0046570`
 #### Removed
 - [methylthioribulose 1-phosphate dehydratase activity](http://purl.obolibrary.org/obo/GO_0046570) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1237140" 
@@ -93238,6 +95710,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [mitochondrial small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180026) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [mitochondrial small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180026) SubClassOf [mitochondrial ribosome assembly](http://purl.obolibrary.org/obo/GO_0061668) 
+
+
+### mitochondrial tRNA pseudouridine(27/28) synthase activity `http://purl.obolibrary.org/obo/GO_0160153`
+#### Removed
+- [mitochondrial tRNA pseudouridine(27/28) synthase activity](http://purl.obolibrary.org/obo/GO_0160153) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [mitochondrial tRNA pseudouridine(27/28) synthase activity](http://purl.obolibrary.org/obo/GO_0160153) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
 
 
 ### mitochondrial threonyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0070159`
@@ -94766,10 +97246,22 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [muramic acids](http://purl.obolibrary.org/obo/CHEBI_25432) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### muramoyltetrapeptide carboxypeptidase activity `http://purl.obolibrary.org/obo/GO_0106415`
+#### Removed
+- [muramoyltetrapeptide carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0106415) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+
+
 ### muramyl dipeptide `http://purl.obolibrary.org/obo/CHEBI_59414`
 
 #### Added
 - [muramyl dipeptide](http://purl.obolibrary.org/obo/CHEBI_59414) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### murein tripeptide carboxypeptidase activity `http://purl.obolibrary.org/obo/GO_0061473`
+#### Removed
+- [murein tripeptide carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0061473) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
 
 
 ### muricholic acids `http://purl.obolibrary.org/obo/CHEBI_134216`
@@ -94932,16 +97424,6 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) [label](http://www.w3.org/2000/01/rdf-schema#label) "mycoredoxin-dependent peroxiredoxin activity" 
 
 - [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0051920) 
-
-- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
-
-- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
-
-- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alcohol](http://purl.obolibrary.org/obo/CHEBI_30879) 
-
-- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [peroxol](http://purl.obolibrary.org/obo/CHEBI_35924) 
-
-- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cystine residue](http://purl.obolibrary.org/obo/CHEBI_50058) 
 
 
 ### mycothiols `http://purl.obolibrary.org/obo/CHEBI_25441`
@@ -95592,6 +98074,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 ### negative regulation of Wnt signaling pathway, planar cell polarity pathway `http://purl.obolibrary.org/obo/GO_0141113`
 #### Removed
 - [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
 
 - [negative regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0141113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the Wnt signaling pathway, planar cell polarity pathway." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19056682" 
@@ -96259,6 +98743,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - Class: [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) 
 
 - [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32992"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
 
 - [negative regulation of granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_7770166) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "lbreuza" 
 
@@ -97480,6 +99966,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [nicotianamine](http://purl.obolibrary.org/obo/CHEBI_25520) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### nicotinamidase activity `http://purl.obolibrary.org/obo/GO_0008936`
+#### Removed
+- [nicotinamidase activity](http://purl.obolibrary.org/obo/GO_0008936) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [nicotinamidase activity](http://purl.obolibrary.org/obo/GO_0008936) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
 ### nicotinamide `http://purl.obolibrary.org/obo/CHEBI_17154`
 
 #### Added
@@ -97729,6 +100223,46 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [nitrate ester](http://purl.obolibrary.org/obo/CHEBI_51080) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### nitrate reductase (NADH) activity `http://purl.obolibrary.org/obo/GO_0009703`
+#### Removed
+- [nitrate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0009703) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [nitrate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0009703) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrite](http://purl.obolibrary.org/obo/CHEBI_16301) 
+
+- [nitrate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0009703) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrate](http://purl.obolibrary.org/obo/CHEBI_17632) 
+
+
+
+### nitrate reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0050464`
+#### Removed
+- [nitrate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050464) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [nitrate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050464) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrite](http://purl.obolibrary.org/obo/CHEBI_16301) 
+
+- [nitrate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050464) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrate](http://purl.obolibrary.org/obo/CHEBI_17632) 
+
+
+
+### nitrate reductase (cytochrome) activity `http://purl.obolibrary.org/obo/GO_0050140`
+#### Removed
+- [nitrate reductase (cytochrome) activity](http://purl.obolibrary.org/obo/GO_0050140) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [nitrate reductase (cytochrome) activity](http://purl.obolibrary.org/obo/GO_0050140) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrite](http://purl.obolibrary.org/obo/CHEBI_16301) 
+
+- [nitrate reductase (cytochrome) activity](http://purl.obolibrary.org/obo/GO_0050140) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrate](http://purl.obolibrary.org/obo/CHEBI_17632) 
+
+
+
+### nitrate reductase (quinone) activity `http://purl.obolibrary.org/obo/GO_0160182`
+#### Removed
+- [nitrate reductase (quinone) activity](http://purl.obolibrary.org/obo/GO_0160182) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [nitrate reductase (quinone) activity](http://purl.obolibrary.org/obo/GO_0160182) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrite](http://purl.obolibrary.org/obo/CHEBI_16301) 
+
+- [nitrate reductase (quinone) activity](http://purl.obolibrary.org/obo/GO_0160182) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitrate](http://purl.obolibrary.org/obo/CHEBI_17632) 
+
 
 
 ### nitrates `http://purl.obolibrary.org/obo/CHEBI_51081`
@@ -99114,6 +101648,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [nucleoside monophosphate kinase activity](http://purl.obolibrary.org/obo/GO_0050145) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73635" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "dUMP or TMP + ATP &lt;=&gt; dUDP or TDP + ADP [DTYMK]" 
 
+- [nucleoside monophosphate kinase activity](http://purl.obolibrary.org/obo/GO_0050145) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nucleoside 5'-diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_57930) 
+
 
 
 ### nucleoside pentaphosphate `http://purl.obolibrary.org/obo/CHEBI_37102`
@@ -99191,6 +101727,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 #### Removed
 - [nucleoside triphosphate adenylate kinase activity](http://purl.obolibrary.org/obo/GO_0046899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1008248" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Adenylate Kinase 3 is a GTP-AMP phosphotransferase" 
+
+- [nucleoside triphosphate adenylate kinase activity](http://purl.obolibrary.org/obo/GO_0046899) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nucleoside 5'-diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_57930) 
 
 
 
@@ -102378,6 +104916,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 ### ornithine metabolic process `http://purl.obolibrary.org/obo/GO_0006591`
 #### Removed
+- [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0006591) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving ornithine, an amino acid only rarely found in proteins, but which is important in living organisms as an intermediate in the reactions of the urea cycle and in arginine biosynthesis." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
@@ -104051,6 +106591,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [penicillin allergen](http://purl.obolibrary.org/obo/CHEBI_88187) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### penicillin amidase activity `http://purl.obolibrary.org/obo/GO_0008953`
+#### Removed
+- [penicillin amidase activity](http://purl.obolibrary.org/obo/GO_0008953) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_29067) 
+
+
+
 ### pent-2-enoyl-CoA `http://purl.obolibrary.org/obo/CHEBI_27962`
 
 #### Added
@@ -104414,6 +106960,20 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [peptide cation](http://purl.obolibrary.org/obo/CHEBI_60194) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### peptide chain release factor N(5)-glutamine methyltransferase activity `http://purl.obolibrary.org/obo/GO_0102559`
+#### Removed
+- [peptide chain release factor N(5)-glutamine methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102559) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [peptide chain release factor N(5)-glutamine methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102559) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-glutamine residue](http://purl.obolibrary.org/obo/CHEBI_30011) 
+
+- [peptide chain release factor N(5)-glutamine methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102559) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [peptide chain release factor N(5)-glutamine methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102559) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+- [peptide chain release factor N(5)-glutamine methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102559) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(5)-methyl-L-glutamine residue](http://purl.obolibrary.org/obo/CHEBI_61891) 
+
 
 
 ### peptide glutaryltransferase activity `http://purl.obolibrary.org/obo/GO_0106228`
@@ -105241,6 +107801,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [phenyl phosphate](http://purl.obolibrary.org/obo/CHEBI_37548) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### phenylacetaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0008957`
+#### Removed
+- [phenylacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008957) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [phenylacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008957) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [phenylacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008957) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [phenylacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008957) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### phenylacetaldehydes `http://purl.obolibrary.org/obo/CHEBI_25973`
 
 #### Added
@@ -105277,6 +107849,16 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21247899" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bhm" 
+
+
+### phenylacetyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0033880`
+#### Removed
+- [phenylacetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0033880) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [phenylacetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0033880) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [phenylacetyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0033880) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### phenylacetylglycine `http://purl.obolibrary.org/obo/CHEBI_27480`
@@ -105376,6 +107958,16 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [phenylglyoxylyl-CoA](http://purl.obolibrary.org/obo/CHEBI_50117) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### phenyllactate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0097256`
+#### Removed
+- [phenyllactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0097256) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [phenyllactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0097256) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [phenyllactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0097256) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### phenylpyruvate `http://purl.obolibrary.org/obo/CHEBI_26008`
@@ -105907,6 +108499,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 - [phosphatidylglycerol transfer activity](http://purl.obolibrary.org/obo/GO_0140339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of phosphatidylglycerol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+
+### phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity `http://purl.obolibrary.org/obo/GO_0008961`
+#### Removed
+- [phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity](http://purl.obolibrary.org/obo/GO_0008961) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
 
 
 ### phosphatidylglycerophosphatase activity `http://purl.obolibrary.org/obo/GO_0008962`
@@ -107420,6 +110018,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 - [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [CoA-ligase activity](http://purl.obolibrary.org/obo/GO_0016405) 
 
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 #### Added
 - [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -108880,6 +111486,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 ### positive regulation of Wnt signaling pathway, planar cell polarity pathway `http://purl.obolibrary.org/obo/GO_2000096`
 #### Removed
 - [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
 
 - [positive regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
@@ -111174,6 +113782,10 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [pristanoyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0016402) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-389889" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ACOX2:FAD, ACOXL:FAD oxidise (2S)-pristanoyl-CoA to trans-2,3-dehydropristanoyl-CoA" 
 
+- [pristanoyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0016402) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [pristanoyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0016402) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
 
 
 ### pro-agent `http://purl.obolibrary.org/obo/CHEBI_136859`
@@ -111268,6 +113880,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [procollagen-proline 4-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0004656) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1650808" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Prolyl 4-hydroxylase converts collagen prolines to 4-hydroxyprolines" 
 
+- [procollagen-proline 4-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0004656) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [procollagen-proline 4-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0004656) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [carbon dioxide](http://purl.obolibrary.org/obo/CHEBI_16526) 
+
+- [procollagen-proline 4-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0004656) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-oxoglutarate(2-)](http://purl.obolibrary.org/obo/CHEBI_16810) 
+
+- [procollagen-proline 4-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0004656) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [succinate(2-)](http://purl.obolibrary.org/obo/CHEBI_30031) 
+
+- [procollagen-proline 4-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0004656) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-proline residue](http://purl.obolibrary.org/obo/CHEBI_50342) 
+
+- [procollagen-proline 4-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0004656) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [trans-4-hydroxy-L-proline residue](http://purl.obolibrary.org/obo/CHEBI_61965) 
+
 
 
 ### prodrug `http://purl.obolibrary.org/obo/CHEBI_50266`
@@ -111310,6 +113934,16 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [progesterone](http://purl.obolibrary.org/obo/CHEBI_17026) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [anti-HIV agent](http://purl.obolibrary.org/obo/CHEBI_64946) 
 
 
+### progesterone 11-alpha-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0050212`
+#### Removed
+- [progesterone 11-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0050212) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [progesterone 11-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0050212) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [progesterone 11-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0050212) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [progesterone](http://purl.obolibrary.org/obo/CHEBI_17026) 
+
+
+
 ### progesterone 21-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0106309`
 #### Removed
 - [progesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106309) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-193964" 
@@ -111317,6 +113951,16 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 - [progesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106309) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-193981" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CYP21A2 oxidises 17HPROG" 
+
+- [progesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106309) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [progesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106309) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [progesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106309) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [progesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106309) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMNH2(2-)](http://purl.obolibrary.org/obo/CHEBI_57618) 
+
+- [progesterone 21-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106309) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMN(3-)](http://purl.obolibrary.org/obo/CHEBI_58210) 
 
 
 
@@ -111539,6 +114183,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 #### Added
 - [propenol](http://purl.obolibrary.org/obo/CHEBI_26300) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### propionate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0050218`
+#### Removed
+- [propionate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050218) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [propionate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050218) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [propionate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050218) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [propionate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050218) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### propionic acid `http://purl.obolibrary.org/obo/CHEBI_30768`
@@ -112045,6 +114701,26 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 - [protein N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0034212) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3371554" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "HSF1 acetylation at Lys80" 
+
+
+
+### protein N-terminal-methionine acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0120518`
+#### Removed
+- [protein N-terminal-methionine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0120518) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [protein N-terminal-methionine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0120518) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [protein N-terminal-methionine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0120518) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
+
+
+### protein N-terminal-serine acetyltransferase activity `http://purl.obolibrary.org/obo/GO_1990189`
+#### Removed
+- [protein N-terminal-serine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_1990189) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [protein N-terminal-serine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_1990189) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [protein N-terminal-serine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_1990189) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
 
 
 
@@ -116272,6 +118948,38 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [protein-N-terminal amino-acid acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004596) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6814090" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NatC acetylates ARFFRP1" 
 
+- [protein-N-terminal amino-acid acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004596) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [protein-N-terminal amino-acid acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004596) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
+### protein-N-terminal asparagine amidohydrolase activity `http://purl.obolibrary.org/obo/GO_0008418`
+#### Removed
+- [protein-N-terminal asparagine amidohydrolase activity](http://purl.obolibrary.org/obo/GO_0008418) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [protein-N-terminal asparagine amidohydrolase activity](http://purl.obolibrary.org/obo/GO_0008418) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
+### protein-N-terminal-alanine acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0008999`
+#### Removed
+- [protein-N-terminal-alanine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008999) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [protein-N-terminal-alanine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008999) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [protein-N-terminal-alanine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008999) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
+
+
+### protein-arginine N-acetylglucosaminyltransferase activity `http://purl.obolibrary.org/obo/GO_0106362`
+#### Removed
+- [protein-arginine N-acetylglucosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0106362) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [protein-arginine N-acetylglucosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0106362) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-N-acetyl-alpha-D-glucosamine(2-)](http://purl.obolibrary.org/obo/CHEBI_57705) 
+
+- [protein-arginine N-acetylglucosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0106362) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP(3-)](http://purl.obolibrary.org/obo/CHEBI_58223) 
+
 
 
 ### protein-arginine N-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0016274`
@@ -116385,6 +119093,30 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 
 
+### protein-cysteine S-arachidonoyltransferase activity `http://purl.obolibrary.org/obo/GO_0140441`
+#### Removed
+- [protein-cysteine S-arachidonoyltransferase activity](http://purl.obolibrary.org/obo/GO_0140441) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [protein-cysteine S-arachidonoyltransferase activity](http://purl.obolibrary.org/obo/GO_0140441) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
+### protein-cysteine S-myristoyltransferase activity `http://purl.obolibrary.org/obo/GO_0019705`
+#### Removed
+- [protein-cysteine S-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019705) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [protein-cysteine S-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019705) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
+### protein-cysteine S-oleoyltransferase activity `http://purl.obolibrary.org/obo/GO_0140440`
+#### Removed
+- [protein-cysteine S-oleoyltransferase activity](http://purl.obolibrary.org/obo/GO_0140440) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [protein-cysteine S-oleoyltransferase activity](http://purl.obolibrary.org/obo/GO_0140440) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### protein-cysteine S-palmitoyltransferase activity `http://purl.obolibrary.org/obo/GO_0019706`
 #### Removed
 - [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9829047" 
@@ -116407,6 +119139,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 - [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9021072" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ZDHHC7, ZDHHC21 palmitoylate ESR1" 
+
+- [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
+### protein-cysteine S-stearoyltransferase activity `http://purl.obolibrary.org/obo/GO_0140439`
+#### Removed
+- [protein-cysteine S-stearoyltransferase activity](http://purl.obolibrary.org/obo/GO_0140439) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [protein-cysteine S-stearoyltransferase activity](http://purl.obolibrary.org/obo/GO_0140439) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
 
 
 
@@ -116469,6 +119213,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 #### Removed
 - [protein-glutaryllysine deglutarylase activity](http://purl.obolibrary.org/obo/GO_0061697) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9955504" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SIRT5 deglutarylates CPS1" 
+
+- [protein-glutaryllysine deglutarylase activity](http://purl.obolibrary.org/obo/GO_0061697) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [protein-glutaryllysine deglutarylase activity](http://purl.obolibrary.org/obo/GO_0061697) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nicotinamide](http://purl.obolibrary.org/obo/CHEBI_17154) 
+
+- [protein-glutaryllysine deglutarylase activity](http://purl.obolibrary.org/obo/GO_0061697) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [protein-glutaryllysine deglutarylase activity](http://purl.obolibrary.org/obo/GO_0061697) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
 
 
 
@@ -116576,6 +119328,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [protein-lysine-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0061733) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9701531" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "p-Y705,S727 STAT3 is acetylated" 
 
+- [protein-lysine-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0061733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [protein-lysine-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0061733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [protein-lysine-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0061733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 
 
 ### protein-macromolecule adaptor activity `http://purl.obolibrary.org/obo/GO_0030674`
@@ -116678,6 +119436,14 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 #### Removed
 - [protein-succinyllysine desuccinylase activity](http://purl.obolibrary.org/obo/GO_0036055) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9955518" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SIRT5 desuccinylates CPS1" 
+
+- [protein-succinyllysine desuccinylase activity](http://purl.obolibrary.org/obo/GO_0036055) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [protein-succinyllysine desuccinylase activity](http://purl.obolibrary.org/obo/GO_0036055) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nicotinamide](http://purl.obolibrary.org/obo/CHEBI_17154) 
+
+- [protein-succinyllysine desuccinylase activity](http://purl.obolibrary.org/obo/GO_0036055) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [protein-succinyllysine desuccinylase activity](http://purl.obolibrary.org/obo/GO_0036055) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
 
 
 
@@ -116883,6 +119649,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 #### Removed
 - [protoporphyrinogen oxidase activity, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0004729) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-189423" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PPO oxidises PPGEN9 to PRIN9" 
+
+- [protoporphyrinogen oxidase activity, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0004729) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [protoporphyrin(2-)](http://purl.obolibrary.org/obo/CHEBI_57306) 
+
+- [protoporphyrinogen oxidase activity, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0004729) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [protoporphyrinogen(2-)](http://purl.obolibrary.org/obo/CHEBI_57307) 
+
+
+
+### protoporphyrinogen oxidase activity, quinone as acceptor `http://purl.obolibrary.org/obo/GO_0070819`
+#### Removed
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [protoporphyrin(2-)](http://purl.obolibrary.org/obo/CHEBI_57306) 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [protoporphyrinogen(2-)](http://purl.obolibrary.org/obo/CHEBI_57307) 
 
 
 
@@ -117991,6 +120769,18 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 
 
+### pyridoxal oxidase activity `http://purl.obolibrary.org/obo/GO_0004732`
+#### Removed
+- [pyridoxal oxidase activity](http://purl.obolibrary.org/obo/GO_0004732) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [pyridoxal oxidase activity](http://purl.obolibrary.org/obo/GO_0004732) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [pyridoxal oxidase activity](http://purl.obolibrary.org/obo/GO_0004732) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [pyridoxal oxidase activity](http://purl.obolibrary.org/obo/GO_0004732) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+
+
 ### pyridoxal(1+) `http://purl.obolibrary.org/obo/CHEBI_131530`
 
 #### Added
@@ -118569,6 +121359,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [quetiapine](http://purl.obolibrary.org/obo/CHEBI_8707) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [appetite enhancer](http://purl.obolibrary.org/obo/CHEBI_50779) 
 
 
+### queuosine nucleosidase activity `http://purl.obolibrary.org/obo/GO_0106432`
+#### Removed
+- [queuosine nucleosidase activity](http://purl.obolibrary.org/obo/GO_0106432) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+
+
 ### quinaldic acid `http://purl.obolibrary.org/obo/CHEBI_18386`
 
 #### Added
@@ -118731,6 +121527,12 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [quinone reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0003960) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6799722" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TP53I3 oxidoreductase generates unstable semiquinones" 
 
+- [quinone reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0003960) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [quinone reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0003960) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [quinone reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0003960) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
 
 
 ### quinoprotein glucose dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0008876`
@@ -118844,12 +121646,26 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [rRNA (uridine-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008650) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6793127" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "MRM2 (FTSJ2) methylates uridine-1369 of 16S rRNA yielding 2'-O-methyluridine" 
 
+- [rRNA (uridine-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008650) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [rRNA (uridine-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008650) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [rRNA (uridine-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008650) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
 
 
 ### rRNA methyltransferase activity `http://purl.obolibrary.org/obo/GO_0008649`
 #### Removed
 - [rRNA methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008649) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9911509" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "RMTases methylate 16S ribosomal RNA" 
+
+
+
+### rRNA pseudouridine synthase activity `http://purl.obolibrary.org/obo/GO_0120159`
+#### Removed
+- [rRNA pseudouridine synthase activity](http://purl.obolibrary.org/obo/GO_0120159) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [rRNA pseudouridine synthase activity](http://purl.obolibrary.org/obo/GO_0120159) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
 
 
 
@@ -119201,6 +122017,10 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 #### Removed
 - [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
 
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_2000095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of Wnt signaling pathway, planar cell polarity pathway." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
@@ -119315,6 +122135,10 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 ### regulation of cell wall pectin metabolic process `http://purl.obolibrary.org/obo/GO_1902066`
 #### Removed
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of cell wall pectin metabolic process](http://purl.obolibrary.org/obo/GO_1902066) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of cell wall pectin metabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -119423,6 +122247,10 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 ### regulation of chitin metabolic process `http://purl.obolibrary.org/obo/GO_0032882`
 #### Removed
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of chitin metabolic process](http://purl.obolibrary.org/obo/GO_0032882) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving chitin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
@@ -119828,6 +122656,10 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 ### regulation of glycogen metabolic process `http://purl.obolibrary.org/obo/GO_0070873`
 #### Removed
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of glycogen metabolic process](http://purl.obolibrary.org/obo/GO_0070873) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving glycogen." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
@@ -120615,6 +123447,10 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 
 ### regulation of starch metabolic process `http://purl.obolibrary.org/obo/GO_2000904`
 #### Removed
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of starch metabolic process](http://purl.obolibrary.org/obo/GO_2000904) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of starch metabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
 
@@ -121134,6 +123970,14 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [retinal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0001758) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5362522" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ALDHs oxidise atRAL to atRA" 
 
+- [retinal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0001758) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [retinal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0001758) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [retinal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0001758) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [retinal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0001758) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### retinal ganglion cell `http://purl.obolibrary.org/obo/CL_0000740`
@@ -121438,6 +124282,12 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 #### Removed
 - [rhodopsin kinase activity](http://purl.obolibrary.org/obo/GO_0050254) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2581474" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GRK1,4,7 phosphorylate MII to p-MII" 
+
+- [rhodopsin kinase activity](http://purl.obolibrary.org/obo/GO_0050254) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [rhodopsin kinase activity](http://purl.obolibrary.org/obo/GO_0050254) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [rhodopsin kinase activity](http://purl.obolibrary.org/obo/GO_0050254) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
 
 
 
@@ -122080,6 +124930,14 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [ribulose-1,5-bisphosphate carboxylase/oxygenase activator activity](http://purl.obolibrary.org/obo/GO_0046863) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "See also the molecular function term 'ribulose-bisphosphate carboxylase activity ; GO:0016984'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage." 
 
 
+### ricinine nitrilase activity `http://purl.obolibrary.org/obo/GO_0047426`
+#### Removed
+- [ricinine nitrilase activity](http://purl.obolibrary.org/obo/GO_0047426) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ricinine nitrilase activity](http://purl.obolibrary.org/obo/GO_0047426) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
 ### ricinoleic acid `http://purl.obolibrary.org/obo/CHEBI_28592`
 
 #### Added
@@ -122252,6 +125110,18 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 #### Added
 - [salicin 6-phosphate](http://purl.obolibrary.org/obo/CHEBI_9003) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### salicylaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0018485`
+#### Removed
+- [salicylaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018485) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [salicylaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018485) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [salicylaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018485) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [salicylaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0018485) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### salicylates `http://purl.obolibrary.org/obo/CHEBI_26596`
@@ -123953,10 +126823,50 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [short-chain fatty acid](http://purl.obolibrary.org/obo/CHEBI_26666) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### short-chain fatty acid-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0031955`
+#### Removed
+- [short-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031955) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [short-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031955) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [short-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031955) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [short-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031955) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### short-chain fatty acyl-CoA `http://purl.obolibrary.org/obo/CHEBI_61905`
 
 #### Added
 - [short-chain fatty acyl-CoA](http://purl.obolibrary.org/obo/CHEBI_61905) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### short-chain fatty acyl-CoA dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0016937`
+#### Removed
+- [short-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0016937) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [short-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0016937) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FAD(3-)](http://purl.obolibrary.org/obo/CHEBI_57692) 
+
+- [short-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0016937) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FADH2(2-)](http://purl.obolibrary.org/obo/CHEBI_58307) 
+
+
+
+### short-chain fatty acyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0141126`
+#### Removed
+- [short-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0141126) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [short-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0141126) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [short-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0141126) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
+### short-chain fatty acyl-CoA oxidase activity `http://purl.obolibrary.org/obo/GO_0120522`
+#### Removed
+- [short-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120522) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [short-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120522) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
 
 
 ### short-chain fatty alcohol `http://purl.obolibrary.org/obo/CHEBI_197507`
@@ -124000,6 +126910,26 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [label](http://www.w3.org/2000/01/rdf-schema#label) "short-patch base-excision repair" 
 
 - [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) SubClassOf [base-excision repair](http://purl.obolibrary.org/obo/GO_0006284) 
+
+
+### sialate 4-O-acetylesterase activity `http://purl.obolibrary.org/obo/GO_0106331`
+#### Removed
+- [sialate 4-O-acetylesterase activity](http://purl.obolibrary.org/obo/GO_0106331) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [sialate 4-O-acetylesterase activity](http://purl.obolibrary.org/obo/GO_0106331) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [sialate 4-O-acetylesterase activity](http://purl.obolibrary.org/obo/GO_0106331) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetate](http://purl.obolibrary.org/obo/CHEBI_30089) 
+
+
+
+### sialate 9-O-acetylesterase activity `http://purl.obolibrary.org/obo/GO_0106330`
+#### Removed
+- [sialate 9-O-acetylesterase activity](http://purl.obolibrary.org/obo/GO_0106330) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [sialate 9-O-acetylesterase activity](http://purl.obolibrary.org/obo/GO_0106330) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [sialate 9-O-acetylesterase activity](http://purl.obolibrary.org/obo/GO_0106330) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetate](http://purl.obolibrary.org/obo/CHEBI_30089) 
+
 
 
 ### sialic acid:proton symporter activity `http://purl.obolibrary.org/obo/GO_0015538`
@@ -124380,6 +127310,16 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [skin lightening agent](http://purl.obolibrary.org/obo/CHEBI_85046) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### small RNA 2'-O-ribose methyltransferase activity `http://purl.obolibrary.org/obo/GO_0090486`
+#### Removed
+- [small RNA 2'-O-ribose methyltransferase activity](http://purl.obolibrary.org/obo/GO_0090486) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [small RNA 2'-O-ribose methyltransferase activity](http://purl.obolibrary.org/obo/GO_0090486) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
+
+- [small RNA 2'-O-ribose methyltransferase activity](http://purl.obolibrary.org/obo/GO_0090486) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
+
+
+
 ### small conductance calcium-activated potassium channel inhibitor activity `http://purl.obolibrary.org/obo/GO_0140629`
 
 #### Added
@@ -124576,6 +127516,14 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+
+### snRNA pseudouridine synthase activity `http://purl.obolibrary.org/obo/GO_0106032`
+#### Removed
+- [snRNA pseudouridine synthase activity](http://purl.obolibrary.org/obo/GO_0106032) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [snRNA pseudouridine synthase activity](http://purl.obolibrary.org/obo/GO_0106032) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
 
 
 ### snRNA transcription by RNA polymerase II `http://purl.obolibrary.org/obo/GO_0042795`
@@ -124793,6 +127741,10 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 - [sodium:potassium:chloride symporter activity](http://purl.obolibrary.org/obo/GO_0008511) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-426086" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC12A1,2 cotransports Na+, K+, 2Cl- from extracellular region to cytosol" 
+
+- [sodium:potassium:chloride symporter activity](http://purl.obolibrary.org/obo/GO_0008511) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [chloride](http://purl.obolibrary.org/obo/CHEBI_17996) 
+
+- [sodium:potassium:chloride symporter activity](http://purl.obolibrary.org/obo/GO_0008511) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [potassium(1+)](http://purl.obolibrary.org/obo/CHEBI_29103) 
 
 
 
@@ -125964,15 +128916,9 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 - [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) 
 
-- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
-
 - [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N-acylsphinganine](http://purl.obolibrary.org/obo/CHEBI_31488) 
 
-- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
-
 - [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sphinganine(1+)](http://purl.obolibrary.org/obo/CHEBI_57817) 
-
-- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [fatty acyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_77636) 
 
 
 ### sphinganine-1-phosphate aldolase activity `http://purl.obolibrary.org/obo/GO_0008117`
@@ -126255,6 +129201,16 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [sphingomyelin d18:1(1+)](http://purl.obolibrary.org/obo/CHEBI_62490) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### sphingomyelin phosphodiesterase D activity `http://purl.obolibrary.org/obo/GO_0050290`
+#### Removed
+- [sphingomyelin phosphodiesterase D activity](http://purl.obolibrary.org/obo/GO_0050290) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [sphingomyelin phosphodiesterase D activity](http://purl.obolibrary.org/obo/GO_0050290) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [sphingomyelin phosphodiesterase D activity](http://purl.obolibrary.org/obo/GO_0050290) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sphingomyelin d18:1](http://purl.obolibrary.org/obo/CHEBI_17636) 
+
+
+
 ### sphingomyelin phosphodiesterase activator activity `http://purl.obolibrary.org/obo/GO_0016230`
 
 #### Added
@@ -126330,6 +129286,12 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Ceramide synthases transfer acyl-CoA onto sphingoid" 
 
 - [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
+
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [fatty acyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_77636) 
 
 #### Added
 - [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32752"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -126627,6 +129589,14 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [steroid 11-beta-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004507) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5600598" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Defective CYP11B2 does not oxidise 11DCORST" 
 
+- [steroid 11-beta-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004507) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [steroid](http://purl.obolibrary.org/obo/CHEBI_35341) 
+
+
+
+### steroid 15-alpha-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0008388`
+#### Removed
+- [steroid 15-alpha-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0008388) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [steroid](http://purl.obolibrary.org/obo/CHEBI_35341) 
+
 
 
 ### steroid 17-alpha-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0004508`
@@ -126652,12 +129622,16 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [steroid 17-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004508) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9035956" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Defective CYP17A1 does not cleave 17aHPROG" 
 
+- [steroid 17-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004508) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [C21-steroid](http://purl.obolibrary.org/obo/CHEBI_61313) 
+
 
 
 ### steroid 21-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0004509`
 #### Removed
 - [steroid 21-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5601976" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Defective CYP21A2 does not 21-hydroxylate PROG" 
+
+- [steroid 21-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004509) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [C21-steroid](http://purl.obolibrary.org/obo/CHEBI_61313) 
 
 
 
@@ -127356,6 +130330,14 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [succinate](http://purl.obolibrary.org/obo/CHEBI_26806) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### succinate dehydrogenase (FAD) activity `http://purl.obolibrary.org/obo/GO_0160308`
+#### Removed
+- [succinate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0160308) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [fumarate(2-)](http://purl.obolibrary.org/obo/CHEBI_29806) 
+
+- [succinate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0160308) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [succinate(2-)](http://purl.obolibrary.org/obo/CHEBI_30031) 
+
+
+
 ### succinate dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0008177`
 #### Removed
 - [succinate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0008177) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70994" 
@@ -127363,6 +130345,10 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 - [succinate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0008177) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-163213" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Transfer of electrons through the succinate dehydrogenase complex" 
+
+- [succinate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0008177) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [fumarate(2-)](http://purl.obolibrary.org/obo/CHEBI_29806) 
+
+- [succinate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0008177) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [succinate(2-)](http://purl.obolibrary.org/obo/CHEBI_30031) 
 
 
 
@@ -127397,6 +130383,26 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [succinate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004777) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-888548" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ALDH5A1 dehydrogenates SUCCSA to SUCCA" 
 
+- [succinate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004777) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [succinate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004777) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [succinate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004777) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [succinate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004777) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
+### succinate-semialdehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0036243`
+#### Removed
+- [succinate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0036243) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [succinate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0036243) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [succinate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0036243) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [succinate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0036243) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
+
 
 
 ### succinic acid `http://purl.obolibrary.org/obo/CHEBI_15741`
@@ -127423,10 +130429,32 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 
 
+### succinyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0004778`
+#### Removed
+- [succinyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0004778) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [succinyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0004778) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [succinyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0004778) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### succinyl-CoA:3-oxo-acid CoA-transferase activity `http://purl.obolibrary.org/obo/GO_0008260`
 #### Removed
 - [succinyl-CoA:3-oxo-acid CoA-transferase activity](http://purl.obolibrary.org/obo/GO_0008260) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-74177" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "OXCT dimers transfer CoA from SUCC-CoA to ACA, forming ACA-CoA" 
+
+
+
+### succinylglutamate-semialdehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0043824`
+#### Removed
+- [succinylglutamate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0043824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [succinylglutamate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0043824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [succinylglutamate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0043824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [succinylglutamate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0043824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
 
 
 
@@ -127486,6 +130514,14 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 - [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of sucrose. The breakdown products may be further catabolized by entering glycolysis." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### sucrose phosphorylase activity `http://purl.obolibrary.org/obo/GO_0009018`
+#### Removed
+- [sucrose phosphorylase activity](http://purl.obolibrary.org/obo/GO_0009018) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [sucrose phosphorylase activity](http://purl.obolibrary.org/obo/GO_0009018) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alpha-D-glucose 1-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_58601) 
+
 
 
 ### sugar dianhydride `http://purl.obolibrary.org/obo/CHEBI_33922`
@@ -127658,6 +130694,18 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 #### Added
 - [sulfoacetaldehyde](http://purl.obolibrary.org/obo/CHEBI_17717) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### sulfoacetaldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0102984`
+#### Removed
+- [sulfoacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102984) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [sulfoacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102984) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [sulfoacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102984) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [sulfoacetaldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102984) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 
 
 ### sulfoacetic acid `http://purl.obolibrary.org/obo/CHEBI_50519`
@@ -128436,6 +131484,70 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [tRNA precursor](http://purl.obolibrary.org/obo/CHEBI_10668) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### tRNA pseudouridine synthase activity `http://purl.obolibrary.org/obo/GO_0106029`
+#### Removed
+- [tRNA pseudouridine synthase activity](http://purl.obolibrary.org/obo/GO_0106029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [tRNA pseudouridine synthase activity](http://purl.obolibrary.org/obo/GO_0106029) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### tRNA pseudouridine(13) synthase activity `http://purl.obolibrary.org/obo/GO_0160150`
+#### Removed
+- [tRNA pseudouridine(13) synthase activity](http://purl.obolibrary.org/obo/GO_0160150) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [tRNA pseudouridine(13) synthase activity](http://purl.obolibrary.org/obo/GO_0160150) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### tRNA pseudouridine(31) synthase activity `http://purl.obolibrary.org/obo/GO_0160152`
+#### Removed
+- [tRNA pseudouridine(31) synthase activity](http://purl.obolibrary.org/obo/GO_0160152) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [tRNA pseudouridine(31) synthase activity](http://purl.obolibrary.org/obo/GO_0160152) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### tRNA pseudouridine(32) synthase activity `http://purl.obolibrary.org/obo/GO_0160151`
+#### Removed
+- [tRNA pseudouridine(32) synthase activity](http://purl.obolibrary.org/obo/GO_0160151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [tRNA pseudouridine(32) synthase activity](http://purl.obolibrary.org/obo/GO_0160151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### tRNA pseudouridine(38-40) synthase activity `http://purl.obolibrary.org/obo/GO_0160147`
+#### Removed
+- [tRNA pseudouridine(38-40) synthase activity](http://purl.obolibrary.org/obo/GO_0160147) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [tRNA pseudouridine(38-40) synthase activity](http://purl.obolibrary.org/obo/GO_0160147) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### tRNA pseudouridine(38/39) synthase activity `http://purl.obolibrary.org/obo/GO_0160154`
+#### Removed
+- [tRNA pseudouridine(38/39) synthase activity](http://purl.obolibrary.org/obo/GO_0160154) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [tRNA pseudouridine(38/39) synthase activity](http://purl.obolibrary.org/obo/GO_0160154) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### tRNA pseudouridine(55) synthase activity `http://purl.obolibrary.org/obo/GO_0160148`
+#### Removed
+- [tRNA pseudouridine(55) synthase activity](http://purl.obolibrary.org/obo/GO_0160148) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [tRNA pseudouridine(55) synthase activity](http://purl.obolibrary.org/obo/GO_0160148) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
+### tRNA pseudouridine(65) synthase activity `http://purl.obolibrary.org/obo/GO_0160149`
+#### Removed
+- [tRNA pseudouridine(65) synthase activity](http://purl.obolibrary.org/obo/GO_0160149) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pseudouridine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65314) 
+
+- [tRNA pseudouridine(65) synthase activity](http://purl.obolibrary.org/obo/GO_0160149) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
+
+
 ### tRNA re-export from nucleus `http://purl.obolibrary.org/obo/GO_0071528`
 #### Removed
 - [tRNA re-export from nucleus](http://purl.obolibrary.org/obo/GO_0071528) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement from the nucleus to the cytoplasm of a tRNA that was previously exported to the cytoplasm and then imported back into the nucleus. The processes of primary tRNA export and secondary export (re-export) can be distinguished because in organisms in which tRNA splicing occurs in the cytoplasm, the export of a mature tRNA must occur by re-export." 
@@ -128711,6 +131823,26 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 - [tRNA-specific adenosine deaminase activity](http://purl.obolibrary.org/obo/GO_0008251) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6782311" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADAT2:ADAT3 (hetADAT) deaminates adenosine-34 in tRNAs" 
+
+
+
+### tRNA-specific adenosine-34 deaminase activity `http://purl.obolibrary.org/obo/GO_0052717`
+#### Removed
+- [tRNA-specific adenosine-34 deaminase activity](http://purl.obolibrary.org/obo/GO_0052717) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [tRNA-specific adenosine-34 deaminase activity](http://purl.obolibrary.org/obo/GO_0052717) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [tRNA-specific adenosine-34 deaminase activity](http://purl.obolibrary.org/obo/GO_0052717) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+
+
+### tRNA-specific adenosine-37 deaminase activity `http://purl.obolibrary.org/obo/GO_0043829`
+#### Removed
+- [tRNA-specific adenosine-37 deaminase activity](http://purl.obolibrary.org/obo/GO_0043829) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [tRNA-specific adenosine-37 deaminase activity](http://purl.obolibrary.org/obo/GO_0043829) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [tRNA-specific adenosine-37 deaminase activity](http://purl.obolibrary.org/obo/GO_0043829) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
 
 
 
@@ -129267,10 +132399,26 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 - [testosterone 17-glucosiduronic acid](http://purl.obolibrary.org/obo/CHEBI_28835) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### testosterone dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0047035`
+#### Removed
+- [testosterone dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047035) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [testosterone dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047035) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [testosterone dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0047035) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
+
 ### testosterone dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047045`
 #### Removed
 - [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-193064" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "HSD17B3-like proteins reducde ANDST to TEST" 
+
+- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
 
 
 
@@ -130521,6 +133669,16 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 
 ### thioredoxin-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_0140824`
+#### Removed
+- [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alcohol](http://purl.obolibrary.org/obo/CHEBI_30879) 
+
+- [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [peroxol](http://purl.obolibrary.org/obo/CHEBI_35924) 
+
+- [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cystine residue](http://purl.obolibrary.org/obo/CHEBI_50058) 
 
 #### Added
 - [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32388"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -130842,6 +134000,16 @@ D) 3D volume segmentations of an early differentiating and MCC apical regions sh
 
 #### Added
 - [thymidine 5'-monophosphate residue](http://purl.obolibrary.org/obo/CHEBI_50300) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### thymidine kinase activity `http://purl.obolibrary.org/obo/GO_0004797`
+#### Removed
+- [thymidine kinase activity](http://purl.obolibrary.org/obo/GO_0004797) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [thymidine kinase activity](http://purl.obolibrary.org/obo/GO_0004797) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [thymidine kinase activity](http://purl.obolibrary.org/obo/GO_0004797) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
 
 
 ### thymidine phosphate `http://purl.obolibrary.org/obo/CHEBI_27001`
@@ -132517,6 +135685,12 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 - [traumatic acid](http://purl.obolibrary.org/obo/CHEBI_545687) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### trehalose 6-phosphate phosphorylase activity `http://purl.obolibrary.org/obo/GO_0050503`
+#### Removed
+- [trehalose 6-phosphate phosphorylase activity](http://purl.obolibrary.org/obo/GO_0050503) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+
+
 ### trehalose catabolic process `http://purl.obolibrary.org/obo/GO_0005993`
 #### Removed
 - [trehalose catabolic process](http://purl.obolibrary.org/obo/GO_0005993) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of trehalose, a disaccharide that consists of two molecules of glucose and is isomeric with sucrose." 
@@ -133397,6 +136571,30 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 - [tuberonic acid](http://purl.obolibrary.org/obo/CHEBI_133220) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### tubulin N-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0019799`
+#### Removed
+- [tubulin N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0019799) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [tubulin N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0019799) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
+
+- [tubulin N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0019799) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [tubulin N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0019799) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
+- [tubulin N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0019799) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(6)-acetyl-L-lysine residue](http://purl.obolibrary.org/obo/CHEBI_61930) 
+
+
+
+### tubulin N-terminal-methionine acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0120519`
+#### Removed
+- [tubulin N-terminal-methionine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0120519) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [tubulin N-terminal-methionine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0120519) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [tubulin N-terminal-methionine acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0120519) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [acetyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57288) 
+
+
+
 ### tubulin deacetylase activity `http://purl.obolibrary.org/obo/GO_0042903`
 #### Removed
 - [tubulin deacetylase activity](http://purl.obolibrary.org/obo/GO_0042903) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [3.5.1.-](http://purl.uniprot.org/enzyme/3.5.1.-) 
@@ -133511,6 +136709,12 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 
 - [tubulin-glutamic acid ligase activity](http://purl.obolibrary.org/obo/GO_0070740) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8865774" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TTLLs polyglutamylate tubulin" 
+
+
+
+### tubulin-tyrosine carboxypeptidase activity `http://purl.obolibrary.org/obo/GO_0106423`
+#### Removed
+- [tubulin-tyrosine carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0106423) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
 
 
 
@@ -135215,6 +138419,14 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 
 
 
+### uridine nucleosidase activity `http://purl.obolibrary.org/obo/GO_0045437`
+#### Removed
+- [uridine nucleosidase activity](http://purl.obolibrary.org/obo/GO_0045437) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [uridine nucleosidase activity](http://purl.obolibrary.org/obo/GO_0045437) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-ribofuranose](http://purl.obolibrary.org/obo/CHEBI_47013) 
+
+
+
 ### uridine phosphate `http://purl.obolibrary.org/obo/CHEBI_27237`
 
 #### Added
@@ -136523,6 +139735,12 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 
 - [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [label](http://www.w3.org/2000/01/rdf-schema#label) "very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity" 
 
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
 #### Added
 - [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -136578,6 +139796,20 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 - [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete very long-chain fatty acid beta-oxidation" 
 
 
+### very long-chain fatty acid omega-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0140692`
+#### Removed
+- [very long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [very long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [very long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [very long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMNH2(2-)](http://purl.obolibrary.org/obo/CHEBI_57618) 
+
+- [very long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0140692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FMN(3-)](http://purl.obolibrary.org/obo/CHEBI_58210) 
+
+
+
 ### very long-chain fatty acid-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0031957`
 #### Removed
 - [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83111" 
@@ -136600,6 +139832,14 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 - [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8875077" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC27A3 ligates CoA-SH to VLCFA" 
 
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
 #### Added
 - [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32876"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -136612,9 +139852,25 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 - [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87679](http://rdf.rhea-db.org/87679) 
 
 
+### very long-chain fatty acyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0052817`
+#### Removed
+- [very long-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052817) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [very long-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052817) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [very long-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052817) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+
+
 ### very long-chain fatty-acyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_0036113`
 #### Removed
 - [very long-chain fatty-acyl-CoA catabolic process](http://purl.obolibrary.org/obo/GO_0036113) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283)." 
+
+
+
+### very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase activity `http://purl.obolibrary.org/obo/GO_0102158`
+#### Removed
+- [very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0102158) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
 
 
 
@@ -136629,6 +139885,20 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 #### Removed
 - [very-long-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0017099) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-548831" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TECR,TECRL dehydrogenate TOD-CoA to ST-CoA" 
+
+- [very-long-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0017099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [very-long-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0017099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FAD(3-)](http://purl.obolibrary.org/obo/CHEBI_57692) 
+
+- [very-long-chain fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0017099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [FADH2(2-)](http://purl.obolibrary.org/obo/CHEBI_58307) 
+
+
+
+### very-long-chain fatty acyl-CoA oxidase activity `http://purl.obolibrary.org/obo/GO_0044535`
+#### Removed
+- [very-long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0044535) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [very-long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0044535) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
 
 
 
@@ -137309,6 +140579,14 @@ TACs serve as an important element in the homeostasis and regeneration of the in
 
 #### Added
 - [xanthosine 5'-phosphate](http://purl.obolibrary.org/obo/CHEBI_53012) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### xanthosine nucleotidase activity `http://purl.obolibrary.org/obo/GO_0072585`
+#### Removed
+- [xanthosine nucleotidase activity](http://purl.obolibrary.org/obo/GO_0072585) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [xanthosine nucleotidase activity](http://purl.obolibrary.org/obo/GO_0072585) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-ribofuranose](http://purl.obolibrary.org/obo/CHEBI_47013) 
+
 
 
 ### xanthosine phosphate `http://purl.obolibrary.org/obo/CHEBI_27329`
