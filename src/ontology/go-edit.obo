@@ -338157,14 +338157,16 @@ is_obsolete: true
 
 [Term]
 id: GO:0051601
-name: exocyst localization
+name: obsolete exocyst localization
 namespace: biological_process
-def: "Any process in which an exocyst is transported to, or maintained in, a specific location. An exocyst is a protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse." [GOC:ai]
+def: "OBSOLETE. Any process in which an exocyst is transported to, or maintained in, a specific location. An exocyst is a protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse." [GOC:ai]
+comment: The reason for obsoletion is that this term represents a phenotype.
 synonym: "establishment and maintenance of exocyst localization" EXACT []
 synonym: "exocyst localisation" EXACT [GOC:mah]
-is_a: GO:0031503 ! protein-containing complex localization
-intersection_of: GO:0051179 ! localization
-intersection_of: has_primary_input GO:0000145 ! exocyst
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31202" xsd:anyURI
+is_obsolete: true
+consider: GO:0006887
+consider: GO:0006893
 
 [Term]
 id: GO:0051602
@@ -355822,12 +355824,14 @@ is_a: GO:0051246 ! regulation of protein metabolic process
 
 [Term]
 id: GO:0060178
-name: regulation of exocyst localization
+name: obsolete regulation of exocyst localization
 namespace: biological_process
-def: "Any process that modulates the localization of exocysts. An exocyst is a protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse." [GOC:dph, GOC:tb]
+def: "OBSOLETE. Any process that modulates the localization of exocysts. An exocyst is a protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse." [GOC:dph, GOC:tb]
+comment: The reason for obsoletion is that this term represents a phenotype.
 synonym: "regulation of exocyst localisation" EXACT [GOC:mah]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0051601 ! exocyst localization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31202" xsd:anyURI
+is_obsolete: true
+consider: GO:0017157
 
 [Term]
 id: GO:0060179
