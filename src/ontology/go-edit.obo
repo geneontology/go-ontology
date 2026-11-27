@@ -623310,7 +623310,7 @@ id: GO:7770167
 name: rRNA (pseudouridine-N1-)-methyltransferase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a pseudouridine in rRNA + S-adenosyl-L-methionine = an N(1)-methylpseudouridine in rRNA + S-adenosyl-L-homocysteine + H+." [PMID:20047967, RHEA:46696]
-synonym: "rRNA small subunit pseudouridine methyltransferase activity" RELATED [EC:2.1.1.260]
+synonym: "rRNA small subunit pseudouridine methyltransferase activity" RELATED []
 synonym: "rRNA small subunit pseudouridine methyltransferase Nep1 activity" RELATED [EC:2.1.1.260]
 xref: EC:2.1.1.260 {source="skos:exactMatch"}
 xref: RHEA:46696 {source="skos:exactMatch"}
