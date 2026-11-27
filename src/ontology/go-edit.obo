@@ -623335,6 +623335,18 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: pg
 creation_date: 2026-11-27T12:21:21Z
 
+[Term]
+id: GO:7770169
+name: ubiquitin-ADP-ribose-modified protein reader activity
+namespace: molecular_function
+def: "A molecular adaptor that recognizes and binds a target protein containing a ubiquitin-ADP-ribose adduct modification, i.e. an ADP-ribosylated residue whose ADP-ribose is itself ubiquitinated, and brings the target protein into contact with another protein to allow those proteins to function in a coordinated way." [PMID:40634336, PMID:40634527]
+comment: This term should only be used when the binding is shown to require the ubiquitin-ADP-ribose modification of the target protein: the interaction needs to be tested with and without the modification.
+synonym: "ubiquitin-ADP-ribose reader activity" EXACT []
+is_a: GO:0140036 ! ubiquitin-modified protein reader activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/33008" xsd:anyURI
+created_by: pg
+creation_date: 2026-11-27T14:57:53Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
