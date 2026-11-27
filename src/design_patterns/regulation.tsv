@@ -570,7 +570,6 @@ http://purl.obolibrary.org/obo/GO_0051890	regulation of cardioblast differentiat
 http://purl.obolibrary.org/obo/GO_0003264	regulation of cardioblast proliferation	http://purl.obolibrary.org/obo/GO_0003263	cardioblast proliferation
 http://purl.obolibrary.org/obo/GO_1905207	regulation of cardiocyte differentiation	http://purl.obolibrary.org/obo/GO_0035051	cardiocyte differentiation
 http://purl.obolibrary.org/obo/GO_1900208	regulation of cardiolipin metabolic process	http://purl.obolibrary.org/obo/GO_0032048	cardiolipin metabolic process
-http://purl.obolibrary.org/obo/GO_1901301	regulation of cargo loading into COPII-coated vesicle	http://purl.obolibrary.org/obo/GO_0090110	COPII-coated vesicle cargo loading
 http://purl.obolibrary.org/obo/GO_1902026	regulation of cartilage condensation	http://purl.obolibrary.org/obo/GO_0001502	cartilage condensation
 http://purl.obolibrary.org/obo/GO_0061035	regulation of cartilage development	http://purl.obolibrary.org/obo/GO_0051216	cartilage development
 http://purl.obolibrary.org/obo/GO_0009894	regulation of catabolic process	http://purl.obolibrary.org/obo/GO_0009056	catabolic process
@@ -1021,7 +1020,6 @@ http://purl.obolibrary.org/obo/GO_1900117	regulation of execution phase of apopt
 http://purl.obolibrary.org/obo/GO_0106060	regulation of exit from meiosis	http://purl.obolibrary.org/obo/GO_1990947	exit from meiosis
 http://purl.obolibrary.org/obo/GO_0007096	regulation of exit from mitosis	http://purl.obolibrary.org/obo/GO_0010458	exit from mitosis
 http://purl.obolibrary.org/obo/GO_0001928	regulation of exocyst assembly	http://purl.obolibrary.org/obo/GO_0001927	exocyst assembly
-http://purl.obolibrary.org/obo/GO_0060178	regulation of exocyst localization	http://purl.obolibrary.org/obo/GO_0051601	exocyst localization
 http://purl.obolibrary.org/obo/GO_0099145	regulation of exocytic insertion of neurotransmitter receptor to postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0098967	exocytic insertion of neurotransmitter receptor to postsynaptic membrane
 http://purl.obolibrary.org/obo/GO_0017157	regulation of exocytosis	http://purl.obolibrary.org/obo/GO_0006887	exocytosis
 http://purl.obolibrary.org/obo/GO_1903541	regulation of exosomal secretion	http://purl.obolibrary.org/obo/GO_1990182	exosomal secretion
@@ -2746,7 +2744,6 @@ http://purl.obolibrary.org/obo/GO_2000131	regulation of tyramine signaling pathw
 http://purl.obolibrary.org/obo/GO_0042509	regulation of tyrosine phosphorylation of STAT protein	http://purl.obolibrary.org/obo/GO_0007260	tyrosine phosphorylation of STAT protein
 http://purl.obolibrary.org/obo/GO_0010795	regulation of ubiquinone biosynthetic process	http://purl.obolibrary.org/obo/GO_0006744	ubiquinone biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904666	regulation of ubiquitin protein ligase activity	http://purl.obolibrary.org/obo/GO_0061630	ubiquitin protein ligase activity
-http://purl.obolibrary.org/obo/GO_2000395	regulation of ubiquitin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0070086	ubiquitin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_2000058	regulation of ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0006511	ubiquitin-dependent protein catabolic process
 http://purl.obolibrary.org/obo/GO_0051438	regulation of ubiquitin-protein transferase activity	http://purl.obolibrary.org/obo/GO_0004842	ubiquitin-protein transferase activity
 http://purl.obolibrary.org/obo/GO_0051510	regulation of unidimensional cell growth	http://purl.obolibrary.org/obo/GO_0009826	unidimensional cell growth

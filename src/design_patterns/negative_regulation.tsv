@@ -512,7 +512,6 @@ http://purl.obolibrary.org/obo/GO_0051892	negative regulation of cardioblast dif
 http://purl.obolibrary.org/obo/GO_1905061	negative regulation of cardioblast proliferation	http://purl.obolibrary.org/obo/GO_0003263	cardioblast proliferation
 http://purl.obolibrary.org/obo/GO_1905208	negative regulation of cardiocyte differentiation	http://purl.obolibrary.org/obo/GO_0035051	cardiocyte differentiation
 http://purl.obolibrary.org/obo/GO_1900209	negative regulation of cardiolipin metabolic process	http://purl.obolibrary.org/obo/GO_0032048	cardiolipin metabolic process
-http://purl.obolibrary.org/obo/GO_1901303	negative regulation of cargo loading into COPII-coated vesicle	http://purl.obolibrary.org/obo/GO_0090110	COPII-coated vesicle cargo loading
 http://purl.obolibrary.org/obo/GO_1904142	negative regulation of carotenoid biosynthetic process	http://purl.obolibrary.org/obo/GO_0016117	carotenoid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904932	negative regulation of cartilage condensation	http://purl.obolibrary.org/obo/GO_0001502	cartilage condensation
 http://purl.obolibrary.org/obo/GO_0061037	negative regulation of cartilage development	http://purl.obolibrary.org/obo/GO_0051216	cartilage development
@@ -2449,7 +2448,6 @@ http://purl.obolibrary.org/obo/GO_2000132	negative regulation of tyramine signal
 http://purl.obolibrary.org/obo/GO_0042532	negative regulation of tyrosine phosphorylation of STAT protein	http://purl.obolibrary.org/obo/GO_0007260	tyrosine phosphorylation of STAT protein
 http://purl.obolibrary.org/obo/GO_1904774	negative regulation of ubiquinone biosynthetic process	http://purl.obolibrary.org/obo/GO_0006744	ubiquinone biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904667	negative regulation of ubiquitin protein ligase activity	http://purl.obolibrary.org/obo/GO_0061630	ubiquitin protein ligase activity
-http://purl.obolibrary.org/obo/GO_2000396	negative regulation of ubiquitin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0070086	ubiquitin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_2000059	negative regulation of ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0006511	ubiquitin-dependent protein catabolic process
 http://purl.obolibrary.org/obo/GO_0051444	negative regulation of ubiquitin-protein transferase activity	http://purl.obolibrary.org/obo/GO_0004842	ubiquitin-protein transferase activity
 http://purl.obolibrary.org/obo/GO_0051511	negative regulation of unidimensional cell growth	http://purl.obolibrary.org/obo/GO_0009826	unidimensional cell growth
