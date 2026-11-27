@@ -623323,6 +623323,18 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: pg
 creation_date: 2026-11-27T11:49:46Z
 
+[Term]
+id: GO:7770168
+name: acetylcholinesterase inhibitor activity
+namespace: molecular_function
+def: "Binds to and stops, prevents or reduces the activity of acetylcholinesterase." [PMID:6530667, PMID:8509385]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
+intersection_of: GO:0140678 ! molecular function inhibitor activity
+intersection_of: directly_negatively_regulates GO:0003990 ! acetylcholinesterase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/33010" xsd:anyURI
+created_by: pg
+creation_date: 2026-11-27T12:21:21Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
