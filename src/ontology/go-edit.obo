@@ -378557,7 +378557,10 @@ id: GO:0070038
 name: rRNA (pseudouridine-N3-)-methyltransferase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: S-adenosyl-L-methionine + rRNA = S-adenosyl-L-homocysteine + rRNA containing N3-methylpseudouridine." [GOC:imk, GOC:mah]
+xref: EC:2.1.1.177 {source="skos:narrowMatch"}
+xref: RHEA:42752 {source="skos:narrowMatch"}
 is_a: GO:0070037 ! rRNA (pseudouridine) methyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/33000" xsd:anyURI
 
 [Term]
 id: GO:0070039
@@ -623301,6 +623304,24 @@ relationship: negatively_regulates GO:1990643 ! cellular response to granulocyte
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32992" xsd:anyURI
 created_by: lbreuza
 creation_date: 2026-11-19T14:50:56Z
+
+[Term]
+id: GO:7770167
+name: rRNA (pseudouridine-N1-)-methyltransferase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: a pseudouridine in rRNA + S-adenosyl-L-methionine = an N(1)-methylpseudouridine in rRNA + S-adenosyl-L-homocysteine + H+." [PMID:20047967, RHEA:46696]
+synonym: "rRNA small subunit pseudouridine methyltransferase activity" RELATED [EC:2.1.1.260]
+synonym: "rRNA small subunit pseudouridine methyltransferase Nep1 activity" RELATED [EC:2.1.1.260]
+xref: EC:2.1.1.260 {source="skos:exactMatch"}
+xref: RHEA:46696 {source="skos:exactMatch"}
+xref: RHEA:46712 {source="skos:narrowMatch"}
+xref: RHEA:46716 {source="skos:narrowMatch"}
+xref: RHEA:54308 {source="skos:narrowMatch"}
+is_a: GO:0008170 ! N-methyltransferase activity
+is_a: GO:0070037 ! rRNA (pseudouridine) methyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/33000" xsd:anyURI
+created_by: pg
+creation_date: 2026-11-27T11:49:46Z
 
 [Typedef]
 id: acts_on_population_of
