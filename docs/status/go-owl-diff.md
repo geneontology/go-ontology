@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-27/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-28/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-27" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-28" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -9162,6 +9162,35 @@
 - [acetylcholinesterase activity](http://purl.obolibrary.org/obo/GO_0003990) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-372519" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "AcCho is hydrolyzed to Cho and acetate by ACHE" 
 
+
+
+### acetylcholinesterase inhibitor activity `http://purl.obolibrary.org/obo/GO_7770168`
+
+#### Added
+- Class: [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/33010"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-27T12:21:21Z" 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770168" 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binds to and stops, prevents or reduces the activity of acetylcholinesterase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:6530667" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:8509385" 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage." 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) [label](http://www.w3.org/2000/01/rdf-schema#label) "acetylcholinesterase inhibitor activity" 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) SubClassOf [enzyme inhibitor activity](http://purl.obolibrary.org/obo/GO_0004857) 
+
+- [acetylcholinesterase inhibitor activity](http://purl.obolibrary.org/obo/GO_7770168) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [acetylcholinesterase activity](http://purl.obolibrary.org/obo/GO_0003990) 
 
 
 ### acetylgalactosaminyl-O-glycosyl-glycoprotein beta-1,3-N-acetylglucosaminyltransferase activity `http://purl.obolibrary.org/obo/GO_0047224`
@@ -44808,6 +44837,72 @@
 
 
 
+### rRNA (pseudouridine-N1-)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_7770167`
+
+#### Added
+- Class: [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/33000"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-27T11:49:46Z" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.1.1.260" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:46696" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:46712" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:46716" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:54308" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "rRNA small subunit pseudouridine methyltransferase activity" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770167" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.1.1.260](http://purl.uniprot.org/enzyme/2.1.1.260) 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [46696](http://rdf.rhea-db.org/46696) 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [46712](http://rdf.rhea-db.org/46712) 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [46716](http://rdf.rhea-db.org/46716) 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [54308](http://rdf.rhea-db.org/54308) 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "rRNA small subunit pseudouridine methyltransferase Nep1 activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.1.1.260" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a pseudouridine in rRNA + S-adenosyl-L-methionine = an N(1)-methylpseudouridine in rRNA + S-adenosyl-L-homocysteine + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20047967" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:46696" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) [label](http://www.w3.org/2000/01/rdf-schema#label) "rRNA (pseudouridine-N1-)-methyltransferase activity" 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
+
+- [rRNA (pseudouridine-N1-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770167) SubClassOf [rRNA (pseudouridine) methyltransferase activity](http://purl.obolibrary.org/obo/GO_0070037) 
+
+
+### rRNA (pseudouridine-N3-)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0070038`
+
+#### Added
+- [rRNA (pseudouridine-N3-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0070038) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/33000"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [rRNA (pseudouridine-N3-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0070038) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.1.1.177" 
+
+- [rRNA (pseudouridine-N3-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0070038) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42752" 
+
+- [rRNA (pseudouridine-N3-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0070038) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [2.1.1.177](http://purl.uniprot.org/enzyme/2.1.1.177) 
+
+- [rRNA (pseudouridine-N3-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0070038) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [42752](http://rdf.rhea-db.org/42752) 
+
+
 ### rRNA (uridine-2'-O-ribose)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0008650`
 #### Removed
 - [rRNA (uridine-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008650) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6793127" 
@@ -51093,6 +51188,35 @@
 - [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) [label](http://www.w3.org/2000/01/rdf-schema#label) "ubiquitin protein ligase activity via oxyester bond" 
 
 - [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) SubClassOf [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) 
+
+
+### ubiquitin-ADP-ribose-modified protein reader activity `http://purl.obolibrary.org/obo/GO_7770169`
+
+#### Added
+- Class: [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/33008"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-27T14:57:53Z" 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ubiquitin-ADP-ribose reader activity" 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770169" 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A molecular adaptor that recognizes and binds a target protein containing a ubiquitin-ADP-ribose adduct modification, i.e. an ADP-ribosylated residue whose ADP-ribose is itself ubiquitinated, and brings the target protein into contact with another protein to allow those proteins to function in a coordinated way." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40634527" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40634336" 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term should only be used when the binding is shown to require the ubiquitin-ADP-ribose modification of the target protein: the interaction needs to be tested with and without the modification." 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) [label](http://www.w3.org/2000/01/rdf-schema#label) "ubiquitin-ADP-ribose-modified protein reader activity" 
+
+- [ubiquitin-ADP-ribose-modified protein reader activity](http://purl.obolibrary.org/obo/GO_7770169) SubClassOf [ubiquitin-modified protein reader activity](http://purl.obolibrary.org/obo/GO_0140036) 
 
 
 ### ubiquitin-dependent glycoprotein ERAD pathway `http://purl.obolibrary.org/obo/GO_0097466`
